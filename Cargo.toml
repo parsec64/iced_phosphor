@@ -15,6 +15,7 @@ iced = "0.14"
 
 [features]
 default = ["regular"]
+full = ["thin", "light", "regular", "bold", "fill", "duotone"]
 thin = []
 light = []
 regular = []
