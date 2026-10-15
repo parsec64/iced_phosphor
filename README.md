@@ -18,7 +18,7 @@ Add the crate to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-iced_phosphor = "0.1.0"
+iced_phosphor = { git = "https://github.com/parsec64/iced_phosphor" }
 ```
 
 By default only `Regular` weight is enabled.
@@ -26,13 +26,19 @@ By default only `Regular` weight is enabled.
 Enable specific weights:
 
 ```toml
-iced_phosphor = { version = "0.1.0", features = ["fill", "regular"] }
+iced_phosphor = {
+    git = "https://github.com/parsec64/iced_phosphor",
+    features = ["fill", "regular"]
+}
 ```
 
 Enable all at once:
 
 ```toml
-iced_phosphor = { version = "0.1.0", features = ["full"] }
+iced_phosphor = {
+    git = "https://github.com/parsec64/iced_phosphor",
+    features = ["full"]
+}
 ```
 
 Available features: `thin`, `light`, `regular`, `bold`, `fill`, `duotone`, `full`.

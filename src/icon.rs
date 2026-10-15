@@ -20,9 +20,8 @@ pub const FONT_FILL: Font = Font::with_name("Phosphor-Fill");
 pub const FONT_DUOTONE: Font = Font::with_name("Phosphor-Duotone");
 
 
-pub(crate) fn create_icon(codepoint: u32, font: Font) -> Text<'static> {
-    let character = char::from_u32(codepoint)
-        .expect("Invalid Unicode codepoint");
+pub(crate) fn create_icon<'a>(codepoint: u32, font: Font) -> Text<'a> {
+    let character = char::from_u32(codepoint).expect("Invalid Unicode codepoint");
 
-    Text::new(character.to_string()).font(font)
+    Text::new(character).font(font)
 }
