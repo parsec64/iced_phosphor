@@ -21,13 +21,29 @@ Add the crate to your `Cargo.toml`:
 iced_phosphor = "0.1.0"
 ```
 
+By default only `Regular` weight is enabled.
+
+Enable specific weights:
+
+```toml
+iced_phosphor = { version = "0.1.0", features = ["fill", "regular"] }
+```
+
+Enable all at once:
+
+```toml
+iced_phosphor = { version = "0.1.0", features = ["full"] }
+```
+
+Available features: `thin`, `light`, `regular`, `bold`, `fill`, `duotone`, `full`.
+
 ## Usage
 
 ```rust
 use iced::widget::{column, text};
 use iced::{Alignment, Element, Theme, color};
 
-use iced_phosphor::{fill, regular}; // Import variants
+use iced_phosphor::{fill, regular}; // Import weights
 
 fn main() -> iced::Result {
     iced::application(|| (), update, view)

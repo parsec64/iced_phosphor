@@ -8,6 +8,33 @@ repository = "https://github.com/parsec64/iced_phosphor"
 readme = "README.md"
 keywords = ["iced", "icons", "phosphor", "gui"]
 categories = ["gui"]
+exclude = ["assets/**/selection.json", "tools/", "screenshots/"]
 
 [dependencies]
 iced = "0.14"
+
+[features]
+default = ["regular"]
+full = ["thin", "light", "regular", "bold", "fill", "duotone"]
+thin = []
+light = []
+regular = []
+bold = []
+fill = []
+duotone = []
+
+[[example]]
+name = "showcase"
+required-features = ["thin", "light", "regular", "bold", "fill", "duotone"]
+
+[[example]]
+name = "usage"
+required-features = ["regular", "fill"]
+
+[[test]]
+name = "icons"
+required-features = ["thin", "light", "regular", "bold", "fill", "duotone"]
+
+[[test]]
+name = "fonts"
+required-features = ["thin", "light", "regular", "bold", "fill", "duotone"]
