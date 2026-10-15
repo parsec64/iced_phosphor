@@ -6,7561 +6,7561 @@ use crate::icon::create_icon;
 use crate::icon::FONT_THIN;
 
 /// Returns the `acorn` icon.
-pub fn acorn() -> Text<'static> {
+pub fn acorn<'a>() -> Text<'a> {
     create_icon(0xEB9A, FONT_THIN)
 }
 
 /// Returns the `address book` icon.
-pub fn address_book() -> Text<'static> {
+pub fn address_book<'a>() -> Text<'a> {
     create_icon(0xE6F8, FONT_THIN)
 }
 
 /// Returns the `address book tabs` icon.
-pub fn address_book_tabs() -> Text<'static> {
+pub fn address_book_tabs<'a>() -> Text<'a> {
     create_icon(0xEE4E, FONT_THIN)
 }
 
 /// Returns the `air traffic control` icon.
-pub fn air_traffic_control() -> Text<'static> {
+pub fn air_traffic_control<'a>() -> Text<'a> {
     create_icon(0xECD8, FONT_THIN)
 }
 
 /// Returns the `airplane` icon.
-pub fn airplane() -> Text<'static> {
+pub fn airplane<'a>() -> Text<'a> {
     create_icon(0xE002, FONT_THIN)
 }
 
 /// Returns the `airplane in flight` icon.
-pub fn airplane_in_flight() -> Text<'static> {
+pub fn airplane_in_flight<'a>() -> Text<'a> {
     create_icon(0xE4FE, FONT_THIN)
 }
 
 /// Returns the `airplane landing` icon.
-pub fn airplane_landing() -> Text<'static> {
+pub fn airplane_landing<'a>() -> Text<'a> {
     create_icon(0xE502, FONT_THIN)
 }
 
 /// Returns the `airplane takeoff` icon.
-pub fn airplane_takeoff() -> Text<'static> {
+pub fn airplane_takeoff<'a>() -> Text<'a> {
     create_icon(0xE504, FONT_THIN)
 }
 
 /// Returns the `airplane taxiing` icon.
-pub fn airplane_taxiing() -> Text<'static> {
+pub fn airplane_taxiing<'a>() -> Text<'a> {
     create_icon(0xE500, FONT_THIN)
 }
 
 /// Returns the `airplane tilt` icon.
-pub fn airplane_tilt() -> Text<'static> {
+pub fn airplane_tilt<'a>() -> Text<'a> {
     create_icon(0xE5D6, FONT_THIN)
 }
 
 /// Returns the `airplay` icon.
-pub fn airplay() -> Text<'static> {
+pub fn airplay<'a>() -> Text<'a> {
     create_icon(0xE004, FONT_THIN)
 }
 
 /// Returns the `alarm` icon.
-pub fn alarm() -> Text<'static> {
+pub fn alarm<'a>() -> Text<'a> {
     create_icon(0xE006, FONT_THIN)
 }
 
 /// Returns the `alien` icon.
-pub fn alien() -> Text<'static> {
+pub fn alien<'a>() -> Text<'a> {
     create_icon(0xE8A6, FONT_THIN)
 }
 
 /// Returns the `align bottom` icon.
-pub fn align_bottom() -> Text<'static> {
+pub fn align_bottom<'a>() -> Text<'a> {
     create_icon(0xE506, FONT_THIN)
 }
 
 /// Returns the `align bottom simple` icon.
-pub fn align_bottom_simple() -> Text<'static> {
+pub fn align_bottom_simple<'a>() -> Text<'a> {
     create_icon(0xEB0C, FONT_THIN)
 }
 
 /// Returns the `align center horizontal` icon.
-pub fn align_center_horizontal() -> Text<'static> {
+pub fn align_center_horizontal<'a>() -> Text<'a> {
     create_icon(0xE50A, FONT_THIN)
 }
 
 /// Returns the `align center horizontal simple` icon.
-pub fn align_center_horizontal_simple() -> Text<'static> {
+pub fn align_center_horizontal_simple<'a>() -> Text<'a> {
     create_icon(0xEB0E, FONT_THIN)
 }
 
 /// Returns the `align center vertical` icon.
-pub fn align_center_vertical() -> Text<'static> {
+pub fn align_center_vertical<'a>() -> Text<'a> {
     create_icon(0xE50C, FONT_THIN)
 }
 
 /// Returns the `align center vertical simple` icon.
-pub fn align_center_vertical_simple() -> Text<'static> {
+pub fn align_center_vertical_simple<'a>() -> Text<'a> {
     create_icon(0xEB10, FONT_THIN)
 }
 
 /// Returns the `align left` icon.
-pub fn align_left() -> Text<'static> {
+pub fn align_left<'a>() -> Text<'a> {
     create_icon(0xE50E, FONT_THIN)
 }
 
 /// Returns the `align left simple` icon.
-pub fn align_left_simple() -> Text<'static> {
+pub fn align_left_simple<'a>() -> Text<'a> {
     create_icon(0xEAEE, FONT_THIN)
 }
 
 /// Returns the `align right` icon.
-pub fn align_right() -> Text<'static> {
+pub fn align_right<'a>() -> Text<'a> {
     create_icon(0xE510, FONT_THIN)
 }
 
 /// Returns the `align right simple` icon.
-pub fn align_right_simple() -> Text<'static> {
+pub fn align_right_simple<'a>() -> Text<'a> {
     create_icon(0xEB12, FONT_THIN)
 }
 
 /// Returns the `align top` icon.
-pub fn align_top() -> Text<'static> {
+pub fn align_top<'a>() -> Text<'a> {
     create_icon(0xE512, FONT_THIN)
 }
 
 /// Returns the `align top simple` icon.
-pub fn align_top_simple() -> Text<'static> {
+pub fn align_top_simple<'a>() -> Text<'a> {
     create_icon(0xEB14, FONT_THIN)
 }
 
 /// Returns the `amazon logo` icon.
-pub fn amazon_logo() -> Text<'static> {
+pub fn amazon_logo<'a>() -> Text<'a> {
     create_icon(0xE96C, FONT_THIN)
 }
 
 /// Returns the `ambulance` icon.
-pub fn ambulance() -> Text<'static> {
+pub fn ambulance<'a>() -> Text<'a> {
     create_icon(0xE572, FONT_THIN)
 }
 
 /// Returns the `anchor` icon.
-pub fn anchor() -> Text<'static> {
+pub fn anchor<'a>() -> Text<'a> {
     create_icon(0xE514, FONT_THIN)
 }
 
 /// Returns the `anchor simple` icon.
-pub fn anchor_simple() -> Text<'static> {
+pub fn anchor_simple<'a>() -> Text<'a> {
     create_icon(0xE5D8, FONT_THIN)
 }
 
 /// Returns the `android logo` icon.
-pub fn android_logo() -> Text<'static> {
+pub fn android_logo<'a>() -> Text<'a> {
     create_icon(0xE008, FONT_THIN)
 }
 
 /// Returns the `angle` icon.
-pub fn angle() -> Text<'static> {
+pub fn angle<'a>() -> Text<'a> {
     create_icon(0xE7BC, FONT_THIN)
 }
 
 /// Returns the `angular logo` icon.
-pub fn angular_logo() -> Text<'static> {
+pub fn angular_logo<'a>() -> Text<'a> {
     create_icon(0xEB80, FONT_THIN)
 }
 
 /// Returns the `aperture` icon.
-pub fn aperture() -> Text<'static> {
+pub fn aperture<'a>() -> Text<'a> {
     create_icon(0xE00A, FONT_THIN)
 }
 
 /// Returns the `app store logo` icon.
-pub fn app_store_logo() -> Text<'static> {
+pub fn app_store_logo<'a>() -> Text<'a> {
     create_icon(0xE974, FONT_THIN)
 }
 
 /// Returns the `app window` icon.
-pub fn app_window() -> Text<'static> {
+pub fn app_window<'a>() -> Text<'a> {
     create_icon(0xE5DA, FONT_THIN)
 }
 
 /// Returns the `apple logo` icon.
-pub fn apple_logo() -> Text<'static> {
+pub fn apple_logo<'a>() -> Text<'a> {
     create_icon(0xE516, FONT_THIN)
 }
 
 /// Returns the `apple podcasts logo` icon.
-pub fn apple_podcasts_logo() -> Text<'static> {
+pub fn apple_podcasts_logo<'a>() -> Text<'a> {
     create_icon(0xEB96, FONT_THIN)
 }
 
 /// Returns the `approximate equals` icon.
-pub fn approximate_equals() -> Text<'static> {
+pub fn approximate_equals<'a>() -> Text<'a> {
     create_icon(0xEDAA, FONT_THIN)
 }
 
 /// Returns the `archive` icon.
-pub fn archive() -> Text<'static> {
+pub fn archive<'a>() -> Text<'a> {
     create_icon(0xE00C, FONT_THIN)
 }
 
 /// Returns the `armchair` icon.
-pub fn armchair() -> Text<'static> {
+pub fn armchair<'a>() -> Text<'a> {
     create_icon(0xE012, FONT_THIN)
 }
 
 /// Returns the `arrow arc left` icon.
-pub fn arrow_arc_left() -> Text<'static> {
+pub fn arrow_arc_left<'a>() -> Text<'a> {
     create_icon(0xE014, FONT_THIN)
 }
 
 /// Returns the `arrow arc right` icon.
-pub fn arrow_arc_right() -> Text<'static> {
+pub fn arrow_arc_right<'a>() -> Text<'a> {
     create_icon(0xE016, FONT_THIN)
 }
 
 /// Returns the `arrow bend double up left` icon.
-pub fn arrow_bend_double_up_left() -> Text<'static> {
+pub fn arrow_bend_double_up_left<'a>() -> Text<'a> {
     create_icon(0xE03A, FONT_THIN)
 }
 
 /// Returns the `arrow bend double up right` icon.
-pub fn arrow_bend_double_up_right() -> Text<'static> {
+pub fn arrow_bend_double_up_right<'a>() -> Text<'a> {
     create_icon(0xE03C, FONT_THIN)
 }
 
 /// Returns the `arrow bend down left` icon.
-pub fn arrow_bend_down_left() -> Text<'static> {
+pub fn arrow_bend_down_left<'a>() -> Text<'a> {
     create_icon(0xE018, FONT_THIN)
 }
 
 /// Returns the `arrow bend down right` icon.
-pub fn arrow_bend_down_right() -> Text<'static> {
+pub fn arrow_bend_down_right<'a>() -> Text<'a> {
     create_icon(0xE01A, FONT_THIN)
 }
 
 /// Returns the `arrow bend left down` icon.
-pub fn arrow_bend_left_down() -> Text<'static> {
+pub fn arrow_bend_left_down<'a>() -> Text<'a> {
     create_icon(0xE01C, FONT_THIN)
 }
 
 /// Returns the `arrow bend left up` icon.
-pub fn arrow_bend_left_up() -> Text<'static> {
+pub fn arrow_bend_left_up<'a>() -> Text<'a> {
     create_icon(0xE01E, FONT_THIN)
 }
 
 /// Returns the `arrow bend right down` icon.
-pub fn arrow_bend_right_down() -> Text<'static> {
+pub fn arrow_bend_right_down<'a>() -> Text<'a> {
     create_icon(0xE020, FONT_THIN)
 }
 
 /// Returns the `arrow bend right up` icon.
-pub fn arrow_bend_right_up() -> Text<'static> {
+pub fn arrow_bend_right_up<'a>() -> Text<'a> {
     create_icon(0xE022, FONT_THIN)
 }
 
 /// Returns the `arrow bend up left` icon.
-pub fn arrow_bend_up_left() -> Text<'static> {
+pub fn arrow_bend_up_left<'a>() -> Text<'a> {
     create_icon(0xE024, FONT_THIN)
 }
 
 /// Returns the `arrow bend up right` icon.
-pub fn arrow_bend_up_right() -> Text<'static> {
+pub fn arrow_bend_up_right<'a>() -> Text<'a> {
     create_icon(0xE026, FONT_THIN)
 }
 
 /// Returns the `arrow circle down` icon.
-pub fn arrow_circle_down() -> Text<'static> {
+pub fn arrow_circle_down<'a>() -> Text<'a> {
     create_icon(0xE028, FONT_THIN)
 }
 
 /// Returns the `arrow circle down left` icon.
-pub fn arrow_circle_down_left() -> Text<'static> {
+pub fn arrow_circle_down_left<'a>() -> Text<'a> {
     create_icon(0xE02A, FONT_THIN)
 }
 
 /// Returns the `arrow circle down right` icon.
-pub fn arrow_circle_down_right() -> Text<'static> {
+pub fn arrow_circle_down_right<'a>() -> Text<'a> {
     create_icon(0xE02C, FONT_THIN)
 }
 
 /// Returns the `arrow circle left` icon.
-pub fn arrow_circle_left() -> Text<'static> {
+pub fn arrow_circle_left<'a>() -> Text<'a> {
     create_icon(0xE05A, FONT_THIN)
 }
 
 /// Returns the `arrow circle right` icon.
-pub fn arrow_circle_right() -> Text<'static> {
+pub fn arrow_circle_right<'a>() -> Text<'a> {
     create_icon(0xE02E, FONT_THIN)
 }
 
 /// Returns the `arrow circle up` icon.
-pub fn arrow_circle_up() -> Text<'static> {
+pub fn arrow_circle_up<'a>() -> Text<'a> {
     create_icon(0xE030, FONT_THIN)
 }
 
 /// Returns the `arrow circle up left` icon.
-pub fn arrow_circle_up_left() -> Text<'static> {
+pub fn arrow_circle_up_left<'a>() -> Text<'a> {
     create_icon(0xE032, FONT_THIN)
 }
 
 /// Returns the `arrow circle up right` icon.
-pub fn arrow_circle_up_right() -> Text<'static> {
+pub fn arrow_circle_up_right<'a>() -> Text<'a> {
     create_icon(0xE034, FONT_THIN)
 }
 
 /// Returns the `arrow clockwise` icon.
-pub fn arrow_clockwise() -> Text<'static> {
+pub fn arrow_clockwise<'a>() -> Text<'a> {
     create_icon(0xE036, FONT_THIN)
 }
 
 /// Returns the `arrow counter clockwise` icon.
-pub fn arrow_counter_clockwise() -> Text<'static> {
+pub fn arrow_counter_clockwise<'a>() -> Text<'a> {
     create_icon(0xE038, FONT_THIN)
 }
 
 /// Returns the `arrow down` icon.
-pub fn arrow_down() -> Text<'static> {
+pub fn arrow_down<'a>() -> Text<'a> {
     create_icon(0xE03E, FONT_THIN)
 }
 
 /// Returns the `arrow down left` icon.
-pub fn arrow_down_left() -> Text<'static> {
+pub fn arrow_down_left<'a>() -> Text<'a> {
     create_icon(0xE040, FONT_THIN)
 }
 
 /// Returns the `arrow down right` icon.
-pub fn arrow_down_right() -> Text<'static> {
+pub fn arrow_down_right<'a>() -> Text<'a> {
     create_icon(0xE042, FONT_THIN)
 }
 
 /// Returns the `arrow elbow down left` icon.
-pub fn arrow_elbow_down_left() -> Text<'static> {
+pub fn arrow_elbow_down_left<'a>() -> Text<'a> {
     create_icon(0xE044, FONT_THIN)
 }
 
 /// Returns the `arrow elbow down right` icon.
-pub fn arrow_elbow_down_right() -> Text<'static> {
+pub fn arrow_elbow_down_right<'a>() -> Text<'a> {
     create_icon(0xE046, FONT_THIN)
 }
 
 /// Returns the `arrow elbow left` icon.
-pub fn arrow_elbow_left() -> Text<'static> {
+pub fn arrow_elbow_left<'a>() -> Text<'a> {
     create_icon(0xE048, FONT_THIN)
 }
 
 /// Returns the `arrow elbow left down` icon.
-pub fn arrow_elbow_left_down() -> Text<'static> {
+pub fn arrow_elbow_left_down<'a>() -> Text<'a> {
     create_icon(0xE04A, FONT_THIN)
 }
 
 /// Returns the `arrow elbow left up` icon.
-pub fn arrow_elbow_left_up() -> Text<'static> {
+pub fn arrow_elbow_left_up<'a>() -> Text<'a> {
     create_icon(0xE04C, FONT_THIN)
 }
 
 /// Returns the `arrow elbow right` icon.
-pub fn arrow_elbow_right() -> Text<'static> {
+pub fn arrow_elbow_right<'a>() -> Text<'a> {
     create_icon(0xE04E, FONT_THIN)
 }
 
 /// Returns the `arrow elbow right down` icon.
-pub fn arrow_elbow_right_down() -> Text<'static> {
+pub fn arrow_elbow_right_down<'a>() -> Text<'a> {
     create_icon(0xE050, FONT_THIN)
 }
 
 /// Returns the `arrow elbow right up` icon.
-pub fn arrow_elbow_right_up() -> Text<'static> {
+pub fn arrow_elbow_right_up<'a>() -> Text<'a> {
     create_icon(0xE052, FONT_THIN)
 }
 
 /// Returns the `arrow elbow up left` icon.
-pub fn arrow_elbow_up_left() -> Text<'static> {
+pub fn arrow_elbow_up_left<'a>() -> Text<'a> {
     create_icon(0xE054, FONT_THIN)
 }
 
 /// Returns the `arrow elbow up right` icon.
-pub fn arrow_elbow_up_right() -> Text<'static> {
+pub fn arrow_elbow_up_right<'a>() -> Text<'a> {
     create_icon(0xE056, FONT_THIN)
 }
 
 /// Returns the `arrow fat down` icon.
-pub fn arrow_fat_down() -> Text<'static> {
+pub fn arrow_fat_down<'a>() -> Text<'a> {
     create_icon(0xE518, FONT_THIN)
 }
 
 /// Returns the `arrow fat left` icon.
-pub fn arrow_fat_left() -> Text<'static> {
+pub fn arrow_fat_left<'a>() -> Text<'a> {
     create_icon(0xE51A, FONT_THIN)
 }
 
 /// Returns the `arrow fat line down` icon.
-pub fn arrow_fat_line_down() -> Text<'static> {
+pub fn arrow_fat_line_down<'a>() -> Text<'a> {
     create_icon(0xE51C, FONT_THIN)
 }
 
 /// Returns the `arrow fat line left` icon.
-pub fn arrow_fat_line_left() -> Text<'static> {
+pub fn arrow_fat_line_left<'a>() -> Text<'a> {
     create_icon(0xE51E, FONT_THIN)
 }
 
 /// Returns the `arrow fat line right` icon.
-pub fn arrow_fat_line_right() -> Text<'static> {
+pub fn arrow_fat_line_right<'a>() -> Text<'a> {
     create_icon(0xE520, FONT_THIN)
 }
 
 /// Returns the `arrow fat line up` icon.
-pub fn arrow_fat_line_up() -> Text<'static> {
+pub fn arrow_fat_line_up<'a>() -> Text<'a> {
     create_icon(0xE522, FONT_THIN)
 }
 
 /// Returns the `arrow fat lines down` icon.
-pub fn arrow_fat_lines_down() -> Text<'static> {
+pub fn arrow_fat_lines_down<'a>() -> Text<'a> {
     create_icon(0xE524, FONT_THIN)
 }
 
 /// Returns the `arrow fat lines left` icon.
-pub fn arrow_fat_lines_left() -> Text<'static> {
+pub fn arrow_fat_lines_left<'a>() -> Text<'a> {
     create_icon(0xE526, FONT_THIN)
 }
 
 /// Returns the `arrow fat lines right` icon.
-pub fn arrow_fat_lines_right() -> Text<'static> {
+pub fn arrow_fat_lines_right<'a>() -> Text<'a> {
     create_icon(0xE528, FONT_THIN)
 }
 
 /// Returns the `arrow fat lines up` icon.
-pub fn arrow_fat_lines_up() -> Text<'static> {
+pub fn arrow_fat_lines_up<'a>() -> Text<'a> {
     create_icon(0xE52A, FONT_THIN)
 }
 
 /// Returns the `arrow fat right` icon.
-pub fn arrow_fat_right() -> Text<'static> {
+pub fn arrow_fat_right<'a>() -> Text<'a> {
     create_icon(0xE52C, FONT_THIN)
 }
 
 /// Returns the `arrow fat up` icon.
-pub fn arrow_fat_up() -> Text<'static> {
+pub fn arrow_fat_up<'a>() -> Text<'a> {
     create_icon(0xE52E, FONT_THIN)
 }
 
 /// Returns the `arrow left` icon.
-pub fn arrow_left() -> Text<'static> {
+pub fn arrow_left<'a>() -> Text<'a> {
     create_icon(0xE058, FONT_THIN)
 }
 
 /// Returns the `arrow line down` icon.
-pub fn arrow_line_down() -> Text<'static> {
+pub fn arrow_line_down<'a>() -> Text<'a> {
     create_icon(0xE05C, FONT_THIN)
 }
 
 /// Returns the `arrow line down left` icon.
-pub fn arrow_line_down_left() -> Text<'static> {
+pub fn arrow_line_down_left<'a>() -> Text<'a> {
     create_icon(0xE05E, FONT_THIN)
 }
 
 /// Returns the `arrow line down right` icon.
-pub fn arrow_line_down_right() -> Text<'static> {
+pub fn arrow_line_down_right<'a>() -> Text<'a> {
     create_icon(0xE060, FONT_THIN)
 }
 
 /// Returns the `arrow line left` icon.
-pub fn arrow_line_left() -> Text<'static> {
+pub fn arrow_line_left<'a>() -> Text<'a> {
     create_icon(0xE062, FONT_THIN)
 }
 
 /// Returns the `arrow line right` icon.
-pub fn arrow_line_right() -> Text<'static> {
+pub fn arrow_line_right<'a>() -> Text<'a> {
     create_icon(0xE064, FONT_THIN)
 }
 
 /// Returns the `arrow line up` icon.
-pub fn arrow_line_up() -> Text<'static> {
+pub fn arrow_line_up<'a>() -> Text<'a> {
     create_icon(0xE066, FONT_THIN)
 }
 
 /// Returns the `arrow line up left` icon.
-pub fn arrow_line_up_left() -> Text<'static> {
+pub fn arrow_line_up_left<'a>() -> Text<'a> {
     create_icon(0xE068, FONT_THIN)
 }
 
 /// Returns the `arrow line up right` icon.
-pub fn arrow_line_up_right() -> Text<'static> {
+pub fn arrow_line_up_right<'a>() -> Text<'a> {
     create_icon(0xE06A, FONT_THIN)
 }
 
 /// Returns the `arrow right` icon.
-pub fn arrow_right() -> Text<'static> {
+pub fn arrow_right<'a>() -> Text<'a> {
     create_icon(0xE06C, FONT_THIN)
 }
 
 /// Returns the `arrow square down` icon.
-pub fn arrow_square_down() -> Text<'static> {
+pub fn arrow_square_down<'a>() -> Text<'a> {
     create_icon(0xE06E, FONT_THIN)
 }
 
 /// Returns the `arrow square down left` icon.
-pub fn arrow_square_down_left() -> Text<'static> {
+pub fn arrow_square_down_left<'a>() -> Text<'a> {
     create_icon(0xE070, FONT_THIN)
 }
 
 /// Returns the `arrow square down right` icon.
-pub fn arrow_square_down_right() -> Text<'static> {
+pub fn arrow_square_down_right<'a>() -> Text<'a> {
     create_icon(0xE072, FONT_THIN)
 }
 
 /// Returns the `arrow square in` icon.
-pub fn arrow_square_in() -> Text<'static> {
+pub fn arrow_square_in<'a>() -> Text<'a> {
     create_icon(0xE5DC, FONT_THIN)
 }
 
 /// Returns the `arrow square left` icon.
-pub fn arrow_square_left() -> Text<'static> {
+pub fn arrow_square_left<'a>() -> Text<'a> {
     create_icon(0xE074, FONT_THIN)
 }
 
 /// Returns the `arrow square out` icon.
-pub fn arrow_square_out() -> Text<'static> {
+pub fn arrow_square_out<'a>() -> Text<'a> {
     create_icon(0xE5DE, FONT_THIN)
 }
 
 /// Returns the `arrow square right` icon.
-pub fn arrow_square_right() -> Text<'static> {
+pub fn arrow_square_right<'a>() -> Text<'a> {
     create_icon(0xE076, FONT_THIN)
 }
 
 /// Returns the `arrow square up` icon.
-pub fn arrow_square_up() -> Text<'static> {
+pub fn arrow_square_up<'a>() -> Text<'a> {
     create_icon(0xE078, FONT_THIN)
 }
 
 /// Returns the `arrow square up left` icon.
-pub fn arrow_square_up_left() -> Text<'static> {
+pub fn arrow_square_up_left<'a>() -> Text<'a> {
     create_icon(0xE07A, FONT_THIN)
 }
 
 /// Returns the `arrow square up right` icon.
-pub fn arrow_square_up_right() -> Text<'static> {
+pub fn arrow_square_up_right<'a>() -> Text<'a> {
     create_icon(0xE07C, FONT_THIN)
 }
 
 /// Returns the `arrow u down left` icon.
-pub fn arrow_u_down_left() -> Text<'static> {
+pub fn arrow_u_down_left<'a>() -> Text<'a> {
     create_icon(0xE07E, FONT_THIN)
 }
 
 /// Returns the `arrow u down right` icon.
-pub fn arrow_u_down_right() -> Text<'static> {
+pub fn arrow_u_down_right<'a>() -> Text<'a> {
     create_icon(0xE080, FONT_THIN)
 }
 
 /// Returns the `arrow u left down` icon.
-pub fn arrow_u_left_down() -> Text<'static> {
+pub fn arrow_u_left_down<'a>() -> Text<'a> {
     create_icon(0xE082, FONT_THIN)
 }
 
 /// Returns the `arrow u left up` icon.
-pub fn arrow_u_left_up() -> Text<'static> {
+pub fn arrow_u_left_up<'a>() -> Text<'a> {
     create_icon(0xE084, FONT_THIN)
 }
 
 /// Returns the `arrow u right down` icon.
-pub fn arrow_u_right_down() -> Text<'static> {
+pub fn arrow_u_right_down<'a>() -> Text<'a> {
     create_icon(0xE086, FONT_THIN)
 }
 
 /// Returns the `arrow u right up` icon.
-pub fn arrow_u_right_up() -> Text<'static> {
+pub fn arrow_u_right_up<'a>() -> Text<'a> {
     create_icon(0xE088, FONT_THIN)
 }
 
 /// Returns the `arrow u up left` icon.
-pub fn arrow_u_up_left() -> Text<'static> {
+pub fn arrow_u_up_left<'a>() -> Text<'a> {
     create_icon(0xE08A, FONT_THIN)
 }
 
 /// Returns the `arrow u up right` icon.
-pub fn arrow_u_up_right() -> Text<'static> {
+pub fn arrow_u_up_right<'a>() -> Text<'a> {
     create_icon(0xE08C, FONT_THIN)
 }
 
 /// Returns the `arrow up` icon.
-pub fn arrow_up() -> Text<'static> {
+pub fn arrow_up<'a>() -> Text<'a> {
     create_icon(0xE08E, FONT_THIN)
 }
 
 /// Returns the `arrow up left` icon.
-pub fn arrow_up_left() -> Text<'static> {
+pub fn arrow_up_left<'a>() -> Text<'a> {
     create_icon(0xE090, FONT_THIN)
 }
 
 /// Returns the `arrow up right` icon.
-pub fn arrow_up_right() -> Text<'static> {
+pub fn arrow_up_right<'a>() -> Text<'a> {
     create_icon(0xE092, FONT_THIN)
 }
 
 /// Returns the `arrows clockwise` icon.
-pub fn arrows_clockwise() -> Text<'static> {
+pub fn arrows_clockwise<'a>() -> Text<'a> {
     create_icon(0xE094, FONT_THIN)
 }
 
 /// Returns the `arrows counter clockwise` icon.
-pub fn arrows_counter_clockwise() -> Text<'static> {
+pub fn arrows_counter_clockwise<'a>() -> Text<'a> {
     create_icon(0xE096, FONT_THIN)
 }
 
 /// Returns the `arrows down up` icon.
-pub fn arrows_down_up() -> Text<'static> {
+pub fn arrows_down_up<'a>() -> Text<'a> {
     create_icon(0xE098, FONT_THIN)
 }
 
 /// Returns the `arrows horizontal` icon.
-pub fn arrows_horizontal() -> Text<'static> {
+pub fn arrows_horizontal<'a>() -> Text<'a> {
     create_icon(0xEB06, FONT_THIN)
 }
 
 /// Returns the `arrows in` icon.
-pub fn arrows_in() -> Text<'static> {
+pub fn arrows_in<'a>() -> Text<'a> {
     create_icon(0xE09A, FONT_THIN)
 }
 
 /// Returns the `arrows in cardinal` icon.
-pub fn arrows_in_cardinal() -> Text<'static> {
+pub fn arrows_in_cardinal<'a>() -> Text<'a> {
     create_icon(0xE09C, FONT_THIN)
 }
 
 /// Returns the `arrows in line horizontal` icon.
-pub fn arrows_in_line_horizontal() -> Text<'static> {
+pub fn arrows_in_line_horizontal<'a>() -> Text<'a> {
     create_icon(0xE530, FONT_THIN)
 }
 
 /// Returns the `arrows in line vertical` icon.
-pub fn arrows_in_line_vertical() -> Text<'static> {
+pub fn arrows_in_line_vertical<'a>() -> Text<'a> {
     create_icon(0xE532, FONT_THIN)
 }
 
 /// Returns the `arrows in simple` icon.
-pub fn arrows_in_simple() -> Text<'static> {
+pub fn arrows_in_simple<'a>() -> Text<'a> {
     create_icon(0xE09E, FONT_THIN)
 }
 
 /// Returns the `arrows left right` icon.
-pub fn arrows_left_right() -> Text<'static> {
+pub fn arrows_left_right<'a>() -> Text<'a> {
     create_icon(0xE0A0, FONT_THIN)
 }
 
 /// Returns the `arrows merge` icon.
-pub fn arrows_merge() -> Text<'static> {
+pub fn arrows_merge<'a>() -> Text<'a> {
     create_icon(0xED3E, FONT_THIN)
 }
 
 /// Returns the `arrows out` icon.
-pub fn arrows_out() -> Text<'static> {
+pub fn arrows_out<'a>() -> Text<'a> {
     create_icon(0xE0A2, FONT_THIN)
 }
 
 /// Returns the `arrows out cardinal` icon.
-pub fn arrows_out_cardinal() -> Text<'static> {
+pub fn arrows_out_cardinal<'a>() -> Text<'a> {
     create_icon(0xE0A4, FONT_THIN)
 }
 
 /// Returns the `arrows out line horizontal` icon.
-pub fn arrows_out_line_horizontal() -> Text<'static> {
+pub fn arrows_out_line_horizontal<'a>() -> Text<'a> {
     create_icon(0xE534, FONT_THIN)
 }
 
 /// Returns the `arrows out line vertical` icon.
-pub fn arrows_out_line_vertical() -> Text<'static> {
+pub fn arrows_out_line_vertical<'a>() -> Text<'a> {
     create_icon(0xE536, FONT_THIN)
 }
 
 /// Returns the `arrows out simple` icon.
-pub fn arrows_out_simple() -> Text<'static> {
+pub fn arrows_out_simple<'a>() -> Text<'a> {
     create_icon(0xE0A6, FONT_THIN)
 }
 
 /// Returns the `arrows split` icon.
-pub fn arrows_split() -> Text<'static> {
+pub fn arrows_split<'a>() -> Text<'a> {
     create_icon(0xED3C, FONT_THIN)
 }
 
 /// Returns the `arrows vertical` icon.
-pub fn arrows_vertical() -> Text<'static> {
+pub fn arrows_vertical<'a>() -> Text<'a> {
     create_icon(0xEB04, FONT_THIN)
 }
 
 /// Returns the `article` icon.
-pub fn article() -> Text<'static> {
+pub fn article<'a>() -> Text<'a> {
     create_icon(0xE0A8, FONT_THIN)
 }
 
 /// Returns the `article medium` icon.
-pub fn article_medium() -> Text<'static> {
+pub fn article_medium<'a>() -> Text<'a> {
     create_icon(0xE5E0, FONT_THIN)
 }
 
 /// Returns the `article ny times` icon.
-pub fn article_ny_times() -> Text<'static> {
+pub fn article_ny_times<'a>() -> Text<'a> {
     create_icon(0xE5E2, FONT_THIN)
 }
 
 /// Returns the `asclepius thin caduceus` icon.
-pub fn asclepius_thin_caduceus() -> Text<'static> {
+pub fn asclepius_thin_caduceus<'a>() -> Text<'a> {
     create_icon(0xEE34, FONT_THIN)
 }
 
 /// Returns the `asterisk` icon.
-pub fn asterisk() -> Text<'static> {
+pub fn asterisk<'a>() -> Text<'a> {
     create_icon(0xE0AA, FONT_THIN)
 }
 
 /// Returns the `asterisk simple` icon.
-pub fn asterisk_simple() -> Text<'static> {
+pub fn asterisk_simple<'a>() -> Text<'a> {
     create_icon(0xE832, FONT_THIN)
 }
 
 /// Returns the `at` icon.
-pub fn at() -> Text<'static> {
+pub fn at<'a>() -> Text<'a> {
     create_icon(0xE0AC, FONT_THIN)
 }
 
 /// Returns the `atom` icon.
-pub fn atom() -> Text<'static> {
+pub fn atom<'a>() -> Text<'a> {
     create_icon(0xE5E4, FONT_THIN)
 }
 
 /// Returns the `avocado` icon.
-pub fn avocado() -> Text<'static> {
+pub fn avocado<'a>() -> Text<'a> {
     create_icon(0xEE04, FONT_THIN)
 }
 
 /// Returns the `axe` icon.
-pub fn axe() -> Text<'static> {
+pub fn axe<'a>() -> Text<'a> {
     create_icon(0xE9FC, FONT_THIN)
 }
 
 /// Returns the `baby` icon.
-pub fn baby() -> Text<'static> {
+pub fn baby<'a>() -> Text<'a> {
     create_icon(0xE774, FONT_THIN)
 }
 
 /// Returns the `baby carriage` icon.
-pub fn baby_carriage() -> Text<'static> {
+pub fn baby_carriage<'a>() -> Text<'a> {
     create_icon(0xE818, FONT_THIN)
 }
 
 /// Returns the `backpack` icon.
-pub fn backpack() -> Text<'static> {
+pub fn backpack<'a>() -> Text<'a> {
     create_icon(0xE922, FONT_THIN)
 }
 
 /// Returns the `backspace` icon.
-pub fn backspace() -> Text<'static> {
+pub fn backspace<'a>() -> Text<'a> {
     create_icon(0xE0AE, FONT_THIN)
 }
 
 /// Returns the `bag` icon.
-pub fn bag() -> Text<'static> {
+pub fn bag<'a>() -> Text<'a> {
     create_icon(0xE0B0, FONT_THIN)
 }
 
 /// Returns the `bag simple` icon.
-pub fn bag_simple() -> Text<'static> {
+pub fn bag_simple<'a>() -> Text<'a> {
     create_icon(0xE5E6, FONT_THIN)
 }
 
 /// Returns the `balloon` icon.
-pub fn balloon() -> Text<'static> {
+pub fn balloon<'a>() -> Text<'a> {
     create_icon(0xE76C, FONT_THIN)
 }
 
 /// Returns the `bandaids` icon.
-pub fn bandaids() -> Text<'static> {
+pub fn bandaids<'a>() -> Text<'a> {
     create_icon(0xE0B2, FONT_THIN)
 }
 
 /// Returns the `bank` icon.
-pub fn bank() -> Text<'static> {
+pub fn bank<'a>() -> Text<'a> {
     create_icon(0xE0B4, FONT_THIN)
 }
 
 /// Returns the `barbell` icon.
-pub fn barbell() -> Text<'static> {
+pub fn barbell<'a>() -> Text<'a> {
     create_icon(0xE0B6, FONT_THIN)
 }
 
 /// Returns the `barcode` icon.
-pub fn barcode() -> Text<'static> {
+pub fn barcode<'a>() -> Text<'a> {
     create_icon(0xE0B8, FONT_THIN)
 }
 
 /// Returns the `barn` icon.
-pub fn barn() -> Text<'static> {
+pub fn barn<'a>() -> Text<'a> {
     create_icon(0xEC72, FONT_THIN)
 }
 
 /// Returns the `barricade` icon.
-pub fn barricade() -> Text<'static> {
+pub fn barricade<'a>() -> Text<'a> {
     create_icon(0xE948, FONT_THIN)
 }
 
 /// Returns the `baseball` icon.
-pub fn baseball() -> Text<'static> {
+pub fn baseball<'a>() -> Text<'a> {
     create_icon(0xE71A, FONT_THIN)
 }
 
 /// Returns the `baseball cap` icon.
-pub fn baseball_cap() -> Text<'static> {
+pub fn baseball_cap<'a>() -> Text<'a> {
     create_icon(0xEA28, FONT_THIN)
 }
 
 /// Returns the `baseball helmet` icon.
-pub fn baseball_helmet() -> Text<'static> {
+pub fn baseball_helmet<'a>() -> Text<'a> {
     create_icon(0xEE4A, FONT_THIN)
 }
 
 /// Returns the `basket` icon.
-pub fn basket() -> Text<'static> {
+pub fn basket<'a>() -> Text<'a> {
     create_icon(0xE964, FONT_THIN)
 }
 
 /// Returns the `basketball` icon.
-pub fn basketball() -> Text<'static> {
+pub fn basketball<'a>() -> Text<'a> {
     create_icon(0xE724, FONT_THIN)
 }
 
 /// Returns the `bathtub` icon.
-pub fn bathtub() -> Text<'static> {
+pub fn bathtub<'a>() -> Text<'a> {
     create_icon(0xE81E, FONT_THIN)
 }
 
 /// Returns the `battery charging` icon.
-pub fn battery_charging() -> Text<'static> {
+pub fn battery_charging<'a>() -> Text<'a> {
     create_icon(0xE0BA, FONT_THIN)
 }
 
 /// Returns the `battery charging vertical` icon.
-pub fn battery_charging_vertical() -> Text<'static> {
+pub fn battery_charging_vertical<'a>() -> Text<'a> {
     create_icon(0xE0BC, FONT_THIN)
 }
 
 /// Returns the `battery empty` icon.
-pub fn battery_empty() -> Text<'static> {
+pub fn battery_empty<'a>() -> Text<'a> {
     create_icon(0xE0BE, FONT_THIN)
 }
 
 /// Returns the `battery full` icon.
-pub fn battery_full() -> Text<'static> {
+pub fn battery_full<'a>() -> Text<'a> {
     create_icon(0xE0C0, FONT_THIN)
 }
 
 /// Returns the `battery high` icon.
-pub fn battery_high() -> Text<'static> {
+pub fn battery_high<'a>() -> Text<'a> {
     create_icon(0xE0C2, FONT_THIN)
 }
 
 /// Returns the `battery low` icon.
-pub fn battery_low() -> Text<'static> {
+pub fn battery_low<'a>() -> Text<'a> {
     create_icon(0xE0C4, FONT_THIN)
 }
 
 /// Returns the `battery medium` icon.
-pub fn battery_medium() -> Text<'static> {
+pub fn battery_medium<'a>() -> Text<'a> {
     create_icon(0xE0C6, FONT_THIN)
 }
 
 /// Returns the `battery plus` icon.
-pub fn battery_plus() -> Text<'static> {
+pub fn battery_plus<'a>() -> Text<'a> {
     create_icon(0xE808, FONT_THIN)
 }
 
 /// Returns the `battery plus vertical` icon.
-pub fn battery_plus_vertical() -> Text<'static> {
+pub fn battery_plus_vertical<'a>() -> Text<'a> {
     create_icon(0xEC50, FONT_THIN)
 }
 
 /// Returns the `battery vertical empty` icon.
-pub fn battery_vertical_empty() -> Text<'static> {
+pub fn battery_vertical_empty<'a>() -> Text<'a> {
     create_icon(0xE7C6, FONT_THIN)
 }
 
 /// Returns the `battery vertical full` icon.
-pub fn battery_vertical_full() -> Text<'static> {
+pub fn battery_vertical_full<'a>() -> Text<'a> {
     create_icon(0xE7C4, FONT_THIN)
 }
 
 /// Returns the `battery vertical high` icon.
-pub fn battery_vertical_high() -> Text<'static> {
+pub fn battery_vertical_high<'a>() -> Text<'a> {
     create_icon(0xE7C2, FONT_THIN)
 }
 
 /// Returns the `battery vertical low` icon.
-pub fn battery_vertical_low() -> Text<'static> {
+pub fn battery_vertical_low<'a>() -> Text<'a> {
     create_icon(0xE7BE, FONT_THIN)
 }
 
 /// Returns the `battery vertical medium` icon.
-pub fn battery_vertical_medium() -> Text<'static> {
+pub fn battery_vertical_medium<'a>() -> Text<'a> {
     create_icon(0xE7C0, FONT_THIN)
 }
 
 /// Returns the `battery warning` icon.
-pub fn battery_warning() -> Text<'static> {
+pub fn battery_warning<'a>() -> Text<'a> {
     create_icon(0xE0C8, FONT_THIN)
 }
 
 /// Returns the `battery warning vertical` icon.
-pub fn battery_warning_vertical() -> Text<'static> {
+pub fn battery_warning_vertical<'a>() -> Text<'a> {
     create_icon(0xE0CA, FONT_THIN)
 }
 
 /// Returns the `beach ball` icon.
-pub fn beach_ball() -> Text<'static> {
+pub fn beach_ball<'a>() -> Text<'a> {
     create_icon(0xED24, FONT_THIN)
 }
 
 /// Returns the `beanie` icon.
-pub fn beanie() -> Text<'static> {
+pub fn beanie<'a>() -> Text<'a> {
     create_icon(0xEA2A, FONT_THIN)
 }
 
 /// Returns the `bed` icon.
-pub fn bed() -> Text<'static> {
+pub fn bed<'a>() -> Text<'a> {
     create_icon(0xE0CC, FONT_THIN)
 }
 
 /// Returns the `beer bottle` icon.
-pub fn beer_bottle() -> Text<'static> {
+pub fn beer_bottle<'a>() -> Text<'a> {
     create_icon(0xE7B0, FONT_THIN)
 }
 
 /// Returns the `beer stein` icon.
-pub fn beer_stein() -> Text<'static> {
+pub fn beer_stein<'a>() -> Text<'a> {
     create_icon(0xEB62, FONT_THIN)
 }
 
 /// Returns the `behance logo` icon.
-pub fn behance_logo() -> Text<'static> {
+pub fn behance_logo<'a>() -> Text<'a> {
     create_icon(0xE7F4, FONT_THIN)
 }
 
 /// Returns the `bell` icon.
-pub fn bell() -> Text<'static> {
+pub fn bell<'a>() -> Text<'a> {
     create_icon(0xE0CE, FONT_THIN)
 }
 
 /// Returns the `bell ringing` icon.
-pub fn bell_ringing() -> Text<'static> {
+pub fn bell_ringing<'a>() -> Text<'a> {
     create_icon(0xE5E8, FONT_THIN)
 }
 
 /// Returns the `bell simple` icon.
-pub fn bell_simple() -> Text<'static> {
+pub fn bell_simple<'a>() -> Text<'a> {
     create_icon(0xE0D0, FONT_THIN)
 }
 
 /// Returns the `bell simple ringing` icon.
-pub fn bell_simple_ringing() -> Text<'static> {
+pub fn bell_simple_ringing<'a>() -> Text<'a> {
     create_icon(0xE5EA, FONT_THIN)
 }
 
 /// Returns the `bell simple slash` icon.
-pub fn bell_simple_slash() -> Text<'static> {
+pub fn bell_simple_slash<'a>() -> Text<'a> {
     create_icon(0xE0D2, FONT_THIN)
 }
 
 /// Returns the `bell simple z` icon.
-pub fn bell_simple_z() -> Text<'static> {
+pub fn bell_simple_z<'a>() -> Text<'a> {
     create_icon(0xE5EC, FONT_THIN)
 }
 
 /// Returns the `bell slash` icon.
-pub fn bell_slash() -> Text<'static> {
+pub fn bell_slash<'a>() -> Text<'a> {
     create_icon(0xE0D4, FONT_THIN)
 }
 
 /// Returns the `bell z` icon.
-pub fn bell_z() -> Text<'static> {
+pub fn bell_z<'a>() -> Text<'a> {
     create_icon(0xE5EE, FONT_THIN)
 }
 
 /// Returns the `belt` icon.
-pub fn belt() -> Text<'static> {
+pub fn belt<'a>() -> Text<'a> {
     create_icon(0xEA2C, FONT_THIN)
 }
 
 /// Returns the `bezier curve` icon.
-pub fn bezier_curve() -> Text<'static> {
+pub fn bezier_curve<'a>() -> Text<'a> {
     create_icon(0xEB00, FONT_THIN)
 }
 
 /// Returns the `bicycle` icon.
-pub fn bicycle() -> Text<'static> {
+pub fn bicycle<'a>() -> Text<'a> {
     create_icon(0xE0D6, FONT_THIN)
 }
 
 /// Returns the `binary` icon.
-pub fn binary() -> Text<'static> {
+pub fn binary<'a>() -> Text<'a> {
     create_icon(0xEE60, FONT_THIN)
 }
 
 /// Returns the `binoculars` icon.
-pub fn binoculars() -> Text<'static> {
+pub fn binoculars<'a>() -> Text<'a> {
     create_icon(0xEA64, FONT_THIN)
 }
 
 /// Returns the `biohazard` icon.
-pub fn biohazard() -> Text<'static> {
+pub fn biohazard<'a>() -> Text<'a> {
     create_icon(0xE9E0, FONT_THIN)
 }
 
 /// Returns the `bird` icon.
-pub fn bird() -> Text<'static> {
+pub fn bird<'a>() -> Text<'a> {
     create_icon(0xE72C, FONT_THIN)
 }
 
 /// Returns the `blueprint` icon.
-pub fn blueprint() -> Text<'static> {
+pub fn blueprint<'a>() -> Text<'a> {
     create_icon(0xEDA0, FONT_THIN)
 }
 
 /// Returns the `bluetooth` icon.
-pub fn bluetooth() -> Text<'static> {
+pub fn bluetooth<'a>() -> Text<'a> {
     create_icon(0xE0DA, FONT_THIN)
 }
 
 /// Returns the `bluetooth connected` icon.
-pub fn bluetooth_connected() -> Text<'static> {
+pub fn bluetooth_connected<'a>() -> Text<'a> {
     create_icon(0xE0DC, FONT_THIN)
 }
 
 /// Returns the `bluetooth slash` icon.
-pub fn bluetooth_slash() -> Text<'static> {
+pub fn bluetooth_slash<'a>() -> Text<'a> {
     create_icon(0xE0DE, FONT_THIN)
 }
 
 /// Returns the `bluetooth x` icon.
-pub fn bluetooth_x() -> Text<'static> {
+pub fn bluetooth_x<'a>() -> Text<'a> {
     create_icon(0xE0E0, FONT_THIN)
 }
 
 /// Returns the `boat` icon.
-pub fn boat() -> Text<'static> {
+pub fn boat<'a>() -> Text<'a> {
     create_icon(0xE786, FONT_THIN)
 }
 
 /// Returns the `bomb` icon.
-pub fn bomb() -> Text<'static> {
+pub fn bomb<'a>() -> Text<'a> {
     create_icon(0xEE0A, FONT_THIN)
 }
 
 /// Returns the `bone` icon.
-pub fn bone() -> Text<'static> {
+pub fn bone<'a>() -> Text<'a> {
     create_icon(0xE7F2, FONT_THIN)
 }
 
 /// Returns the `book` icon.
-pub fn book() -> Text<'static> {
+pub fn book<'a>() -> Text<'a> {
     create_icon(0xE0E2, FONT_THIN)
 }
 
 /// Returns the `book bookmark` icon.
-pub fn book_bookmark() -> Text<'static> {
+pub fn book_bookmark<'a>() -> Text<'a> {
     create_icon(0xE0E4, FONT_THIN)
 }
 
 /// Returns the `book open` icon.
-pub fn book_open() -> Text<'static> {
+pub fn book_open<'a>() -> Text<'a> {
     create_icon(0xE0E6, FONT_THIN)
 }
 
 /// Returns the `book open text` icon.
-pub fn book_open_text() -> Text<'static> {
+pub fn book_open_text<'a>() -> Text<'a> {
     create_icon(0xE8F2, FONT_THIN)
 }
 
 /// Returns the `book open user` icon.
-pub fn book_open_user() -> Text<'static> {
+pub fn book_open_user<'a>() -> Text<'a> {
     create_icon(0xEDE0, FONT_THIN)
 }
 
 /// Returns the `bookmark` icon.
-pub fn bookmark() -> Text<'static> {
+pub fn bookmark<'a>() -> Text<'a> {
     create_icon(0xE0E8, FONT_THIN)
 }
 
 /// Returns the `bookmark simple` icon.
-pub fn bookmark_simple() -> Text<'static> {
+pub fn bookmark_simple<'a>() -> Text<'a> {
     create_icon(0xE0EA, FONT_THIN)
 }
 
 /// Returns the `bookmarks` icon.
-pub fn bookmarks() -> Text<'static> {
+pub fn bookmarks<'a>() -> Text<'a> {
     create_icon(0xE0EC, FONT_THIN)
 }
 
 /// Returns the `bookmarks simple` icon.
-pub fn bookmarks_simple() -> Text<'static> {
+pub fn bookmarks_simple<'a>() -> Text<'a> {
     create_icon(0xE5F0, FONT_THIN)
 }
 
 /// Returns the `books` icon.
-pub fn books() -> Text<'static> {
+pub fn books<'a>() -> Text<'a> {
     create_icon(0xE758, FONT_THIN)
 }
 
 /// Returns the `boot` icon.
-pub fn boot() -> Text<'static> {
+pub fn boot<'a>() -> Text<'a> {
     create_icon(0xECCA, FONT_THIN)
 }
 
 /// Returns the `boules` icon.
-pub fn boules() -> Text<'static> {
+pub fn boules<'a>() -> Text<'a> {
     create_icon(0xE722, FONT_THIN)
 }
 
 /// Returns the `bounding box` icon.
-pub fn bounding_box() -> Text<'static> {
+pub fn bounding_box<'a>() -> Text<'a> {
     create_icon(0xE6CE, FONT_THIN)
 }
 
 /// Returns the `bowl food` icon.
-pub fn bowl_food() -> Text<'static> {
+pub fn bowl_food<'a>() -> Text<'a> {
     create_icon(0xEAA4, FONT_THIN)
 }
 
 /// Returns the `bowl steam` icon.
-pub fn bowl_steam() -> Text<'static> {
+pub fn bowl_steam<'a>() -> Text<'a> {
     create_icon(0xE8E4, FONT_THIN)
 }
 
 /// Returns the `bowling ball` icon.
-pub fn bowling_ball() -> Text<'static> {
+pub fn bowling_ball<'a>() -> Text<'a> {
     create_icon(0xEA34, FONT_THIN)
 }
 
 /// Returns the `box arrow down thin archive box` icon.
-pub fn box_arrow_down_thin_archive_box() -> Text<'static> {
+pub fn box_arrow_down_thin_archive_box<'a>() -> Text<'a> {
     create_icon(0xE00E, FONT_THIN)
 }
 
 /// Returns the `box arrow up` icon.
-pub fn box_arrow_up() -> Text<'static> {
+pub fn box_arrow_up<'a>() -> Text<'a> {
     create_icon(0xEE54, FONT_THIN)
 }
 
 /// Returns the `boxing glove` icon.
-pub fn boxing_glove() -> Text<'static> {
+pub fn boxing_glove<'a>() -> Text<'a> {
     create_icon(0xEA36, FONT_THIN)
 }
 
 /// Returns the `brackets angle` icon.
-pub fn brackets_angle() -> Text<'static> {
+pub fn brackets_angle<'a>() -> Text<'a> {
     create_icon(0xE862, FONT_THIN)
 }
 
 /// Returns the `brackets curly` icon.
-pub fn brackets_curly() -> Text<'static> {
+pub fn brackets_curly<'a>() -> Text<'a> {
     create_icon(0xE860, FONT_THIN)
 }
 
 /// Returns the `brackets round` icon.
-pub fn brackets_round() -> Text<'static> {
+pub fn brackets_round<'a>() -> Text<'a> {
     create_icon(0xE864, FONT_THIN)
 }
 
 /// Returns the `brackets square` icon.
-pub fn brackets_square() -> Text<'static> {
+pub fn brackets_square<'a>() -> Text<'a> {
     create_icon(0xE85E, FONT_THIN)
 }
 
 /// Returns the `brain` icon.
-pub fn brain() -> Text<'static> {
+pub fn brain<'a>() -> Text<'a> {
     create_icon(0xE74E, FONT_THIN)
 }
 
 /// Returns the `brandy` icon.
-pub fn brandy() -> Text<'static> {
+pub fn brandy<'a>() -> Text<'a> {
     create_icon(0xE6B4, FONT_THIN)
 }
 
 /// Returns the `bread` icon.
-pub fn bread() -> Text<'static> {
+pub fn bread<'a>() -> Text<'a> {
     create_icon(0xE81C, FONT_THIN)
 }
 
 /// Returns the `bridge` icon.
-pub fn bridge() -> Text<'static> {
+pub fn bridge<'a>() -> Text<'a> {
     create_icon(0xEA68, FONT_THIN)
 }
 
 /// Returns the `briefcase` icon.
-pub fn briefcase() -> Text<'static> {
+pub fn briefcase<'a>() -> Text<'a> {
     create_icon(0xE0EE, FONT_THIN)
 }
 
 /// Returns the `briefcase metal` icon.
-pub fn briefcase_metal() -> Text<'static> {
+pub fn briefcase_metal<'a>() -> Text<'a> {
     create_icon(0xE5F2, FONT_THIN)
 }
 
 /// Returns the `broadcast` icon.
-pub fn broadcast() -> Text<'static> {
+pub fn broadcast<'a>() -> Text<'a> {
     create_icon(0xE0F2, FONT_THIN)
 }
 
 /// Returns the `broom` icon.
-pub fn broom() -> Text<'static> {
+pub fn broom<'a>() -> Text<'a> {
     create_icon(0xEC54, FONT_THIN)
 }
 
 /// Returns the `browser` icon.
-pub fn browser() -> Text<'static> {
+pub fn browser<'a>() -> Text<'a> {
     create_icon(0xE0F4, FONT_THIN)
 }
 
 /// Returns the `browsers` icon.
-pub fn browsers() -> Text<'static> {
+pub fn browsers<'a>() -> Text<'a> {
     create_icon(0xE0F6, FONT_THIN)
 }
 
 /// Returns the `bug` icon.
-pub fn bug() -> Text<'static> {
+pub fn bug<'a>() -> Text<'a> {
     create_icon(0xE5F4, FONT_THIN)
 }
 
 /// Returns the `bug beetle` icon.
-pub fn bug_beetle() -> Text<'static> {
+pub fn bug_beetle<'a>() -> Text<'a> {
     create_icon(0xE5F6, FONT_THIN)
 }
 
 /// Returns the `bug droid` icon.
-pub fn bug_droid() -> Text<'static> {
+pub fn bug_droid<'a>() -> Text<'a> {
     create_icon(0xE5F8, FONT_THIN)
 }
 
 /// Returns the `building` icon.
-pub fn building() -> Text<'static> {
+pub fn building<'a>() -> Text<'a> {
     create_icon(0xE100, FONT_THIN)
 }
 
 /// Returns the `building apartment` icon.
-pub fn building_apartment() -> Text<'static> {
+pub fn building_apartment<'a>() -> Text<'a> {
     create_icon(0xE0FE, FONT_THIN)
 }
 
 /// Returns the `building office` icon.
-pub fn building_office() -> Text<'static> {
+pub fn building_office<'a>() -> Text<'a> {
     create_icon(0xE0FF, FONT_THIN)
 }
 
 /// Returns the `buildings` icon.
-pub fn buildings() -> Text<'static> {
+pub fn buildings<'a>() -> Text<'a> {
     create_icon(0xE102, FONT_THIN)
 }
 
 /// Returns the `bulldozer` icon.
-pub fn bulldozer() -> Text<'static> {
+pub fn bulldozer<'a>() -> Text<'a> {
     create_icon(0xEC6C, FONT_THIN)
 }
 
 /// Returns the `bus` icon.
-pub fn bus() -> Text<'static> {
+pub fn bus<'a>() -> Text<'a> {
     create_icon(0xE106, FONT_THIN)
 }
 
 /// Returns the `butterfly` icon.
-pub fn butterfly() -> Text<'static> {
+pub fn butterfly<'a>() -> Text<'a> {
     create_icon(0xEA6E, FONT_THIN)
 }
 
 /// Returns the `cable car` icon.
-pub fn cable_car() -> Text<'static> {
+pub fn cable_car<'a>() -> Text<'a> {
     create_icon(0xE49C, FONT_THIN)
 }
 
 /// Returns the `cactus` icon.
-pub fn cactus() -> Text<'static> {
+pub fn cactus<'a>() -> Text<'a> {
     create_icon(0xE918, FONT_THIN)
 }
 
 /// Returns the `cake` icon.
-pub fn cake() -> Text<'static> {
+pub fn cake<'a>() -> Text<'a> {
     create_icon(0xE780, FONT_THIN)
 }
 
 /// Returns the `calculator` icon.
-pub fn calculator() -> Text<'static> {
+pub fn calculator<'a>() -> Text<'a> {
     create_icon(0xE538, FONT_THIN)
 }
 
 /// Returns the `calendar` icon.
-pub fn calendar() -> Text<'static> {
+pub fn calendar<'a>() -> Text<'a> {
     create_icon(0xE108, FONT_THIN)
 }
 
 /// Returns the `calendar blank` icon.
-pub fn calendar_blank() -> Text<'static> {
+pub fn calendar_blank<'a>() -> Text<'a> {
     create_icon(0xE10A, FONT_THIN)
 }
 
 /// Returns the `calendar check` icon.
-pub fn calendar_check() -> Text<'static> {
+pub fn calendar_check<'a>() -> Text<'a> {
     create_icon(0xE712, FONT_THIN)
 }
 
 /// Returns the `calendar dot` icon.
-pub fn calendar_dot() -> Text<'static> {
+pub fn calendar_dot<'a>() -> Text<'a> {
     create_icon(0xE7B2, FONT_THIN)
 }
 
 /// Returns the `calendar dots` icon.
-pub fn calendar_dots() -> Text<'static> {
+pub fn calendar_dots<'a>() -> Text<'a> {
     create_icon(0xE7B4, FONT_THIN)
 }
 
 /// Returns the `calendar heart` icon.
-pub fn calendar_heart() -> Text<'static> {
+pub fn calendar_heart<'a>() -> Text<'a> {
     create_icon(0xE8B0, FONT_THIN)
 }
 
 /// Returns the `calendar minus` icon.
-pub fn calendar_minus() -> Text<'static> {
+pub fn calendar_minus<'a>() -> Text<'a> {
     create_icon(0xEA14, FONT_THIN)
 }
 
 /// Returns the `calendar plus` icon.
-pub fn calendar_plus() -> Text<'static> {
+pub fn calendar_plus<'a>() -> Text<'a> {
     create_icon(0xE714, FONT_THIN)
 }
 
 /// Returns the `calendar slash` icon.
-pub fn calendar_slash() -> Text<'static> {
+pub fn calendar_slash<'a>() -> Text<'a> {
     create_icon(0xEA12, FONT_THIN)
 }
 
 /// Returns the `calendar star` icon.
-pub fn calendar_star() -> Text<'static> {
+pub fn calendar_star<'a>() -> Text<'a> {
     create_icon(0xE8B2, FONT_THIN)
 }
 
 /// Returns the `calendar x` icon.
-pub fn calendar_x() -> Text<'static> {
+pub fn calendar_x<'a>() -> Text<'a> {
     create_icon(0xE10C, FONT_THIN)
 }
 
 /// Returns the `call bell` icon.
-pub fn call_bell() -> Text<'static> {
+pub fn call_bell<'a>() -> Text<'a> {
     create_icon(0xE7DE, FONT_THIN)
 }
 
 /// Returns the `camera` icon.
-pub fn camera() -> Text<'static> {
+pub fn camera<'a>() -> Text<'a> {
     create_icon(0xE10E, FONT_THIN)
 }
 
 /// Returns the `camera plus` icon.
-pub fn camera_plus() -> Text<'static> {
+pub fn camera_plus<'a>() -> Text<'a> {
     create_icon(0xEC58, FONT_THIN)
 }
 
 /// Returns the `camera rotate` icon.
-pub fn camera_rotate() -> Text<'static> {
+pub fn camera_rotate<'a>() -> Text<'a> {
     create_icon(0xE7A4, FONT_THIN)
 }
 
 /// Returns the `camera slash` icon.
-pub fn camera_slash() -> Text<'static> {
+pub fn camera_slash<'a>() -> Text<'a> {
     create_icon(0xE110, FONT_THIN)
 }
 
 /// Returns the `campfire` icon.
-pub fn campfire() -> Text<'static> {
+pub fn campfire<'a>() -> Text<'a> {
     create_icon(0xE9D8, FONT_THIN)
 }
 
 /// Returns the `car` icon.
-pub fn car() -> Text<'static> {
+pub fn car<'a>() -> Text<'a> {
     create_icon(0xE112, FONT_THIN)
 }
 
 /// Returns the `car battery` icon.
-pub fn car_battery() -> Text<'static> {
+pub fn car_battery<'a>() -> Text<'a> {
     create_icon(0xEE30, FONT_THIN)
 }
 
 /// Returns the `car profile` icon.
-pub fn car_profile() -> Text<'static> {
+pub fn car_profile<'a>() -> Text<'a> {
     create_icon(0xE8CC, FONT_THIN)
 }
 
 /// Returns the `car simple` icon.
-pub fn car_simple() -> Text<'static> {
+pub fn car_simple<'a>() -> Text<'a> {
     create_icon(0xE114, FONT_THIN)
 }
 
 /// Returns the `cardholder` icon.
-pub fn cardholder() -> Text<'static> {
+pub fn cardholder<'a>() -> Text<'a> {
     create_icon(0xE5FA, FONT_THIN)
 }
 
 /// Returns the `cards` icon.
-pub fn cards() -> Text<'static> {
+pub fn cards<'a>() -> Text<'a> {
     create_icon(0xE0F8, FONT_THIN)
 }
 
 /// Returns the `cards three` icon.
-pub fn cards_three() -> Text<'static> {
+pub fn cards_three<'a>() -> Text<'a> {
     create_icon(0xEE50, FONT_THIN)
 }
 
 /// Returns the `caret circle double down` icon.
-pub fn caret_circle_double_down() -> Text<'static> {
+pub fn caret_circle_double_down<'a>() -> Text<'a> {
     create_icon(0xE116, FONT_THIN)
 }
 
 /// Returns the `caret circle double left` icon.
-pub fn caret_circle_double_left() -> Text<'static> {
+pub fn caret_circle_double_left<'a>() -> Text<'a> {
     create_icon(0xE118, FONT_THIN)
 }
 
 /// Returns the `caret circle double right` icon.
-pub fn caret_circle_double_right() -> Text<'static> {
+pub fn caret_circle_double_right<'a>() -> Text<'a> {
     create_icon(0xE11A, FONT_THIN)
 }
 
 /// Returns the `caret circle double up` icon.
-pub fn caret_circle_double_up() -> Text<'static> {
+pub fn caret_circle_double_up<'a>() -> Text<'a> {
     create_icon(0xE11C, FONT_THIN)
 }
 
 /// Returns the `caret circle down` icon.
-pub fn caret_circle_down() -> Text<'static> {
+pub fn caret_circle_down<'a>() -> Text<'a> {
     create_icon(0xE11E, FONT_THIN)
 }
 
 /// Returns the `caret circle left` icon.
-pub fn caret_circle_left() -> Text<'static> {
+pub fn caret_circle_left<'a>() -> Text<'a> {
     create_icon(0xE120, FONT_THIN)
 }
 
 /// Returns the `caret circle right` icon.
-pub fn caret_circle_right() -> Text<'static> {
+pub fn caret_circle_right<'a>() -> Text<'a> {
     create_icon(0xE122, FONT_THIN)
 }
 
 /// Returns the `caret circle up` icon.
-pub fn caret_circle_up() -> Text<'static> {
+pub fn caret_circle_up<'a>() -> Text<'a> {
     create_icon(0xE124, FONT_THIN)
 }
 
 /// Returns the `caret circle up down` icon.
-pub fn caret_circle_up_down() -> Text<'static> {
+pub fn caret_circle_up_down<'a>() -> Text<'a> {
     create_icon(0xE13E, FONT_THIN)
 }
 
 /// Returns the `caret double down` icon.
-pub fn caret_double_down() -> Text<'static> {
+pub fn caret_double_down<'a>() -> Text<'a> {
     create_icon(0xE126, FONT_THIN)
 }
 
 /// Returns the `caret double left` icon.
-pub fn caret_double_left() -> Text<'static> {
+pub fn caret_double_left<'a>() -> Text<'a> {
     create_icon(0xE128, FONT_THIN)
 }
 
 /// Returns the `caret double right` icon.
-pub fn caret_double_right() -> Text<'static> {
+pub fn caret_double_right<'a>() -> Text<'a> {
     create_icon(0xE12A, FONT_THIN)
 }
 
 /// Returns the `caret double up` icon.
-pub fn caret_double_up() -> Text<'static> {
+pub fn caret_double_up<'a>() -> Text<'a> {
     create_icon(0xE12C, FONT_THIN)
 }
 
 /// Returns the `caret down` icon.
-pub fn caret_down() -> Text<'static> {
+pub fn caret_down<'a>() -> Text<'a> {
     create_icon(0xE136, FONT_THIN)
 }
 
 /// Returns the `caret left` icon.
-pub fn caret_left() -> Text<'static> {
+pub fn caret_left<'a>() -> Text<'a> {
     create_icon(0xE138, FONT_THIN)
 }
 
 /// Returns the `caret line down` icon.
-pub fn caret_line_down() -> Text<'static> {
+pub fn caret_line_down<'a>() -> Text<'a> {
     create_icon(0xE134, FONT_THIN)
 }
 
 /// Returns the `caret line left` icon.
-pub fn caret_line_left() -> Text<'static> {
+pub fn caret_line_left<'a>() -> Text<'a> {
     create_icon(0xE132, FONT_THIN)
 }
 
 /// Returns the `caret line right` icon.
-pub fn caret_line_right() -> Text<'static> {
+pub fn caret_line_right<'a>() -> Text<'a> {
     create_icon(0xE130, FONT_THIN)
 }
 
 /// Returns the `caret line up` icon.
-pub fn caret_line_up() -> Text<'static> {
+pub fn caret_line_up<'a>() -> Text<'a> {
     create_icon(0xE12E, FONT_THIN)
 }
 
 /// Returns the `caret right` icon.
-pub fn caret_right() -> Text<'static> {
+pub fn caret_right<'a>() -> Text<'a> {
     create_icon(0xE13A, FONT_THIN)
 }
 
 /// Returns the `caret up` icon.
-pub fn caret_up() -> Text<'static> {
+pub fn caret_up<'a>() -> Text<'a> {
     create_icon(0xE13C, FONT_THIN)
 }
 
 /// Returns the `caret up down` icon.
-pub fn caret_up_down() -> Text<'static> {
+pub fn caret_up_down<'a>() -> Text<'a> {
     create_icon(0xE140, FONT_THIN)
 }
 
 /// Returns the `carrot` icon.
-pub fn carrot() -> Text<'static> {
+pub fn carrot<'a>() -> Text<'a> {
     create_icon(0xED38, FONT_THIN)
 }
 
 /// Returns the `cash register` icon.
-pub fn cash_register() -> Text<'static> {
+pub fn cash_register<'a>() -> Text<'a> {
     create_icon(0xED80, FONT_THIN)
 }
 
 /// Returns the `cassette tape` icon.
-pub fn cassette_tape() -> Text<'static> {
+pub fn cassette_tape<'a>() -> Text<'a> {
     create_icon(0xED2E, FONT_THIN)
 }
 
 /// Returns the `castle turret` icon.
-pub fn castle_turret() -> Text<'static> {
+pub fn castle_turret<'a>() -> Text<'a> {
     create_icon(0xE9D0, FONT_THIN)
 }
 
 /// Returns the `cat` icon.
-pub fn cat() -> Text<'static> {
+pub fn cat<'a>() -> Text<'a> {
     create_icon(0xE748, FONT_THIN)
 }
 
 /// Returns the `cell signal full` icon.
-pub fn cell_signal_full() -> Text<'static> {
+pub fn cell_signal_full<'a>() -> Text<'a> {
     create_icon(0xE142, FONT_THIN)
 }
 
 /// Returns the `cell signal high` icon.
-pub fn cell_signal_high() -> Text<'static> {
+pub fn cell_signal_high<'a>() -> Text<'a> {
     create_icon(0xE144, FONT_THIN)
 }
 
 /// Returns the `cell signal low` icon.
-pub fn cell_signal_low() -> Text<'static> {
+pub fn cell_signal_low<'a>() -> Text<'a> {
     create_icon(0xE146, FONT_THIN)
 }
 
 /// Returns the `cell signal medium` icon.
-pub fn cell_signal_medium() -> Text<'static> {
+pub fn cell_signal_medium<'a>() -> Text<'a> {
     create_icon(0xE148, FONT_THIN)
 }
 
 /// Returns the `cell signal none` icon.
-pub fn cell_signal_none() -> Text<'static> {
+pub fn cell_signal_none<'a>() -> Text<'a> {
     create_icon(0xE14A, FONT_THIN)
 }
 
 /// Returns the `cell signal slash` icon.
-pub fn cell_signal_slash() -> Text<'static> {
+pub fn cell_signal_slash<'a>() -> Text<'a> {
     create_icon(0xE14C, FONT_THIN)
 }
 
 /// Returns the `cell signal x` icon.
-pub fn cell_signal_x() -> Text<'static> {
+pub fn cell_signal_x<'a>() -> Text<'a> {
     create_icon(0xE14E, FONT_THIN)
 }
 
 /// Returns the `cell tower` icon.
-pub fn cell_tower() -> Text<'static> {
+pub fn cell_tower<'a>() -> Text<'a> {
     create_icon(0xEBAA, FONT_THIN)
 }
 
 /// Returns the `certificate` icon.
-pub fn certificate() -> Text<'static> {
+pub fn certificate<'a>() -> Text<'a> {
     create_icon(0xE766, FONT_THIN)
 }
 
 /// Returns the `chair` icon.
-pub fn chair() -> Text<'static> {
+pub fn chair<'a>() -> Text<'a> {
     create_icon(0xE950, FONT_THIN)
 }
 
 /// Returns the `chalkboard` icon.
-pub fn chalkboard() -> Text<'static> {
+pub fn chalkboard<'a>() -> Text<'a> {
     create_icon(0xE5FC, FONT_THIN)
 }
 
 /// Returns the `chalkboard simple` icon.
-pub fn chalkboard_simple() -> Text<'static> {
+pub fn chalkboard_simple<'a>() -> Text<'a> {
     create_icon(0xE5FE, FONT_THIN)
 }
 
 /// Returns the `chalkboard teacher` icon.
-pub fn chalkboard_teacher() -> Text<'static> {
+pub fn chalkboard_teacher<'a>() -> Text<'a> {
     create_icon(0xE600, FONT_THIN)
 }
 
 /// Returns the `champagne` icon.
-pub fn champagne() -> Text<'static> {
+pub fn champagne<'a>() -> Text<'a> {
     create_icon(0xEACA, FONT_THIN)
 }
 
 /// Returns the `charging station` icon.
-pub fn charging_station() -> Text<'static> {
+pub fn charging_station<'a>() -> Text<'a> {
     create_icon(0xE8D0, FONT_THIN)
 }
 
 /// Returns the `chart bar` icon.
-pub fn chart_bar() -> Text<'static> {
+pub fn chart_bar<'a>() -> Text<'a> {
     create_icon(0xE150, FONT_THIN)
 }
 
 /// Returns the `chart bar horizontal` icon.
-pub fn chart_bar_horizontal() -> Text<'static> {
+pub fn chart_bar_horizontal<'a>() -> Text<'a> {
     create_icon(0xE152, FONT_THIN)
 }
 
 /// Returns the `chart donut` icon.
-pub fn chart_donut() -> Text<'static> {
+pub fn chart_donut<'a>() -> Text<'a> {
     create_icon(0xEAA6, FONT_THIN)
 }
 
 /// Returns the `chart line` icon.
-pub fn chart_line() -> Text<'static> {
+pub fn chart_line<'a>() -> Text<'a> {
     create_icon(0xE154, FONT_THIN)
 }
 
 /// Returns the `chart line down` icon.
-pub fn chart_line_down() -> Text<'static> {
+pub fn chart_line_down<'a>() -> Text<'a> {
     create_icon(0xE8B6, FONT_THIN)
 }
 
 /// Returns the `chart line up` icon.
-pub fn chart_line_up() -> Text<'static> {
+pub fn chart_line_up<'a>() -> Text<'a> {
     create_icon(0xE156, FONT_THIN)
 }
 
 /// Returns the `chart pie` icon.
-pub fn chart_pie() -> Text<'static> {
+pub fn chart_pie<'a>() -> Text<'a> {
     create_icon(0xE158, FONT_THIN)
 }
 
 /// Returns the `chart pie slice` icon.
-pub fn chart_pie_slice() -> Text<'static> {
+pub fn chart_pie_slice<'a>() -> Text<'a> {
     create_icon(0xE15A, FONT_THIN)
 }
 
 /// Returns the `chart polar` icon.
-pub fn chart_polar() -> Text<'static> {
+pub fn chart_polar<'a>() -> Text<'a> {
     create_icon(0xEAA8, FONT_THIN)
 }
 
 /// Returns the `chart scatter` icon.
-pub fn chart_scatter() -> Text<'static> {
+pub fn chart_scatter<'a>() -> Text<'a> {
     create_icon(0xEAAC, FONT_THIN)
 }
 
 /// Returns the `chat` icon.
-pub fn chat() -> Text<'static> {
+pub fn chat<'a>() -> Text<'a> {
     create_icon(0xE15C, FONT_THIN)
 }
 
 /// Returns the `chat centered` icon.
-pub fn chat_centered() -> Text<'static> {
+pub fn chat_centered<'a>() -> Text<'a> {
     create_icon(0xE160, FONT_THIN)
 }
 
 /// Returns the `chat centered dots` icon.
-pub fn chat_centered_dots() -> Text<'static> {
+pub fn chat_centered_dots<'a>() -> Text<'a> {
     create_icon(0xE164, FONT_THIN)
 }
 
 /// Returns the `chat centered slash` icon.
-pub fn chat_centered_slash() -> Text<'static> {
+pub fn chat_centered_slash<'a>() -> Text<'a> {
     create_icon(0xE162, FONT_THIN)
 }
 
 /// Returns the `chat centered text` icon.
-pub fn chat_centered_text() -> Text<'static> {
+pub fn chat_centered_text<'a>() -> Text<'a> {
     create_icon(0xE166, FONT_THIN)
 }
 
 /// Returns the `chat circle` icon.
-pub fn chat_circle() -> Text<'static> {
+pub fn chat_circle<'a>() -> Text<'a> {
     create_icon(0xE168, FONT_THIN)
 }
 
 /// Returns the `chat circle dots` icon.
-pub fn chat_circle_dots() -> Text<'static> {
+pub fn chat_circle_dots<'a>() -> Text<'a> {
     create_icon(0xE16C, FONT_THIN)
 }
 
 /// Returns the `chat circle slash` icon.
-pub fn chat_circle_slash() -> Text<'static> {
+pub fn chat_circle_slash<'a>() -> Text<'a> {
     create_icon(0xE16A, FONT_THIN)
 }
 
 /// Returns the `chat circle text` icon.
-pub fn chat_circle_text() -> Text<'static> {
+pub fn chat_circle_text<'a>() -> Text<'a> {
     create_icon(0xE16E, FONT_THIN)
 }
 
 /// Returns the `chat dots` icon.
-pub fn chat_dots() -> Text<'static> {
+pub fn chat_dots<'a>() -> Text<'a> {
     create_icon(0xE170, FONT_THIN)
 }
 
 /// Returns the `chat slash` icon.
-pub fn chat_slash() -> Text<'static> {
+pub fn chat_slash<'a>() -> Text<'a> {
     create_icon(0xE15E, FONT_THIN)
 }
 
 /// Returns the `chat teardrop` icon.
-pub fn chat_teardrop() -> Text<'static> {
+pub fn chat_teardrop<'a>() -> Text<'a> {
     create_icon(0xE172, FONT_THIN)
 }
 
 /// Returns the `chat teardrop dots` icon.
-pub fn chat_teardrop_dots() -> Text<'static> {
+pub fn chat_teardrop_dots<'a>() -> Text<'a> {
     create_icon(0xE176, FONT_THIN)
 }
 
 /// Returns the `chat teardrop slash` icon.
-pub fn chat_teardrop_slash() -> Text<'static> {
+pub fn chat_teardrop_slash<'a>() -> Text<'a> {
     create_icon(0xE174, FONT_THIN)
 }
 
 /// Returns the `chat teardrop text` icon.
-pub fn chat_teardrop_text() -> Text<'static> {
+pub fn chat_teardrop_text<'a>() -> Text<'a> {
     create_icon(0xE178, FONT_THIN)
 }
 
 /// Returns the `chat text` icon.
-pub fn chat_text() -> Text<'static> {
+pub fn chat_text<'a>() -> Text<'a> {
     create_icon(0xE17A, FONT_THIN)
 }
 
 /// Returns the `chats` icon.
-pub fn chats() -> Text<'static> {
+pub fn chats<'a>() -> Text<'a> {
     create_icon(0xE17C, FONT_THIN)
 }
 
 /// Returns the `chats circle` icon.
-pub fn chats_circle() -> Text<'static> {
+pub fn chats_circle<'a>() -> Text<'a> {
     create_icon(0xE17E, FONT_THIN)
 }
 
 /// Returns the `chats teardrop` icon.
-pub fn chats_teardrop() -> Text<'static> {
+pub fn chats_teardrop<'a>() -> Text<'a> {
     create_icon(0xE180, FONT_THIN)
 }
 
 /// Returns the `check` icon.
-pub fn check() -> Text<'static> {
+pub fn check<'a>() -> Text<'a> {
     create_icon(0xE182, FONT_THIN)
 }
 
 /// Returns the `check circle` icon.
-pub fn check_circle() -> Text<'static> {
+pub fn check_circle<'a>() -> Text<'a> {
     create_icon(0xE184, FONT_THIN)
 }
 
 /// Returns the `check fat` icon.
-pub fn check_fat() -> Text<'static> {
+pub fn check_fat<'a>() -> Text<'a> {
     create_icon(0xEBA6, FONT_THIN)
 }
 
 /// Returns the `check square` icon.
-pub fn check_square() -> Text<'static> {
+pub fn check_square<'a>() -> Text<'a> {
     create_icon(0xE186, FONT_THIN)
 }
 
 /// Returns the `check square offset` icon.
-pub fn check_square_offset() -> Text<'static> {
+pub fn check_square_offset<'a>() -> Text<'a> {
     create_icon(0xE188, FONT_THIN)
 }
 
 /// Returns the `checkerboard` icon.
-pub fn checkerboard() -> Text<'static> {
+pub fn checkerboard<'a>() -> Text<'a> {
     create_icon(0xE8C4, FONT_THIN)
 }
 
 /// Returns the `checks` icon.
-pub fn checks() -> Text<'static> {
+pub fn checks<'a>() -> Text<'a> {
     create_icon(0xE53A, FONT_THIN)
 }
 
 /// Returns the `cheers` icon.
-pub fn cheers() -> Text<'static> {
+pub fn cheers<'a>() -> Text<'a> {
     create_icon(0xEA4A, FONT_THIN)
 }
 
 /// Returns the `cheese` icon.
-pub fn cheese() -> Text<'static> {
+pub fn cheese<'a>() -> Text<'a> {
     create_icon(0xE9FE, FONT_THIN)
 }
 
 /// Returns the `chef hat` icon.
-pub fn chef_hat() -> Text<'static> {
+pub fn chef_hat<'a>() -> Text<'a> {
     create_icon(0xED8E, FONT_THIN)
 }
 
 /// Returns the `cherries` icon.
-pub fn cherries() -> Text<'static> {
+pub fn cherries<'a>() -> Text<'a> {
     create_icon(0xE830, FONT_THIN)
 }
 
 /// Returns the `church` icon.
-pub fn church() -> Text<'static> {
+pub fn church<'a>() -> Text<'a> {
     create_icon(0xECEA, FONT_THIN)
 }
 
 /// Returns the `cigarette` icon.
-pub fn cigarette() -> Text<'static> {
+pub fn cigarette<'a>() -> Text<'a> {
     create_icon(0xED90, FONT_THIN)
 }
 
 /// Returns the `cigarette slash` icon.
-pub fn cigarette_slash() -> Text<'static> {
+pub fn cigarette_slash<'a>() -> Text<'a> {
     create_icon(0xED92, FONT_THIN)
 }
 
 /// Returns the `circle` icon.
-pub fn circle() -> Text<'static> {
+pub fn circle<'a>() -> Text<'a> {
     create_icon(0xE18A, FONT_THIN)
 }
 
 /// Returns the `circle dashed` icon.
-pub fn circle_dashed() -> Text<'static> {
+pub fn circle_dashed<'a>() -> Text<'a> {
     create_icon(0xE602, FONT_THIN)
 }
 
 /// Returns the `circle half` icon.
-pub fn circle_half() -> Text<'static> {
+pub fn circle_half<'a>() -> Text<'a> {
     create_icon(0xE18C, FONT_THIN)
 }
 
 /// Returns the `circle half tilt` icon.
-pub fn circle_half_tilt() -> Text<'static> {
+pub fn circle_half_tilt<'a>() -> Text<'a> {
     create_icon(0xE18E, FONT_THIN)
 }
 
 /// Returns the `circle notch` icon.
-pub fn circle_notch() -> Text<'static> {
+pub fn circle_notch<'a>() -> Text<'a> {
     create_icon(0xEB44, FONT_THIN)
 }
 
 /// Returns the `circles four` icon.
-pub fn circles_four() -> Text<'static> {
+pub fn circles_four<'a>() -> Text<'a> {
     create_icon(0xE190, FONT_THIN)
 }
 
 /// Returns the `circles three` icon.
-pub fn circles_three() -> Text<'static> {
+pub fn circles_three<'a>() -> Text<'a> {
     create_icon(0xE192, FONT_THIN)
 }
 
 /// Returns the `circles three plus` icon.
-pub fn circles_three_plus() -> Text<'static> {
+pub fn circles_three_plus<'a>() -> Text<'a> {
     create_icon(0xE194, FONT_THIN)
 }
 
 /// Returns the `circuitry` icon.
-pub fn circuitry() -> Text<'static> {
+pub fn circuitry<'a>() -> Text<'a> {
     create_icon(0xE9C2, FONT_THIN)
 }
 
 /// Returns the `city` icon.
-pub fn city() -> Text<'static> {
+pub fn city<'a>() -> Text<'a> {
     create_icon(0xEA6A, FONT_THIN)
 }
 
 /// Returns the `clipboard` icon.
-pub fn clipboard() -> Text<'static> {
+pub fn clipboard<'a>() -> Text<'a> {
     create_icon(0xE196, FONT_THIN)
 }
 
 /// Returns the `clipboard text` icon.
-pub fn clipboard_text() -> Text<'static> {
+pub fn clipboard_text<'a>() -> Text<'a> {
     create_icon(0xE198, FONT_THIN)
 }
 
 /// Returns the `clock` icon.
-pub fn clock() -> Text<'static> {
+pub fn clock<'a>() -> Text<'a> {
     create_icon(0xE19A, FONT_THIN)
 }
 
 /// Returns the `clock afternoon` icon.
-pub fn clock_afternoon() -> Text<'static> {
+pub fn clock_afternoon<'a>() -> Text<'a> {
     create_icon(0xE19C, FONT_THIN)
 }
 
 /// Returns the `clock clockwise` icon.
-pub fn clock_clockwise() -> Text<'static> {
+pub fn clock_clockwise<'a>() -> Text<'a> {
     create_icon(0xE19E, FONT_THIN)
 }
 
 /// Returns the `clock countdown` icon.
-pub fn clock_countdown() -> Text<'static> {
+pub fn clock_countdown<'a>() -> Text<'a> {
     create_icon(0xED2C, FONT_THIN)
 }
 
 /// Returns the `clock counter clockwise` icon.
-pub fn clock_counter_clockwise() -> Text<'static> {
+pub fn clock_counter_clockwise<'a>() -> Text<'a> {
     create_icon(0xE1A0, FONT_THIN)
 }
 
 /// Returns the `clock user` icon.
-pub fn clock_user() -> Text<'static> {
+pub fn clock_user<'a>() -> Text<'a> {
     create_icon(0xEDEC, FONT_THIN)
 }
 
 /// Returns the `closed captioning` icon.
-pub fn closed_captioning() -> Text<'static> {
+pub fn closed_captioning<'a>() -> Text<'a> {
     create_icon(0xE1A4, FONT_THIN)
 }
 
 /// Returns the `cloud` icon.
-pub fn cloud() -> Text<'static> {
+pub fn cloud<'a>() -> Text<'a> {
     create_icon(0xE1AA, FONT_THIN)
 }
 
 /// Returns the `cloud arrow down` icon.
-pub fn cloud_arrow_down() -> Text<'static> {
+pub fn cloud_arrow_down<'a>() -> Text<'a> {
     create_icon(0xE1AC, FONT_THIN)
 }
 
 /// Returns the `cloud arrow up` icon.
-pub fn cloud_arrow_up() -> Text<'static> {
+pub fn cloud_arrow_up<'a>() -> Text<'a> {
     create_icon(0xE1AE, FONT_THIN)
 }
 
 /// Returns the `cloud check` icon.
-pub fn cloud_check() -> Text<'static> {
+pub fn cloud_check<'a>() -> Text<'a> {
     create_icon(0xE1B0, FONT_THIN)
 }
 
 /// Returns the `cloud fog` icon.
-pub fn cloud_fog() -> Text<'static> {
+pub fn cloud_fog<'a>() -> Text<'a> {
     create_icon(0xE53C, FONT_THIN)
 }
 
 /// Returns the `cloud lightning` icon.
-pub fn cloud_lightning() -> Text<'static> {
+pub fn cloud_lightning<'a>() -> Text<'a> {
     create_icon(0xE1B2, FONT_THIN)
 }
 
 /// Returns the `cloud moon` icon.
-pub fn cloud_moon() -> Text<'static> {
+pub fn cloud_moon<'a>() -> Text<'a> {
     create_icon(0xE53E, FONT_THIN)
 }
 
 /// Returns the `cloud rain` icon.
-pub fn cloud_rain() -> Text<'static> {
+pub fn cloud_rain<'a>() -> Text<'a> {
     create_icon(0xE1B4, FONT_THIN)
 }
 
 /// Returns the `cloud slash` icon.
-pub fn cloud_slash() -> Text<'static> {
+pub fn cloud_slash<'a>() -> Text<'a> {
     create_icon(0xE1B6, FONT_THIN)
 }
 
 /// Returns the `cloud snow` icon.
-pub fn cloud_snow() -> Text<'static> {
+pub fn cloud_snow<'a>() -> Text<'a> {
     create_icon(0xE1B8, FONT_THIN)
 }
 
 /// Returns the `cloud sun` icon.
-pub fn cloud_sun() -> Text<'static> {
+pub fn cloud_sun<'a>() -> Text<'a> {
     create_icon(0xE540, FONT_THIN)
 }
 
 /// Returns the `cloud warning` icon.
-pub fn cloud_warning() -> Text<'static> {
+pub fn cloud_warning<'a>() -> Text<'a> {
     create_icon(0xEA98, FONT_THIN)
 }
 
 /// Returns the `cloud x` icon.
-pub fn cloud_x() -> Text<'static> {
+pub fn cloud_x<'a>() -> Text<'a> {
     create_icon(0xEA96, FONT_THIN)
 }
 
 /// Returns the `clover` icon.
-pub fn clover() -> Text<'static> {
+pub fn clover<'a>() -> Text<'a> {
     create_icon(0xEDC8, FONT_THIN)
 }
 
 /// Returns the `club` icon.
-pub fn club() -> Text<'static> {
+pub fn club<'a>() -> Text<'a> {
     create_icon(0xE1BA, FONT_THIN)
 }
 
 /// Returns the `coat hanger` icon.
-pub fn coat_hanger() -> Text<'static> {
+pub fn coat_hanger<'a>() -> Text<'a> {
     create_icon(0xE7FE, FONT_THIN)
 }
 
 /// Returns the `coda logo` icon.
-pub fn coda_logo() -> Text<'static> {
+pub fn coda_logo<'a>() -> Text<'a> {
     create_icon(0xE7CE, FONT_THIN)
 }
 
 /// Returns the `code` icon.
-pub fn code() -> Text<'static> {
+pub fn code<'a>() -> Text<'a> {
     create_icon(0xE1BC, FONT_THIN)
 }
 
 /// Returns the `code block` icon.
-pub fn code_block() -> Text<'static> {
+pub fn code_block<'a>() -> Text<'a> {
     create_icon(0xEAFE, FONT_THIN)
 }
 
 /// Returns the `code simple` icon.
-pub fn code_simple() -> Text<'static> {
+pub fn code_simple<'a>() -> Text<'a> {
     create_icon(0xE1BE, FONT_THIN)
 }
 
 /// Returns the `codepen logo` icon.
-pub fn codepen_logo() -> Text<'static> {
+pub fn codepen_logo<'a>() -> Text<'a> {
     create_icon(0xE978, FONT_THIN)
 }
 
 /// Returns the `codesandbox logo` icon.
-pub fn codesandbox_logo() -> Text<'static> {
+pub fn codesandbox_logo<'a>() -> Text<'a> {
     create_icon(0xEA06, FONT_THIN)
 }
 
 /// Returns the `coffee` icon.
-pub fn coffee() -> Text<'static> {
+pub fn coffee<'a>() -> Text<'a> {
     create_icon(0xE1C2, FONT_THIN)
 }
 
 /// Returns the `coffee bean` icon.
-pub fn coffee_bean() -> Text<'static> {
+pub fn coffee_bean<'a>() -> Text<'a> {
     create_icon(0xE1C0, FONT_THIN)
 }
 
 /// Returns the `coin` icon.
-pub fn coin() -> Text<'static> {
+pub fn coin<'a>() -> Text<'a> {
     create_icon(0xE60E, FONT_THIN)
 }
 
 /// Returns the `coin vertical` icon.
-pub fn coin_vertical() -> Text<'static> {
+pub fn coin_vertical<'a>() -> Text<'a> {
     create_icon(0xEB48, FONT_THIN)
 }
 
 /// Returns the `coins` icon.
-pub fn coins() -> Text<'static> {
+pub fn coins<'a>() -> Text<'a> {
     create_icon(0xE78E, FONT_THIN)
 }
 
 /// Returns the `columns` icon.
-pub fn columns() -> Text<'static> {
+pub fn columns<'a>() -> Text<'a> {
     create_icon(0xE546, FONT_THIN)
 }
 
 /// Returns the `columns plus left` icon.
-pub fn columns_plus_left() -> Text<'static> {
+pub fn columns_plus_left<'a>() -> Text<'a> {
     create_icon(0xE544, FONT_THIN)
 }
 
 /// Returns the `columns plus right` icon.
-pub fn columns_plus_right() -> Text<'static> {
+pub fn columns_plus_right<'a>() -> Text<'a> {
     create_icon(0xE542, FONT_THIN)
 }
 
 /// Returns the `command` icon.
-pub fn command() -> Text<'static> {
+pub fn command<'a>() -> Text<'a> {
     create_icon(0xE1C4, FONT_THIN)
 }
 
 /// Returns the `compass` icon.
-pub fn compass() -> Text<'static> {
+pub fn compass<'a>() -> Text<'a> {
     create_icon(0xE1C8, FONT_THIN)
 }
 
 /// Returns the `compass rose` icon.
-pub fn compass_rose() -> Text<'static> {
+pub fn compass_rose<'a>() -> Text<'a> {
     create_icon(0xE1C6, FONT_THIN)
 }
 
 /// Returns the `compass tool` icon.
-pub fn compass_tool() -> Text<'static> {
+pub fn compass_tool<'a>() -> Text<'a> {
     create_icon(0xEA0E, FONT_THIN)
 }
 
 /// Returns the `computer tower` icon.
-pub fn computer_tower() -> Text<'static> {
+pub fn computer_tower<'a>() -> Text<'a> {
     create_icon(0xE548, FONT_THIN)
 }
 
 /// Returns the `confetti` icon.
-pub fn confetti() -> Text<'static> {
+pub fn confetti<'a>() -> Text<'a> {
     create_icon(0xE81A, FONT_THIN)
 }
 
 /// Returns the `contactless payment` icon.
-pub fn contactless_payment() -> Text<'static> {
+pub fn contactless_payment<'a>() -> Text<'a> {
     create_icon(0xED42, FONT_THIN)
 }
 
 /// Returns the `control` icon.
-pub fn control() -> Text<'static> {
+pub fn control<'a>() -> Text<'a> {
     create_icon(0xECA6, FONT_THIN)
 }
 
 /// Returns the `cookie` icon.
-pub fn cookie() -> Text<'static> {
+pub fn cookie<'a>() -> Text<'a> {
     create_icon(0xE6CA, FONT_THIN)
 }
 
 /// Returns the `cooking pot` icon.
-pub fn cooking_pot() -> Text<'static> {
+pub fn cooking_pot<'a>() -> Text<'a> {
     create_icon(0xE764, FONT_THIN)
 }
 
 /// Returns the `copy` icon.
-pub fn copy() -> Text<'static> {
+pub fn copy<'a>() -> Text<'a> {
     create_icon(0xE1CA, FONT_THIN)
 }
 
 /// Returns the `copy simple` icon.
-pub fn copy_simple() -> Text<'static> {
+pub fn copy_simple<'a>() -> Text<'a> {
     create_icon(0xE1CC, FONT_THIN)
 }
 
 /// Returns the `copyleft` icon.
-pub fn copyleft() -> Text<'static> {
+pub fn copyleft<'a>() -> Text<'a> {
     create_icon(0xE86A, FONT_THIN)
 }
 
 /// Returns the `copyright` icon.
-pub fn copyright() -> Text<'static> {
+pub fn copyright<'a>() -> Text<'a> {
     create_icon(0xE54A, FONT_THIN)
 }
 
 /// Returns the `corners in` icon.
-pub fn corners_in() -> Text<'static> {
+pub fn corners_in<'a>() -> Text<'a> {
     create_icon(0xE1CE, FONT_THIN)
 }
 
 /// Returns the `corners out` icon.
-pub fn corners_out() -> Text<'static> {
+pub fn corners_out<'a>() -> Text<'a> {
     create_icon(0xE1D0, FONT_THIN)
 }
 
 /// Returns the `couch` icon.
-pub fn couch() -> Text<'static> {
+pub fn couch<'a>() -> Text<'a> {
     create_icon(0xE7F6, FONT_THIN)
 }
 
 /// Returns the `court basketball` icon.
-pub fn court_basketball() -> Text<'static> {
+pub fn court_basketball<'a>() -> Text<'a> {
     create_icon(0xEE36, FONT_THIN)
 }
 
 /// Returns the `cow` icon.
-pub fn cow() -> Text<'static> {
+pub fn cow<'a>() -> Text<'a> {
     create_icon(0xEABE, FONT_THIN)
 }
 
 /// Returns the `cowboy hat` icon.
-pub fn cowboy_hat() -> Text<'static> {
+pub fn cowboy_hat<'a>() -> Text<'a> {
     create_icon(0xED12, FONT_THIN)
 }
 
 /// Returns the `cpu` icon.
-pub fn cpu() -> Text<'static> {
+pub fn cpu<'a>() -> Text<'a> {
     create_icon(0xE610, FONT_THIN)
 }
 
 /// Returns the `crane` icon.
-pub fn crane() -> Text<'static> {
+pub fn crane<'a>() -> Text<'a> {
     create_icon(0xED48, FONT_THIN)
 }
 
 /// Returns the `crane tower` icon.
-pub fn crane_tower() -> Text<'static> {
+pub fn crane_tower<'a>() -> Text<'a> {
     create_icon(0xED49, FONT_THIN)
 }
 
 /// Returns the `credit card` icon.
-pub fn credit_card() -> Text<'static> {
+pub fn credit_card<'a>() -> Text<'a> {
     create_icon(0xE1D2, FONT_THIN)
 }
 
 /// Returns the `cricket` icon.
-pub fn cricket() -> Text<'static> {
+pub fn cricket<'a>() -> Text<'a> {
     create_icon(0xEE12, FONT_THIN)
 }
 
 /// Returns the `crop` icon.
-pub fn crop() -> Text<'static> {
+pub fn crop<'a>() -> Text<'a> {
     create_icon(0xE1D4, FONT_THIN)
 }
 
 /// Returns the `cross` icon.
-pub fn cross() -> Text<'static> {
+pub fn cross<'a>() -> Text<'a> {
     create_icon(0xE8A0, FONT_THIN)
 }
 
 /// Returns the `crosshair` icon.
-pub fn crosshair() -> Text<'static> {
+pub fn crosshair<'a>() -> Text<'a> {
     create_icon(0xE1D6, FONT_THIN)
 }
 
 /// Returns the `crosshair simple` icon.
-pub fn crosshair_simple() -> Text<'static> {
+pub fn crosshair_simple<'a>() -> Text<'a> {
     create_icon(0xE1D8, FONT_THIN)
 }
 
 /// Returns the `crown` icon.
-pub fn crown() -> Text<'static> {
+pub fn crown<'a>() -> Text<'a> {
     create_icon(0xE614, FONT_THIN)
 }
 
 /// Returns the `crown cross` icon.
-pub fn crown_cross() -> Text<'static> {
+pub fn crown_cross<'a>() -> Text<'a> {
     create_icon(0xEE5E, FONT_THIN)
 }
 
 /// Returns the `crown simple` icon.
-pub fn crown_simple() -> Text<'static> {
+pub fn crown_simple<'a>() -> Text<'a> {
     create_icon(0xE616, FONT_THIN)
 }
 
 /// Returns the `cube` icon.
-pub fn cube() -> Text<'static> {
+pub fn cube<'a>() -> Text<'a> {
     create_icon(0xE1DA, FONT_THIN)
 }
 
 /// Returns the `cube focus` icon.
-pub fn cube_focus() -> Text<'static> {
+pub fn cube_focus<'a>() -> Text<'a> {
     create_icon(0xED0A, FONT_THIN)
 }
 
 /// Returns the `cube transparent` icon.
-pub fn cube_transparent() -> Text<'static> {
+pub fn cube_transparent<'a>() -> Text<'a> {
     create_icon(0xEC7C, FONT_THIN)
 }
 
 /// Returns the `currency btc` icon.
-pub fn currency_btc() -> Text<'static> {
+pub fn currency_btc<'a>() -> Text<'a> {
     create_icon(0xE618, FONT_THIN)
 }
 
 /// Returns the `currency circle dollar` icon.
-pub fn currency_circle_dollar() -> Text<'static> {
+pub fn currency_circle_dollar<'a>() -> Text<'a> {
     create_icon(0xE54C, FONT_THIN)
 }
 
 /// Returns the `currency cny` icon.
-pub fn currency_cny() -> Text<'static> {
+pub fn currency_cny<'a>() -> Text<'a> {
     create_icon(0xE54E, FONT_THIN)
 }
 
 /// Returns the `currency dollar` icon.
-pub fn currency_dollar() -> Text<'static> {
+pub fn currency_dollar<'a>() -> Text<'a> {
     create_icon(0xE550, FONT_THIN)
 }
 
 /// Returns the `currency dollar simple` icon.
-pub fn currency_dollar_simple() -> Text<'static> {
+pub fn currency_dollar_simple<'a>() -> Text<'a> {
     create_icon(0xE552, FONT_THIN)
 }
 
 /// Returns the `currency eth` icon.
-pub fn currency_eth() -> Text<'static> {
+pub fn currency_eth<'a>() -> Text<'a> {
     create_icon(0xEADA, FONT_THIN)
 }
 
 /// Returns the `currency eur` icon.
-pub fn currency_eur() -> Text<'static> {
+pub fn currency_eur<'a>() -> Text<'a> {
     create_icon(0xE554, FONT_THIN)
 }
 
 /// Returns the `currency gbp` icon.
-pub fn currency_gbp() -> Text<'static> {
+pub fn currency_gbp<'a>() -> Text<'a> {
     create_icon(0xE556, FONT_THIN)
 }
 
 /// Returns the `currency inr` icon.
-pub fn currency_inr() -> Text<'static> {
+pub fn currency_inr<'a>() -> Text<'a> {
     create_icon(0xE558, FONT_THIN)
 }
 
 /// Returns the `currency jpy` icon.
-pub fn currency_jpy() -> Text<'static> {
+pub fn currency_jpy<'a>() -> Text<'a> {
     create_icon(0xE55A, FONT_THIN)
 }
 
 /// Returns the `currency krw` icon.
-pub fn currency_krw() -> Text<'static> {
+pub fn currency_krw<'a>() -> Text<'a> {
     create_icon(0xE55C, FONT_THIN)
 }
 
 /// Returns the `currency kzt` icon.
-pub fn currency_kzt() -> Text<'static> {
+pub fn currency_kzt<'a>() -> Text<'a> {
     create_icon(0xEC4C, FONT_THIN)
 }
 
 /// Returns the `currency ngn` icon.
-pub fn currency_ngn() -> Text<'static> {
+pub fn currency_ngn<'a>() -> Text<'a> {
     create_icon(0xEB52, FONT_THIN)
 }
 
 /// Returns the `currency rub` icon.
-pub fn currency_rub() -> Text<'static> {
+pub fn currency_rub<'a>() -> Text<'a> {
     create_icon(0xE55E, FONT_THIN)
 }
 
 /// Returns the `cursor` icon.
-pub fn cursor() -> Text<'static> {
+pub fn cursor<'a>() -> Text<'a> {
     create_icon(0xE1DC, FONT_THIN)
 }
 
 /// Returns the `cursor click` icon.
-pub fn cursor_click() -> Text<'static> {
+pub fn cursor_click<'a>() -> Text<'a> {
     create_icon(0xE7C8, FONT_THIN)
 }
 
 /// Returns the `cursor text` icon.
-pub fn cursor_text() -> Text<'static> {
+pub fn cursor_text<'a>() -> Text<'a> {
     create_icon(0xE7D8, FONT_THIN)
 }
 
 /// Returns the `cylinder` icon.
-pub fn cylinder() -> Text<'static> {
+pub fn cylinder<'a>() -> Text<'a> {
     create_icon(0xE8FC, FONT_THIN)
 }
 
 /// Returns the `database` icon.
-pub fn database() -> Text<'static> {
+pub fn database<'a>() -> Text<'a> {
     create_icon(0xE1DE, FONT_THIN)
 }
 
 /// Returns the `desk` icon.
-pub fn desk() -> Text<'static> {
+pub fn desk<'a>() -> Text<'a> {
     create_icon(0xED16, FONT_THIN)
 }
 
 /// Returns the `desktop` icon.
-pub fn desktop() -> Text<'static> {
+pub fn desktop<'a>() -> Text<'a> {
     create_icon(0xE560, FONT_THIN)
 }
 
 /// Returns the `desktop tower` icon.
-pub fn desktop_tower() -> Text<'static> {
+pub fn desktop_tower<'a>() -> Text<'a> {
     create_icon(0xE562, FONT_THIN)
 }
 
 /// Returns the `detective` icon.
-pub fn detective() -> Text<'static> {
+pub fn detective<'a>() -> Text<'a> {
     create_icon(0xE83E, FONT_THIN)
 }
 
 /// Returns the `dev to logo` icon.
-pub fn dev_to_logo() -> Text<'static> {
+pub fn dev_to_logo<'a>() -> Text<'a> {
     create_icon(0xED0E, FONT_THIN)
 }
 
 /// Returns the `device mobile` icon.
-pub fn device_mobile() -> Text<'static> {
+pub fn device_mobile<'a>() -> Text<'a> {
     create_icon(0xE1E0, FONT_THIN)
 }
 
 /// Returns the `device mobile camera` icon.
-pub fn device_mobile_camera() -> Text<'static> {
+pub fn device_mobile_camera<'a>() -> Text<'a> {
     create_icon(0xE1E2, FONT_THIN)
 }
 
 /// Returns the `device mobile slash` icon.
-pub fn device_mobile_slash() -> Text<'static> {
+pub fn device_mobile_slash<'a>() -> Text<'a> {
     create_icon(0xEE46, FONT_THIN)
 }
 
 /// Returns the `device mobile speaker` icon.
-pub fn device_mobile_speaker() -> Text<'static> {
+pub fn device_mobile_speaker<'a>() -> Text<'a> {
     create_icon(0xE1E4, FONT_THIN)
 }
 
 /// Returns the `device rotate` icon.
-pub fn device_rotate() -> Text<'static> {
+pub fn device_rotate<'a>() -> Text<'a> {
     create_icon(0xEDF2, FONT_THIN)
 }
 
 /// Returns the `device tablet` icon.
-pub fn device_tablet() -> Text<'static> {
+pub fn device_tablet<'a>() -> Text<'a> {
     create_icon(0xE1E6, FONT_THIN)
 }
 
 /// Returns the `device tablet camera` icon.
-pub fn device_tablet_camera() -> Text<'static> {
+pub fn device_tablet_camera<'a>() -> Text<'a> {
     create_icon(0xE1E8, FONT_THIN)
 }
 
 /// Returns the `device tablet speaker` icon.
-pub fn device_tablet_speaker() -> Text<'static> {
+pub fn device_tablet_speaker<'a>() -> Text<'a> {
     create_icon(0xE1EA, FONT_THIN)
 }
 
 /// Returns the `devices` icon.
-pub fn devices() -> Text<'static> {
+pub fn devices<'a>() -> Text<'a> {
     create_icon(0xEBA4, FONT_THIN)
 }
 
 /// Returns the `diamond` icon.
-pub fn diamond() -> Text<'static> {
+pub fn diamond<'a>() -> Text<'a> {
     create_icon(0xE1EC, FONT_THIN)
 }
 
 /// Returns the `diamonds four` icon.
-pub fn diamonds_four() -> Text<'static> {
+pub fn diamonds_four<'a>() -> Text<'a> {
     create_icon(0xE8F4, FONT_THIN)
 }
 
 /// Returns the `dice five` icon.
-pub fn dice_five() -> Text<'static> {
+pub fn dice_five<'a>() -> Text<'a> {
     create_icon(0xE1EE, FONT_THIN)
 }
 
 /// Returns the `dice four` icon.
-pub fn dice_four() -> Text<'static> {
+pub fn dice_four<'a>() -> Text<'a> {
     create_icon(0xE1F0, FONT_THIN)
 }
 
 /// Returns the `dice one` icon.
-pub fn dice_one() -> Text<'static> {
+pub fn dice_one<'a>() -> Text<'a> {
     create_icon(0xE1F2, FONT_THIN)
 }
 
 /// Returns the `dice six` icon.
-pub fn dice_six() -> Text<'static> {
+pub fn dice_six<'a>() -> Text<'a> {
     create_icon(0xE1F4, FONT_THIN)
 }
 
 /// Returns the `dice three` icon.
-pub fn dice_three() -> Text<'static> {
+pub fn dice_three<'a>() -> Text<'a> {
     create_icon(0xE1F6, FONT_THIN)
 }
 
 /// Returns the `dice two` icon.
-pub fn dice_two() -> Text<'static> {
+pub fn dice_two<'a>() -> Text<'a> {
     create_icon(0xE1F8, FONT_THIN)
 }
 
 /// Returns the `disc` icon.
-pub fn disc() -> Text<'static> {
+pub fn disc<'a>() -> Text<'a> {
     create_icon(0xE564, FONT_THIN)
 }
 
 /// Returns the `disco ball` icon.
-pub fn disco_ball() -> Text<'static> {
+pub fn disco_ball<'a>() -> Text<'a> {
     create_icon(0xED98, FONT_THIN)
 }
 
 /// Returns the `discord logo` icon.
-pub fn discord_logo() -> Text<'static> {
+pub fn discord_logo<'a>() -> Text<'a> {
     create_icon(0xE61A, FONT_THIN)
 }
 
 /// Returns the `divide` icon.
-pub fn divide() -> Text<'static> {
+pub fn divide<'a>() -> Text<'a> {
     create_icon(0xE1FA, FONT_THIN)
 }
 
 /// Returns the `dna` icon.
-pub fn dna() -> Text<'static> {
+pub fn dna<'a>() -> Text<'a> {
     create_icon(0xE924, FONT_THIN)
 }
 
 /// Returns the `dog` icon.
-pub fn dog() -> Text<'static> {
+pub fn dog<'a>() -> Text<'a> {
     create_icon(0xE74A, FONT_THIN)
 }
 
 /// Returns the `door` icon.
-pub fn door() -> Text<'static> {
+pub fn door<'a>() -> Text<'a> {
     create_icon(0xE61C, FONT_THIN)
 }
 
 /// Returns the `door open` icon.
-pub fn door_open() -> Text<'static> {
+pub fn door_open<'a>() -> Text<'a> {
     create_icon(0xE7E6, FONT_THIN)
 }
 
 /// Returns the `dot` icon.
-pub fn dot() -> Text<'static> {
+pub fn dot<'a>() -> Text<'a> {
     create_icon(0xECDE, FONT_THIN)
 }
 
 /// Returns the `dot outline` icon.
-pub fn dot_outline() -> Text<'static> {
+pub fn dot_outline<'a>() -> Text<'a> {
     create_icon(0xECE0, FONT_THIN)
 }
 
 /// Returns the `dots nine` icon.
-pub fn dots_nine() -> Text<'static> {
+pub fn dots_nine<'a>() -> Text<'a> {
     create_icon(0xE1FC, FONT_THIN)
 }
 
 /// Returns the `dots six` icon.
-pub fn dots_six() -> Text<'static> {
+pub fn dots_six<'a>() -> Text<'a> {
     create_icon(0xE794, FONT_THIN)
 }
 
 /// Returns the `dots six vertical` icon.
-pub fn dots_six_vertical() -> Text<'static> {
+pub fn dots_six_vertical<'a>() -> Text<'a> {
     create_icon(0xEAE2, FONT_THIN)
 }
 
 /// Returns the `dots three` icon.
-pub fn dots_three() -> Text<'static> {
+pub fn dots_three<'a>() -> Text<'a> {
     create_icon(0xE1FE, FONT_THIN)
 }
 
 /// Returns the `dots three circle` icon.
-pub fn dots_three_circle() -> Text<'static> {
+pub fn dots_three_circle<'a>() -> Text<'a> {
     create_icon(0xE200, FONT_THIN)
 }
 
 /// Returns the `dots three circle vertical` icon.
-pub fn dots_three_circle_vertical() -> Text<'static> {
+pub fn dots_three_circle_vertical<'a>() -> Text<'a> {
     create_icon(0xE202, FONT_THIN)
 }
 
 /// Returns the `dots three outline` icon.
-pub fn dots_three_outline() -> Text<'static> {
+pub fn dots_three_outline<'a>() -> Text<'a> {
     create_icon(0xE204, FONT_THIN)
 }
 
 /// Returns the `dots three outline vertical` icon.
-pub fn dots_three_outline_vertical() -> Text<'static> {
+pub fn dots_three_outline_vertical<'a>() -> Text<'a> {
     create_icon(0xE206, FONT_THIN)
 }
 
 /// Returns the `dots three vertical` icon.
-pub fn dots_three_vertical() -> Text<'static> {
+pub fn dots_three_vertical<'a>() -> Text<'a> {
     create_icon(0xE208, FONT_THIN)
 }
 
 /// Returns the `download` icon.
-pub fn download() -> Text<'static> {
+pub fn download<'a>() -> Text<'a> {
     create_icon(0xE20A, FONT_THIN)
 }
 
 /// Returns the `download simple` icon.
-pub fn download_simple() -> Text<'static> {
+pub fn download_simple<'a>() -> Text<'a> {
     create_icon(0xE20C, FONT_THIN)
 }
 
 /// Returns the `dress` icon.
-pub fn dress() -> Text<'static> {
+pub fn dress<'a>() -> Text<'a> {
     create_icon(0xEA7E, FONT_THIN)
 }
 
 /// Returns the `dresser` icon.
-pub fn dresser() -> Text<'static> {
+pub fn dresser<'a>() -> Text<'a> {
     create_icon(0xE94E, FONT_THIN)
 }
 
 /// Returns the `dribbble logo` icon.
-pub fn dribbble_logo() -> Text<'static> {
+pub fn dribbble_logo<'a>() -> Text<'a> {
     create_icon(0xE20E, FONT_THIN)
 }
 
 /// Returns the `drone` icon.
-pub fn drone() -> Text<'static> {
+pub fn drone<'a>() -> Text<'a> {
     create_icon(0xED74, FONT_THIN)
 }
 
 /// Returns the `drop` icon.
-pub fn drop() -> Text<'static> {
+pub fn drop<'a>() -> Text<'a> {
     create_icon(0xE210, FONT_THIN)
 }
 
 /// Returns the `drop half` icon.
-pub fn drop_half() -> Text<'static> {
+pub fn drop_half<'a>() -> Text<'a> {
     create_icon(0xE566, FONT_THIN)
 }
 
 /// Returns the `drop half bottom` icon.
-pub fn drop_half_bottom() -> Text<'static> {
+pub fn drop_half_bottom<'a>() -> Text<'a> {
     create_icon(0xEB40, FONT_THIN)
 }
 
 /// Returns the `drop simple` icon.
-pub fn drop_simple() -> Text<'static> {
+pub fn drop_simple<'a>() -> Text<'a> {
     create_icon(0xEE32, FONT_THIN)
 }
 
 /// Returns the `drop slash` icon.
-pub fn drop_slash() -> Text<'static> {
+pub fn drop_slash<'a>() -> Text<'a> {
     create_icon(0xE954, FONT_THIN)
 }
 
 /// Returns the `dropbox logo` icon.
-pub fn dropbox_logo() -> Text<'static> {
+pub fn dropbox_logo<'a>() -> Text<'a> {
     create_icon(0xE7D0, FONT_THIN)
 }
 
 /// Returns the `ear` icon.
-pub fn ear() -> Text<'static> {
+pub fn ear<'a>() -> Text<'a> {
     create_icon(0xE70C, FONT_THIN)
 }
 
 /// Returns the `ear slash` icon.
-pub fn ear_slash() -> Text<'static> {
+pub fn ear_slash<'a>() -> Text<'a> {
     create_icon(0xE70E, FONT_THIN)
 }
 
 /// Returns the `egg` icon.
-pub fn egg() -> Text<'static> {
+pub fn egg<'a>() -> Text<'a> {
     create_icon(0xE812, FONT_THIN)
 }
 
 /// Returns the `egg crack` icon.
-pub fn egg_crack() -> Text<'static> {
+pub fn egg_crack<'a>() -> Text<'a> {
     create_icon(0xEB64, FONT_THIN)
 }
 
 /// Returns the `eject` icon.
-pub fn eject() -> Text<'static> {
+pub fn eject<'a>() -> Text<'a> {
     create_icon(0xE212, FONT_THIN)
 }
 
 /// Returns the `eject simple` icon.
-pub fn eject_simple() -> Text<'static> {
+pub fn eject_simple<'a>() -> Text<'a> {
     create_icon(0xE6AE, FONT_THIN)
 }
 
 /// Returns the `elevator` icon.
-pub fn elevator() -> Text<'static> {
+pub fn elevator<'a>() -> Text<'a> {
     create_icon(0xECC0, FONT_THIN)
 }
 
 /// Returns the `empty` icon.
-pub fn empty() -> Text<'static> {
+pub fn empty<'a>() -> Text<'a> {
     create_icon(0xEDBC, FONT_THIN)
 }
 
 /// Returns the `engine` icon.
-pub fn engine() -> Text<'static> {
+pub fn engine<'a>() -> Text<'a> {
     create_icon(0xEA80, FONT_THIN)
 }
 
 /// Returns the `envelope` icon.
-pub fn envelope() -> Text<'static> {
+pub fn envelope<'a>() -> Text<'a> {
     create_icon(0xE214, FONT_THIN)
 }
 
 /// Returns the `envelope open` icon.
-pub fn envelope_open() -> Text<'static> {
+pub fn envelope_open<'a>() -> Text<'a> {
     create_icon(0xE216, FONT_THIN)
 }
 
 /// Returns the `envelope simple` icon.
-pub fn envelope_simple() -> Text<'static> {
+pub fn envelope_simple<'a>() -> Text<'a> {
     create_icon(0xE218, FONT_THIN)
 }
 
 /// Returns the `envelope simple open` icon.
-pub fn envelope_simple_open() -> Text<'static> {
+pub fn envelope_simple_open<'a>() -> Text<'a> {
     create_icon(0xE21A, FONT_THIN)
 }
 
 /// Returns the `equalizer` icon.
-pub fn equalizer() -> Text<'static> {
+pub fn equalizer<'a>() -> Text<'a> {
     create_icon(0xEBBC, FONT_THIN)
 }
 
 /// Returns the `equals` icon.
-pub fn equals() -> Text<'static> {
+pub fn equals<'a>() -> Text<'a> {
     create_icon(0xE21C, FONT_THIN)
 }
 
 /// Returns the `eraser` icon.
-pub fn eraser() -> Text<'static> {
+pub fn eraser<'a>() -> Text<'a> {
     create_icon(0xE21E, FONT_THIN)
 }
 
 /// Returns the `escalator down` icon.
-pub fn escalator_down() -> Text<'static> {
+pub fn escalator_down<'a>() -> Text<'a> {
     create_icon(0xECBA, FONT_THIN)
 }
 
 /// Returns the `escalator up` icon.
-pub fn escalator_up() -> Text<'static> {
+pub fn escalator_up<'a>() -> Text<'a> {
     create_icon(0xECBC, FONT_THIN)
 }
 
 /// Returns the `exam` icon.
-pub fn exam() -> Text<'static> {
+pub fn exam<'a>() -> Text<'a> {
     create_icon(0xE742, FONT_THIN)
 }
 
 /// Returns the `exclamation mark` icon.
-pub fn exclamation_mark() -> Text<'static> {
+pub fn exclamation_mark<'a>() -> Text<'a> {
     create_icon(0xEE44, FONT_THIN)
 }
 
 /// Returns the `exclude` icon.
-pub fn exclude() -> Text<'static> {
+pub fn exclude<'a>() -> Text<'a> {
     create_icon(0xE882, FONT_THIN)
 }
 
 /// Returns the `exclude square` icon.
-pub fn exclude_square() -> Text<'static> {
+pub fn exclude_square<'a>() -> Text<'a> {
     create_icon(0xE880, FONT_THIN)
 }
 
 /// Returns the `export` icon.
-pub fn export() -> Text<'static> {
+pub fn export<'a>() -> Text<'a> {
     create_icon(0xEAF0, FONT_THIN)
 }
 
 /// Returns the `eye` icon.
-pub fn eye() -> Text<'static> {
+pub fn eye<'a>() -> Text<'a> {
     create_icon(0xE220, FONT_THIN)
 }
 
 /// Returns the `eye closed` icon.
-pub fn eye_closed() -> Text<'static> {
+pub fn eye_closed<'a>() -> Text<'a> {
     create_icon(0xE222, FONT_THIN)
 }
 
 /// Returns the `eye slash` icon.
-pub fn eye_slash() -> Text<'static> {
+pub fn eye_slash<'a>() -> Text<'a> {
     create_icon(0xE224, FONT_THIN)
 }
 
 /// Returns the `eyedropper` icon.
-pub fn eyedropper() -> Text<'static> {
+pub fn eyedropper<'a>() -> Text<'a> {
     create_icon(0xE568, FONT_THIN)
 }
 
 /// Returns the `eyedropper sample` icon.
-pub fn eyedropper_sample() -> Text<'static> {
+pub fn eyedropper_sample<'a>() -> Text<'a> {
     create_icon(0xEAC4, FONT_THIN)
 }
 
 /// Returns the `eyeglasses` icon.
-pub fn eyeglasses() -> Text<'static> {
+pub fn eyeglasses<'a>() -> Text<'a> {
     create_icon(0xE7BA, FONT_THIN)
 }
 
 /// Returns the `eyes` icon.
-pub fn eyes() -> Text<'static> {
+pub fn eyes<'a>() -> Text<'a> {
     create_icon(0xEE5C, FONT_THIN)
 }
 
 /// Returns the `face mask` icon.
-pub fn face_mask() -> Text<'static> {
+pub fn face_mask<'a>() -> Text<'a> {
     create_icon(0xE56A, FONT_THIN)
 }
 
 /// Returns the `facebook logo` icon.
-pub fn facebook_logo() -> Text<'static> {
+pub fn facebook_logo<'a>() -> Text<'a> {
     create_icon(0xE226, FONT_THIN)
 }
 
 /// Returns the `factory` icon.
-pub fn factory() -> Text<'static> {
+pub fn factory<'a>() -> Text<'a> {
     create_icon(0xE760, FONT_THIN)
 }
 
 /// Returns the `faders` icon.
-pub fn faders() -> Text<'static> {
+pub fn faders<'a>() -> Text<'a> {
     create_icon(0xE228, FONT_THIN)
 }
 
 /// Returns the `faders horizontal` icon.
-pub fn faders_horizontal() -> Text<'static> {
+pub fn faders_horizontal<'a>() -> Text<'a> {
     create_icon(0xE22A, FONT_THIN)
 }
 
 /// Returns the `fallout shelter` icon.
-pub fn fallout_shelter() -> Text<'static> {
+pub fn fallout_shelter<'a>() -> Text<'a> {
     create_icon(0xE9DE, FONT_THIN)
 }
 
 /// Returns the `fan` icon.
-pub fn fan() -> Text<'static> {
+pub fn fan<'a>() -> Text<'a> {
     create_icon(0xE9F2, FONT_THIN)
 }
 
 /// Returns the `farm` icon.
-pub fn farm() -> Text<'static> {
+pub fn farm<'a>() -> Text<'a> {
     create_icon(0xEC70, FONT_THIN)
 }
 
 /// Returns the `fast forward` icon.
-pub fn fast_forward() -> Text<'static> {
+pub fn fast_forward<'a>() -> Text<'a> {
     create_icon(0xE6A6, FONT_THIN)
 }
 
 /// Returns the `fast forward circle` icon.
-pub fn fast_forward_circle() -> Text<'static> {
+pub fn fast_forward_circle<'a>() -> Text<'a> {
     create_icon(0xE22C, FONT_THIN)
 }
 
 /// Returns the `feather` icon.
-pub fn feather() -> Text<'static> {
+pub fn feather<'a>() -> Text<'a> {
     create_icon(0xE9C0, FONT_THIN)
 }
 
 /// Returns the `fediverse logo` icon.
-pub fn fediverse_logo() -> Text<'static> {
+pub fn fediverse_logo<'a>() -> Text<'a> {
     create_icon(0xED66, FONT_THIN)
 }
 
 /// Returns the `figma logo` icon.
-pub fn figma_logo() -> Text<'static> {
+pub fn figma_logo<'a>() -> Text<'a> {
     create_icon(0xE22E, FONT_THIN)
 }
 
 /// Returns the `file` icon.
-pub fn file() -> Text<'static> {
+pub fn file<'a>() -> Text<'a> {
     create_icon(0xE230, FONT_THIN)
 }
 
 /// Returns the `file archive` icon.
-pub fn file_archive() -> Text<'static> {
+pub fn file_archive<'a>() -> Text<'a> {
     create_icon(0xEB2A, FONT_THIN)
 }
 
 /// Returns the `file arrow down` icon.
-pub fn file_arrow_down() -> Text<'static> {
+pub fn file_arrow_down<'a>() -> Text<'a> {
     create_icon(0xE232, FONT_THIN)
 }
 
 /// Returns the `file arrow up` icon.
-pub fn file_arrow_up() -> Text<'static> {
+pub fn file_arrow_up<'a>() -> Text<'a> {
     create_icon(0xE61E, FONT_THIN)
 }
 
 /// Returns the `file audio` icon.
-pub fn file_audio() -> Text<'static> {
+pub fn file_audio<'a>() -> Text<'a> {
     create_icon(0xEA20, FONT_THIN)
 }
 
 /// Returns the `file c` icon.
-pub fn file_c() -> Text<'static> {
+pub fn file_c<'a>() -> Text<'a> {
     create_icon(0xEB32, FONT_THIN)
 }
 
 /// Returns the `file c sharp` icon.
-pub fn file_c_sharp() -> Text<'static> {
+pub fn file_c_sharp<'a>() -> Text<'a> {
     create_icon(0xEB30, FONT_THIN)
 }
 
 /// Returns the `file cloud` icon.
-pub fn file_cloud() -> Text<'static> {
+pub fn file_cloud<'a>() -> Text<'a> {
     create_icon(0xE95E, FONT_THIN)
 }
 
 /// Returns the `file code` icon.
-pub fn file_code() -> Text<'static> {
+pub fn file_code<'a>() -> Text<'a> {
     create_icon(0xE914, FONT_THIN)
 }
 
 /// Returns the `file cpp` icon.
-pub fn file_cpp() -> Text<'static> {
+pub fn file_cpp<'a>() -> Text<'a> {
     create_icon(0xEB2E, FONT_THIN)
 }
 
 /// Returns the `file css` icon.
-pub fn file_css() -> Text<'static> {
+pub fn file_css<'a>() -> Text<'a> {
     create_icon(0xEB34, FONT_THIN)
 }
 
 /// Returns the `file csv` icon.
-pub fn file_csv() -> Text<'static> {
+pub fn file_csv<'a>() -> Text<'a> {
     create_icon(0xEB1C, FONT_THIN)
 }
 
 /// Returns the `file dashed thin file dotted` icon.
-pub fn file_dashed_thin_file_dotted() -> Text<'static> {
+pub fn file_dashed_thin_file_dotted<'a>() -> Text<'a> {
     create_icon(0xE704, FONT_THIN)
 }
 
 /// Returns the `file doc` icon.
-pub fn file_doc() -> Text<'static> {
+pub fn file_doc<'a>() -> Text<'a> {
     create_icon(0xEB1E, FONT_THIN)
 }
 
 /// Returns the `file html` icon.
-pub fn file_html() -> Text<'static> {
+pub fn file_html<'a>() -> Text<'a> {
     create_icon(0xEB38, FONT_THIN)
 }
 
 /// Returns the `file image` icon.
-pub fn file_image() -> Text<'static> {
+pub fn file_image<'a>() -> Text<'a> {
     create_icon(0xEA24, FONT_THIN)
 }
 
 /// Returns the `file ini` icon.
-pub fn file_ini() -> Text<'static> {
+pub fn file_ini<'a>() -> Text<'a> {
     create_icon(0xEB33, FONT_THIN)
 }
 
 /// Returns the `file jpg` icon.
-pub fn file_jpg() -> Text<'static> {
+pub fn file_jpg<'a>() -> Text<'a> {
     create_icon(0xEB1A, FONT_THIN)
 }
 
 /// Returns the `file js` icon.
-pub fn file_js() -> Text<'static> {
+pub fn file_js<'a>() -> Text<'a> {
     create_icon(0xEB24, FONT_THIN)
 }
 
 /// Returns the `file jsx` icon.
-pub fn file_jsx() -> Text<'static> {
+pub fn file_jsx<'a>() -> Text<'a> {
     create_icon(0xEB3A, FONT_THIN)
 }
 
 /// Returns the `file lock` icon.
-pub fn file_lock() -> Text<'static> {
+pub fn file_lock<'a>() -> Text<'a> {
     create_icon(0xE95C, FONT_THIN)
 }
 
 /// Returns the `file magnifying glass thin file search` icon.
-pub fn file_magnifying_glass_thin_file_search() -> Text<'static> {
+pub fn file_magnifying_glass_thin_file_search<'a>() -> Text<'a> {
     create_icon(0xE238, FONT_THIN)
 }
 
 /// Returns the `file md` icon.
-pub fn file_md() -> Text<'static> {
+pub fn file_md<'a>() -> Text<'a> {
     create_icon(0xED50, FONT_THIN)
 }
 
 /// Returns the `file minus` icon.
-pub fn file_minus() -> Text<'static> {
+pub fn file_minus<'a>() -> Text<'a> {
     create_icon(0xE234, FONT_THIN)
 }
 
 /// Returns the `file pdf` icon.
-pub fn file_pdf() -> Text<'static> {
+pub fn file_pdf<'a>() -> Text<'a> {
     create_icon(0xE702, FONT_THIN)
 }
 
 /// Returns the `file plus` icon.
-pub fn file_plus() -> Text<'static> {
+pub fn file_plus<'a>() -> Text<'a> {
     create_icon(0xE236, FONT_THIN)
 }
 
 /// Returns the `file png` icon.
-pub fn file_png() -> Text<'static> {
+pub fn file_png<'a>() -> Text<'a> {
     create_icon(0xEB18, FONT_THIN)
 }
 
 /// Returns the `file ppt` icon.
-pub fn file_ppt() -> Text<'static> {
+pub fn file_ppt<'a>() -> Text<'a> {
     create_icon(0xEB20, FONT_THIN)
 }
 
 /// Returns the `file py` icon.
-pub fn file_py() -> Text<'static> {
+pub fn file_py<'a>() -> Text<'a> {
     create_icon(0xEB2C, FONT_THIN)
 }
 
 /// Returns the `file rs` icon.
-pub fn file_rs() -> Text<'static> {
+pub fn file_rs<'a>() -> Text<'a> {
     create_icon(0xEB28, FONT_THIN)
 }
 
 /// Returns the `file sql` icon.
-pub fn file_sql() -> Text<'static> {
+pub fn file_sql<'a>() -> Text<'a> {
     create_icon(0xED4E, FONT_THIN)
 }
 
 /// Returns the `file svg` icon.
-pub fn file_svg() -> Text<'static> {
+pub fn file_svg<'a>() -> Text<'a> {
     create_icon(0xED08, FONT_THIN)
 }
 
 /// Returns the `file text` icon.
-pub fn file_text() -> Text<'static> {
+pub fn file_text<'a>() -> Text<'a> {
     create_icon(0xE23A, FONT_THIN)
 }
 
 /// Returns the `file ts` icon.
-pub fn file_ts() -> Text<'static> {
+pub fn file_ts<'a>() -> Text<'a> {
     create_icon(0xEB26, FONT_THIN)
 }
 
 /// Returns the `file tsx` icon.
-pub fn file_tsx() -> Text<'static> {
+pub fn file_tsx<'a>() -> Text<'a> {
     create_icon(0xEB3C, FONT_THIN)
 }
 
 /// Returns the `file txt` icon.
-pub fn file_txt() -> Text<'static> {
+pub fn file_txt<'a>() -> Text<'a> {
     create_icon(0xEB35, FONT_THIN)
 }
 
 /// Returns the `file video` icon.
-pub fn file_video() -> Text<'static> {
+pub fn file_video<'a>() -> Text<'a> {
     create_icon(0xEA22, FONT_THIN)
 }
 
 /// Returns the `file vue` icon.
-pub fn file_vue() -> Text<'static> {
+pub fn file_vue<'a>() -> Text<'a> {
     create_icon(0xEB3E, FONT_THIN)
 }
 
 /// Returns the `file x` icon.
-pub fn file_x() -> Text<'static> {
+pub fn file_x<'a>() -> Text<'a> {
     create_icon(0xE23C, FONT_THIN)
 }
 
 /// Returns the `file xls` icon.
-pub fn file_xls() -> Text<'static> {
+pub fn file_xls<'a>() -> Text<'a> {
     create_icon(0xEB22, FONT_THIN)
 }
 
 /// Returns the `file zip` icon.
-pub fn file_zip() -> Text<'static> {
+pub fn file_zip<'a>() -> Text<'a> {
     create_icon(0xE958, FONT_THIN)
 }
 
 /// Returns the `files` icon.
-pub fn files() -> Text<'static> {
+pub fn files<'a>() -> Text<'a> {
     create_icon(0xE710, FONT_THIN)
 }
 
 /// Returns the `film reel` icon.
-pub fn film_reel() -> Text<'static> {
+pub fn film_reel<'a>() -> Text<'a> {
     create_icon(0xE8C0, FONT_THIN)
 }
 
 /// Returns the `film script` icon.
-pub fn film_script() -> Text<'static> {
+pub fn film_script<'a>() -> Text<'a> {
     create_icon(0xEB50, FONT_THIN)
 }
 
 /// Returns the `film slate` icon.
-pub fn film_slate() -> Text<'static> {
+pub fn film_slate<'a>() -> Text<'a> {
     create_icon(0xE8C2, FONT_THIN)
 }
 
 /// Returns the `film strip` icon.
-pub fn film_strip() -> Text<'static> {
+pub fn film_strip<'a>() -> Text<'a> {
     create_icon(0xE792, FONT_THIN)
 }
 
 /// Returns the `fingerprint` icon.
-pub fn fingerprint() -> Text<'static> {
+pub fn fingerprint<'a>() -> Text<'a> {
     create_icon(0xE23E, FONT_THIN)
 }
 
 /// Returns the `fingerprint simple` icon.
-pub fn fingerprint_simple() -> Text<'static> {
+pub fn fingerprint_simple<'a>() -> Text<'a> {
     create_icon(0xE240, FONT_THIN)
 }
 
 /// Returns the `finn the human` icon.
-pub fn finn_the_human() -> Text<'static> {
+pub fn finn_the_human<'a>() -> Text<'a> {
     create_icon(0xE56C, FONT_THIN)
 }
 
 /// Returns the `fire` icon.
-pub fn fire() -> Text<'static> {
+pub fn fire<'a>() -> Text<'a> {
     create_icon(0xE242, FONT_THIN)
 }
 
 /// Returns the `fire extinguisher` icon.
-pub fn fire_extinguisher() -> Text<'static> {
+pub fn fire_extinguisher<'a>() -> Text<'a> {
     create_icon(0xE9E8, FONT_THIN)
 }
 
 /// Returns the `fire simple` icon.
-pub fn fire_simple() -> Text<'static> {
+pub fn fire_simple<'a>() -> Text<'a> {
     create_icon(0xE620, FONT_THIN)
 }
 
 /// Returns the `fire truck` icon.
-pub fn fire_truck() -> Text<'static> {
+pub fn fire_truck<'a>() -> Text<'a> {
     create_icon(0xE574, FONT_THIN)
 }
 
 /// Returns the `first aid` icon.
-pub fn first_aid() -> Text<'static> {
+pub fn first_aid<'a>() -> Text<'a> {
     create_icon(0xE56E, FONT_THIN)
 }
 
 /// Returns the `first aid kit` icon.
-pub fn first_aid_kit() -> Text<'static> {
+pub fn first_aid_kit<'a>() -> Text<'a> {
     create_icon(0xE570, FONT_THIN)
 }
 
 /// Returns the `fish` icon.
-pub fn fish() -> Text<'static> {
+pub fn fish<'a>() -> Text<'a> {
     create_icon(0xE728, FONT_THIN)
 }
 
 /// Returns the `fish simple` icon.
-pub fn fish_simple() -> Text<'static> {
+pub fn fish_simple<'a>() -> Text<'a> {
     create_icon(0xE72A, FONT_THIN)
 }
 
 /// Returns the `flag` icon.
-pub fn flag() -> Text<'static> {
+pub fn flag<'a>() -> Text<'a> {
     create_icon(0xE244, FONT_THIN)
 }
 
 /// Returns the `flag banner` icon.
-pub fn flag_banner() -> Text<'static> {
+pub fn flag_banner<'a>() -> Text<'a> {
     create_icon(0xE622, FONT_THIN)
 }
 
 /// Returns the `flag banner fold` icon.
-pub fn flag_banner_fold() -> Text<'static> {
+pub fn flag_banner_fold<'a>() -> Text<'a> {
     create_icon(0xECF2, FONT_THIN)
 }
 
 /// Returns the `flag checkered` icon.
-pub fn flag_checkered() -> Text<'static> {
+pub fn flag_checkered<'a>() -> Text<'a> {
     create_icon(0xEA38, FONT_THIN)
 }
 
 /// Returns the `flag pennant` icon.
-pub fn flag_pennant() -> Text<'static> {
+pub fn flag_pennant<'a>() -> Text<'a> {
     create_icon(0xECF0, FONT_THIN)
 }
 
 /// Returns the `flame` icon.
-pub fn flame() -> Text<'static> {
+pub fn flame<'a>() -> Text<'a> {
     create_icon(0xE624, FONT_THIN)
 }
 
 /// Returns the `flashlight` icon.
-pub fn flashlight() -> Text<'static> {
+pub fn flashlight<'a>() -> Text<'a> {
     create_icon(0xE246, FONT_THIN)
 }
 
 /// Returns the `flask` icon.
-pub fn flask() -> Text<'static> {
+pub fn flask<'a>() -> Text<'a> {
     create_icon(0xE79E, FONT_THIN)
 }
 
 /// Returns the `flip horizontal` icon.
-pub fn flip_horizontal() -> Text<'static> {
+pub fn flip_horizontal<'a>() -> Text<'a> {
     create_icon(0xED6A, FONT_THIN)
 }
 
 /// Returns the `flip vertical` icon.
-pub fn flip_vertical() -> Text<'static> {
+pub fn flip_vertical<'a>() -> Text<'a> {
     create_icon(0xED6C, FONT_THIN)
 }
 
 /// Returns the `floppy disk` icon.
-pub fn floppy_disk() -> Text<'static> {
+pub fn floppy_disk<'a>() -> Text<'a> {
     create_icon(0xE248, FONT_THIN)
 }
 
 /// Returns the `floppy disk back` icon.
-pub fn floppy_disk_back() -> Text<'static> {
+pub fn floppy_disk_back<'a>() -> Text<'a> {
     create_icon(0xEAF4, FONT_THIN)
 }
 
 /// Returns the `flow arrow` icon.
-pub fn flow_arrow() -> Text<'static> {
+pub fn flow_arrow<'a>() -> Text<'a> {
     create_icon(0xE6EC, FONT_THIN)
 }
 
 /// Returns the `flower` icon.
-pub fn flower() -> Text<'static> {
+pub fn flower<'a>() -> Text<'a> {
     create_icon(0xE75E, FONT_THIN)
 }
 
 /// Returns the `flower lotus` icon.
-pub fn flower_lotus() -> Text<'static> {
+pub fn flower_lotus<'a>() -> Text<'a> {
     create_icon(0xE6CC, FONT_THIN)
 }
 
 /// Returns the `flower tulip` icon.
-pub fn flower_tulip() -> Text<'static> {
+pub fn flower_tulip<'a>() -> Text<'a> {
     create_icon(0xEACC, FONT_THIN)
 }
 
 /// Returns the `flying saucer` icon.
-pub fn flying_saucer() -> Text<'static> {
+pub fn flying_saucer<'a>() -> Text<'a> {
     create_icon(0xEB4A, FONT_THIN)
 }
 
 /// Returns the `folder thin folder notch` icon.
-pub fn folder_thin_folder_notch() -> Text<'static> {
+pub fn folder_thin_folder_notch<'a>() -> Text<'a> {
     create_icon(0xE24A, FONT_THIN)
 }
 
 /// Returns the `folder dashed thin folder dotted` icon.
-pub fn folder_dashed_thin_folder_dotted() -> Text<'static> {
+pub fn folder_dashed_thin_folder_dotted<'a>() -> Text<'a> {
     create_icon(0xE8F8, FONT_THIN)
 }
 
 /// Returns the `folder lock` icon.
-pub fn folder_lock() -> Text<'static> {
+pub fn folder_lock<'a>() -> Text<'a> {
     create_icon(0xEA3C, FONT_THIN)
 }
 
 /// Returns the `folder minus thin folder notch minus` icon.
-pub fn folder_minus_thin_folder_notch_minus() -> Text<'static> {
+pub fn folder_minus_thin_folder_notch_minus<'a>() -> Text<'a> {
     create_icon(0xE254, FONT_THIN)
 }
 
 /// Returns the `folder open thin folder notch open` icon.
-pub fn folder_open_thin_folder_notch_open() -> Text<'static> {
+pub fn folder_open_thin_folder_notch_open<'a>() -> Text<'a> {
     create_icon(0xE256, FONT_THIN)
 }
 
 /// Returns the `folder plus thin folder notch plus` icon.
-pub fn folder_plus_thin_folder_notch_plus() -> Text<'static> {
+pub fn folder_plus_thin_folder_notch_plus<'a>() -> Text<'a> {
     create_icon(0xE258, FONT_THIN)
 }
 
 /// Returns the `folder simple` icon.
-pub fn folder_simple() -> Text<'static> {
+pub fn folder_simple<'a>() -> Text<'a> {
     create_icon(0xE25A, FONT_THIN)
 }
 
 /// Returns the `folder simple dashed thin folder simple dotted` icon.
-pub fn folder_simple_dashed_thin_folder_simple_dotted() -> Text<'static> {
+pub fn folder_simple_dashed_thin_folder_simple_dotted<'a>() -> Text<'a> {
     create_icon(0xEC2A, FONT_THIN)
 }
 
 /// Returns the `folder simple lock` icon.
-pub fn folder_simple_lock() -> Text<'static> {
+pub fn folder_simple_lock<'a>() -> Text<'a> {
     create_icon(0xEB5E, FONT_THIN)
 }
 
 /// Returns the `folder simple minus` icon.
-pub fn folder_simple_minus() -> Text<'static> {
+pub fn folder_simple_minus<'a>() -> Text<'a> {
     create_icon(0xE25C, FONT_THIN)
 }
 
 /// Returns the `folder simple plus` icon.
-pub fn folder_simple_plus() -> Text<'static> {
+pub fn folder_simple_plus<'a>() -> Text<'a> {
     create_icon(0xE25E, FONT_THIN)
 }
 
 /// Returns the `folder simple star` icon.
-pub fn folder_simple_star() -> Text<'static> {
+pub fn folder_simple_star<'a>() -> Text<'a> {
     create_icon(0xEC2E, FONT_THIN)
 }
 
 /// Returns the `folder simple user` icon.
-pub fn folder_simple_user() -> Text<'static> {
+pub fn folder_simple_user<'a>() -> Text<'a> {
     create_icon(0xEB60, FONT_THIN)
 }
 
 /// Returns the `folder star` icon.
-pub fn folder_star() -> Text<'static> {
+pub fn folder_star<'a>() -> Text<'a> {
     create_icon(0xEA86, FONT_THIN)
 }
 
 /// Returns the `folder user` icon.
-pub fn folder_user() -> Text<'static> {
+pub fn folder_user<'a>() -> Text<'a> {
     create_icon(0xEB46, FONT_THIN)
 }
 
 /// Returns the `folders` icon.
-pub fn folders() -> Text<'static> {
+pub fn folders<'a>() -> Text<'a> {
     create_icon(0xE260, FONT_THIN)
 }
 
 /// Returns the `football` icon.
-pub fn football() -> Text<'static> {
+pub fn football<'a>() -> Text<'a> {
     create_icon(0xE718, FONT_THIN)
 }
 
 /// Returns the `football helmet` icon.
-pub fn football_helmet() -> Text<'static> {
+pub fn football_helmet<'a>() -> Text<'a> {
     create_icon(0xEE4C, FONT_THIN)
 }
 
 /// Returns the `footprints` icon.
-pub fn footprints() -> Text<'static> {
+pub fn footprints<'a>() -> Text<'a> {
     create_icon(0xEA88, FONT_THIN)
 }
 
 /// Returns the `fork knife` icon.
-pub fn fork_knife() -> Text<'static> {
+pub fn fork_knife<'a>() -> Text<'a> {
     create_icon(0xE262, FONT_THIN)
 }
 
 /// Returns the `four k` icon.
-pub fn four_k() -> Text<'static> {
+pub fn four_k<'a>() -> Text<'a> {
     create_icon(0xEA5C, FONT_THIN)
 }
 
 /// Returns the `frame corners` icon.
-pub fn frame_corners() -> Text<'static> {
+pub fn frame_corners<'a>() -> Text<'a> {
     create_icon(0xE626, FONT_THIN)
 }
 
 /// Returns the `framer logo` icon.
-pub fn framer_logo() -> Text<'static> {
+pub fn framer_logo<'a>() -> Text<'a> {
     create_icon(0xE264, FONT_THIN)
 }
 
 /// Returns the `function` icon.
-pub fn function() -> Text<'static> {
+pub fn function<'a>() -> Text<'a> {
     create_icon(0xEBE4, FONT_THIN)
 }
 
 /// Returns the `funnel` icon.
-pub fn funnel() -> Text<'static> {
+pub fn funnel<'a>() -> Text<'a> {
     create_icon(0xE266, FONT_THIN)
 }
 
 /// Returns the `funnel simple` icon.
-pub fn funnel_simple() -> Text<'static> {
+pub fn funnel_simple<'a>() -> Text<'a> {
     create_icon(0xE268, FONT_THIN)
 }
 
 /// Returns the `funnel simple x` icon.
-pub fn funnel_simple_x() -> Text<'static> {
+pub fn funnel_simple_x<'a>() -> Text<'a> {
     create_icon(0xE26A, FONT_THIN)
 }
 
 /// Returns the `funnel x` icon.
-pub fn funnel_x() -> Text<'static> {
+pub fn funnel_x<'a>() -> Text<'a> {
     create_icon(0xE26C, FONT_THIN)
 }
 
 /// Returns the `game controller` icon.
-pub fn game_controller() -> Text<'static> {
+pub fn game_controller<'a>() -> Text<'a> {
     create_icon(0xE26E, FONT_THIN)
 }
 
 /// Returns the `garage` icon.
-pub fn garage() -> Text<'static> {
+pub fn garage<'a>() -> Text<'a> {
     create_icon(0xECD6, FONT_THIN)
 }
 
 /// Returns the `gas can` icon.
-pub fn gas_can() -> Text<'static> {
+pub fn gas_can<'a>() -> Text<'a> {
     create_icon(0xE8CE, FONT_THIN)
 }
 
 /// Returns the `gas pump` icon.
-pub fn gas_pump() -> Text<'static> {
+pub fn gas_pump<'a>() -> Text<'a> {
     create_icon(0xE768, FONT_THIN)
 }
 
 /// Returns the `gauge` icon.
-pub fn gauge() -> Text<'static> {
+pub fn gauge<'a>() -> Text<'a> {
     create_icon(0xE628, FONT_THIN)
 }
 
 /// Returns the `gavel` icon.
-pub fn gavel() -> Text<'static> {
+pub fn gavel<'a>() -> Text<'a> {
     create_icon(0xEA32, FONT_THIN)
 }
 
 /// Returns the `gear` icon.
-pub fn gear() -> Text<'static> {
+pub fn gear<'a>() -> Text<'a> {
     create_icon(0xE270, FONT_THIN)
 }
 
 /// Returns the `gear fine` icon.
-pub fn gear_fine() -> Text<'static> {
+pub fn gear_fine<'a>() -> Text<'a> {
     create_icon(0xE87C, FONT_THIN)
 }
 
 /// Returns the `gear six` icon.
-pub fn gear_six() -> Text<'static> {
+pub fn gear_six<'a>() -> Text<'a> {
     create_icon(0xE272, FONT_THIN)
 }
 
 /// Returns the `gender female` icon.
-pub fn gender_female() -> Text<'static> {
+pub fn gender_female<'a>() -> Text<'a> {
     create_icon(0xE6E0, FONT_THIN)
 }
 
 /// Returns the `gender intersex` icon.
-pub fn gender_intersex() -> Text<'static> {
+pub fn gender_intersex<'a>() -> Text<'a> {
     create_icon(0xE6E6, FONT_THIN)
 }
 
 /// Returns the `gender male` icon.
-pub fn gender_male() -> Text<'static> {
+pub fn gender_male<'a>() -> Text<'a> {
     create_icon(0xE6E2, FONT_THIN)
 }
 
 /// Returns the `gender neuter` icon.
-pub fn gender_neuter() -> Text<'static> {
+pub fn gender_neuter<'a>() -> Text<'a> {
     create_icon(0xE6EA, FONT_THIN)
 }
 
 /// Returns the `gender nonbinary` icon.
-pub fn gender_nonbinary() -> Text<'static> {
+pub fn gender_nonbinary<'a>() -> Text<'a> {
     create_icon(0xE6E4, FONT_THIN)
 }
 
 /// Returns the `gender transgender` icon.
-pub fn gender_transgender() -> Text<'static> {
+pub fn gender_transgender<'a>() -> Text<'a> {
     create_icon(0xE6E8, FONT_THIN)
 }
 
 /// Returns the `ghost` icon.
-pub fn ghost() -> Text<'static> {
+pub fn ghost<'a>() -> Text<'a> {
     create_icon(0xE62A, FONT_THIN)
 }
 
 /// Returns the `gif` icon.
-pub fn gif() -> Text<'static> {
+pub fn gif<'a>() -> Text<'a> {
     create_icon(0xE274, FONT_THIN)
 }
 
 /// Returns the `gift` icon.
-pub fn gift() -> Text<'static> {
+pub fn gift<'a>() -> Text<'a> {
     create_icon(0xE276, FONT_THIN)
 }
 
 /// Returns the `git branch` icon.
-pub fn git_branch() -> Text<'static> {
+pub fn git_branch<'a>() -> Text<'a> {
     create_icon(0xE278, FONT_THIN)
 }
 
 /// Returns the `git commit` icon.
-pub fn git_commit() -> Text<'static> {
+pub fn git_commit<'a>() -> Text<'a> {
     create_icon(0xE27A, FONT_THIN)
 }
 
 /// Returns the `git diff` icon.
-pub fn git_diff() -> Text<'static> {
+pub fn git_diff<'a>() -> Text<'a> {
     create_icon(0xE27C, FONT_THIN)
 }
 
 /// Returns the `git fork` icon.
-pub fn git_fork() -> Text<'static> {
+pub fn git_fork<'a>() -> Text<'a> {
     create_icon(0xE27E, FONT_THIN)
 }
 
 /// Returns the `git merge` icon.
-pub fn git_merge() -> Text<'static> {
+pub fn git_merge<'a>() -> Text<'a> {
     create_icon(0xE280, FONT_THIN)
 }
 
 /// Returns the `git pull request` icon.
-pub fn git_pull_request() -> Text<'static> {
+pub fn git_pull_request<'a>() -> Text<'a> {
     create_icon(0xE282, FONT_THIN)
 }
 
 /// Returns the `github logo` icon.
-pub fn github_logo() -> Text<'static> {
+pub fn github_logo<'a>() -> Text<'a> {
     create_icon(0xE576, FONT_THIN)
 }
 
 /// Returns the `gitlab logo` icon.
-pub fn gitlab_logo() -> Text<'static> {
+pub fn gitlab_logo<'a>() -> Text<'a> {
     create_icon(0xE694, FONT_THIN)
 }
 
 /// Returns the `gitlab logo simple` icon.
-pub fn gitlab_logo_simple() -> Text<'static> {
+pub fn gitlab_logo_simple<'a>() -> Text<'a> {
     create_icon(0xE696, FONT_THIN)
 }
 
 /// Returns the `globe` icon.
-pub fn globe() -> Text<'static> {
+pub fn globe<'a>() -> Text<'a> {
     create_icon(0xE288, FONT_THIN)
 }
 
 /// Returns the `globe hemisphere east` icon.
-pub fn globe_hemisphere_east() -> Text<'static> {
+pub fn globe_hemisphere_east<'a>() -> Text<'a> {
     create_icon(0xE28A, FONT_THIN)
 }
 
 /// Returns the `globe hemisphere west` icon.
-pub fn globe_hemisphere_west() -> Text<'static> {
+pub fn globe_hemisphere_west<'a>() -> Text<'a> {
     create_icon(0xE28C, FONT_THIN)
 }
 
 /// Returns the `globe simple` icon.
-pub fn globe_simple() -> Text<'static> {
+pub fn globe_simple<'a>() -> Text<'a> {
     create_icon(0xE28E, FONT_THIN)
 }
 
 /// Returns the `globe simple x` icon.
-pub fn globe_simple_x() -> Text<'static> {
+pub fn globe_simple_x<'a>() -> Text<'a> {
     create_icon(0xE284, FONT_THIN)
 }
 
 /// Returns the `globe stand` icon.
-pub fn globe_stand() -> Text<'static> {
+pub fn globe_stand<'a>() -> Text<'a> {
     create_icon(0xE290, FONT_THIN)
 }
 
 /// Returns the `globe x` icon.
-pub fn globe_x() -> Text<'static> {
+pub fn globe_x<'a>() -> Text<'a> {
     create_icon(0xE286, FONT_THIN)
 }
 
 /// Returns the `goggles` icon.
-pub fn goggles() -> Text<'static> {
+pub fn goggles<'a>() -> Text<'a> {
     create_icon(0xECB4, FONT_THIN)
 }
 
 /// Returns the `golf` icon.
-pub fn golf() -> Text<'static> {
+pub fn golf<'a>() -> Text<'a> {
     create_icon(0xEA3E, FONT_THIN)
 }
 
 /// Returns the `goodreads logo` icon.
-pub fn goodreads_logo() -> Text<'static> {
+pub fn goodreads_logo<'a>() -> Text<'a> {
     create_icon(0xED10, FONT_THIN)
 }
 
 /// Returns the `google cardboard logo` icon.
-pub fn google_cardboard_logo() -> Text<'static> {
+pub fn google_cardboard_logo<'a>() -> Text<'a> {
     create_icon(0xE7B6, FONT_THIN)
 }
 
 /// Returns the `google chrome logo` icon.
-pub fn google_chrome_logo() -> Text<'static> {
+pub fn google_chrome_logo<'a>() -> Text<'a> {
     create_icon(0xE976, FONT_THIN)
 }
 
 /// Returns the `google drive logo` icon.
-pub fn google_drive_logo() -> Text<'static> {
+pub fn google_drive_logo<'a>() -> Text<'a> {
     create_icon(0xE8F6, FONT_THIN)
 }
 
 /// Returns the `google logo` icon.
-pub fn google_logo() -> Text<'static> {
+pub fn google_logo<'a>() -> Text<'a> {
     create_icon(0xE292, FONT_THIN)
 }
 
 /// Returns the `google photos logo` icon.
-pub fn google_photos_logo() -> Text<'static> {
+pub fn google_photos_logo<'a>() -> Text<'a> {
     create_icon(0xEB92, FONT_THIN)
 }
 
 /// Returns the `google play logo` icon.
-pub fn google_play_logo() -> Text<'static> {
+pub fn google_play_logo<'a>() -> Text<'a> {
     create_icon(0xE294, FONT_THIN)
 }
 
 /// Returns the `google podcasts logo` icon.
-pub fn google_podcasts_logo() -> Text<'static> {
+pub fn google_podcasts_logo<'a>() -> Text<'a> {
     create_icon(0xEB94, FONT_THIN)
 }
 
 /// Returns the `gps` icon.
-pub fn gps() -> Text<'static> {
+pub fn gps<'a>() -> Text<'a> {
     create_icon(0xEDD8, FONT_THIN)
 }
 
 /// Returns the `gps fix` icon.
-pub fn gps_fix() -> Text<'static> {
+pub fn gps_fix<'a>() -> Text<'a> {
     create_icon(0xEDD6, FONT_THIN)
 }
 
 /// Returns the `gps slash` icon.
-pub fn gps_slash() -> Text<'static> {
+pub fn gps_slash<'a>() -> Text<'a> {
     create_icon(0xEDD4, FONT_THIN)
 }
 
 /// Returns the `gradient` icon.
-pub fn gradient() -> Text<'static> {
+pub fn gradient<'a>() -> Text<'a> {
     create_icon(0xEB42, FONT_THIN)
 }
 
 /// Returns the `graduation cap` icon.
-pub fn graduation_cap() -> Text<'static> {
+pub fn graduation_cap<'a>() -> Text<'a> {
     create_icon(0xE62C, FONT_THIN)
 }
 
 /// Returns the `grains` icon.
-pub fn grains() -> Text<'static> {
+pub fn grains<'a>() -> Text<'a> {
     create_icon(0xEC68, FONT_THIN)
 }
 
 /// Returns the `grains slash` icon.
-pub fn grains_slash() -> Text<'static> {
+pub fn grains_slash<'a>() -> Text<'a> {
     create_icon(0xEC6A, FONT_THIN)
 }
 
 /// Returns the `graph` icon.
-pub fn graph() -> Text<'static> {
+pub fn graph<'a>() -> Text<'a> {
     create_icon(0xEB58, FONT_THIN)
 }
 
 /// Returns the `graphics card` icon.
-pub fn graphics_card() -> Text<'static> {
+pub fn graphics_card<'a>() -> Text<'a> {
     create_icon(0xE612, FONT_THIN)
 }
 
 /// Returns the `greater than` icon.
-pub fn greater_than() -> Text<'static> {
+pub fn greater_than<'a>() -> Text<'a> {
     create_icon(0xEDC4, FONT_THIN)
 }
 
 /// Returns the `greater than or equal` icon.
-pub fn greater_than_or_equal() -> Text<'static> {
+pub fn greater_than_or_equal<'a>() -> Text<'a> {
     create_icon(0xEDA2, FONT_THIN)
 }
 
 /// Returns the `grid four` icon.
-pub fn grid_four() -> Text<'static> {
+pub fn grid_four<'a>() -> Text<'a> {
     create_icon(0xE296, FONT_THIN)
 }
 
 /// Returns the `grid nine` icon.
-pub fn grid_nine() -> Text<'static> {
+pub fn grid_nine<'a>() -> Text<'a> {
     create_icon(0xEC8C, FONT_THIN)
 }
 
 /// Returns the `guitar` icon.
-pub fn guitar() -> Text<'static> {
+pub fn guitar<'a>() -> Text<'a> {
     create_icon(0xEA8A, FONT_THIN)
 }
 
 /// Returns the `hair dryer` icon.
-pub fn hair_dryer() -> Text<'static> {
+pub fn hair_dryer<'a>() -> Text<'a> {
     create_icon(0xEA66, FONT_THIN)
 }
 
 /// Returns the `hamburger` icon.
-pub fn hamburger() -> Text<'static> {
+pub fn hamburger<'a>() -> Text<'a> {
     create_icon(0xE790, FONT_THIN)
 }
 
 /// Returns the `hammer` icon.
-pub fn hammer() -> Text<'static> {
+pub fn hammer<'a>() -> Text<'a> {
     create_icon(0xE80E, FONT_THIN)
 }
 
 /// Returns the `hand` icon.
-pub fn hand() -> Text<'static> {
+pub fn hand<'a>() -> Text<'a> {
     create_icon(0xE298, FONT_THIN)
 }
 
 /// Returns the `hand arrow down` icon.
-pub fn hand_arrow_down() -> Text<'static> {
+pub fn hand_arrow_down<'a>() -> Text<'a> {
     create_icon(0xEA4E, FONT_THIN)
 }
 
 /// Returns the `hand arrow up` icon.
-pub fn hand_arrow_up() -> Text<'static> {
+pub fn hand_arrow_up<'a>() -> Text<'a> {
     create_icon(0xEE5A, FONT_THIN)
 }
 
 /// Returns the `hand coins` icon.
-pub fn hand_coins() -> Text<'static> {
+pub fn hand_coins<'a>() -> Text<'a> {
     create_icon(0xEA8C, FONT_THIN)
 }
 
 /// Returns the `hand deposit` icon.
-pub fn hand_deposit() -> Text<'static> {
+pub fn hand_deposit<'a>() -> Text<'a> {
     create_icon(0xEE82, FONT_THIN)
 }
 
 /// Returns the `hand eye` icon.
-pub fn hand_eye() -> Text<'static> {
+pub fn hand_eye<'a>() -> Text<'a> {
     create_icon(0xEA4C, FONT_THIN)
 }
 
 /// Returns the `hand fist` icon.
-pub fn hand_fist() -> Text<'static> {
+pub fn hand_fist<'a>() -> Text<'a> {
     create_icon(0xE57A, FONT_THIN)
 }
 
 /// Returns the `hand grabbing` icon.
-pub fn hand_grabbing() -> Text<'static> {
+pub fn hand_grabbing<'a>() -> Text<'a> {
     create_icon(0xE57C, FONT_THIN)
 }
 
 /// Returns the `hand heart` icon.
-pub fn hand_heart() -> Text<'static> {
+pub fn hand_heart<'a>() -> Text<'a> {
     create_icon(0xE810, FONT_THIN)
 }
 
 /// Returns the `hand palm` icon.
-pub fn hand_palm() -> Text<'static> {
+pub fn hand_palm<'a>() -> Text<'a> {
     create_icon(0xE57E, FONT_THIN)
 }
 
 /// Returns the `hand peace` icon.
-pub fn hand_peace() -> Text<'static> {
+pub fn hand_peace<'a>() -> Text<'a> {
     create_icon(0xE7CC, FONT_THIN)
 }
 
 /// Returns the `hand pointing` icon.
-pub fn hand_pointing() -> Text<'static> {
+pub fn hand_pointing<'a>() -> Text<'a> {
     create_icon(0xE29A, FONT_THIN)
 }
 
 /// Returns the `hand soap` icon.
-pub fn hand_soap() -> Text<'static> {
+pub fn hand_soap<'a>() -> Text<'a> {
     create_icon(0xE630, FONT_THIN)
 }
 
 /// Returns the `hand swipe left` icon.
-pub fn hand_swipe_left() -> Text<'static> {
+pub fn hand_swipe_left<'a>() -> Text<'a> {
     create_icon(0xEC94, FONT_THIN)
 }
 
 /// Returns the `hand swipe right` icon.
-pub fn hand_swipe_right() -> Text<'static> {
+pub fn hand_swipe_right<'a>() -> Text<'a> {
     create_icon(0xEC92, FONT_THIN)
 }
 
 /// Returns the `hand tap` icon.
-pub fn hand_tap() -> Text<'static> {
+pub fn hand_tap<'a>() -> Text<'a> {
     create_icon(0xEC90, FONT_THIN)
 }
 
 /// Returns the `hand waving` icon.
-pub fn hand_waving() -> Text<'static> {
+pub fn hand_waving<'a>() -> Text<'a> {
     create_icon(0xE580, FONT_THIN)
 }
 
 /// Returns the `hand withdraw` icon.
-pub fn hand_withdraw() -> Text<'static> {
+pub fn hand_withdraw<'a>() -> Text<'a> {
     create_icon(0xEE80, FONT_THIN)
 }
 
 /// Returns the `handbag` icon.
-pub fn handbag() -> Text<'static> {
+pub fn handbag<'a>() -> Text<'a> {
     create_icon(0xE29C, FONT_THIN)
 }
 
 /// Returns the `handbag simple` icon.
-pub fn handbag_simple() -> Text<'static> {
+pub fn handbag_simple<'a>() -> Text<'a> {
     create_icon(0xE62E, FONT_THIN)
 }
 
 /// Returns the `hands clapping` icon.
-pub fn hands_clapping() -> Text<'static> {
+pub fn hands_clapping<'a>() -> Text<'a> {
     create_icon(0xE6A0, FONT_THIN)
 }
 
 /// Returns the `hands praying` icon.
-pub fn hands_praying() -> Text<'static> {
+pub fn hands_praying<'a>() -> Text<'a> {
     create_icon(0xECC8, FONT_THIN)
 }
 
 /// Returns the `handshake` icon.
-pub fn handshake() -> Text<'static> {
+pub fn handshake<'a>() -> Text<'a> {
     create_icon(0xE582, FONT_THIN)
 }
 
 /// Returns the `hard drive` icon.
-pub fn hard_drive() -> Text<'static> {
+pub fn hard_drive<'a>() -> Text<'a> {
     create_icon(0xE29E, FONT_THIN)
 }
 
 /// Returns the `hard drives` icon.
-pub fn hard_drives() -> Text<'static> {
+pub fn hard_drives<'a>() -> Text<'a> {
     create_icon(0xE2A0, FONT_THIN)
 }
 
 /// Returns the `hard hat` icon.
-pub fn hard_hat() -> Text<'static> {
+pub fn hard_hat<'a>() -> Text<'a> {
     create_icon(0xED46, FONT_THIN)
 }
 
 /// Returns the `hash` icon.
-pub fn hash() -> Text<'static> {
+pub fn hash<'a>() -> Text<'a> {
     create_icon(0xE2A2, FONT_THIN)
 }
 
 /// Returns the `hash straight` icon.
-pub fn hash_straight() -> Text<'static> {
+pub fn hash_straight<'a>() -> Text<'a> {
     create_icon(0xE2A4, FONT_THIN)
 }
 
 /// Returns the `head circuit` icon.
-pub fn head_circuit() -> Text<'static> {
+pub fn head_circuit<'a>() -> Text<'a> {
     create_icon(0xE7D4, FONT_THIN)
 }
 
 /// Returns the `headlights` icon.
-pub fn headlights() -> Text<'static> {
+pub fn headlights<'a>() -> Text<'a> {
     create_icon(0xE6FE, FONT_THIN)
 }
 
 /// Returns the `headphones` icon.
-pub fn headphones() -> Text<'static> {
+pub fn headphones<'a>() -> Text<'a> {
     create_icon(0xE2A6, FONT_THIN)
 }
 
 /// Returns the `headset` icon.
-pub fn headset() -> Text<'static> {
+pub fn headset<'a>() -> Text<'a> {
     create_icon(0xE584, FONT_THIN)
 }
 
 /// Returns the `heart` icon.
-pub fn heart() -> Text<'static> {
+pub fn heart<'a>() -> Text<'a> {
     create_icon(0xE2A8, FONT_THIN)
 }
 
 /// Returns the `heart break` icon.
-pub fn heart_break() -> Text<'static> {
+pub fn heart_break<'a>() -> Text<'a> {
     create_icon(0xEBE8, FONT_THIN)
 }
 
 /// Returns the `heart half` icon.
-pub fn heart_half() -> Text<'static> {
+pub fn heart_half<'a>() -> Text<'a> {
     create_icon(0xEC48, FONT_THIN)
 }
 
 /// Returns the `heart straight` icon.
-pub fn heart_straight() -> Text<'static> {
+pub fn heart_straight<'a>() -> Text<'a> {
     create_icon(0xE2AA, FONT_THIN)
 }
 
 /// Returns the `heart straight break` icon.
-pub fn heart_straight_break() -> Text<'static> {
+pub fn heart_straight_break<'a>() -> Text<'a> {
     create_icon(0xEB98, FONT_THIN)
 }
 
 /// Returns the `heartbeat` icon.
-pub fn heartbeat() -> Text<'static> {
+pub fn heartbeat<'a>() -> Text<'a> {
     create_icon(0xE2AC, FONT_THIN)
 }
 
 /// Returns the `hexagon` icon.
-pub fn hexagon() -> Text<'static> {
+pub fn hexagon<'a>() -> Text<'a> {
     create_icon(0xE2AE, FONT_THIN)
 }
 
 /// Returns the `high definition` icon.
-pub fn high_definition() -> Text<'static> {
+pub fn high_definition<'a>() -> Text<'a> {
     create_icon(0xEA8E, FONT_THIN)
 }
 
 /// Returns the `high heel` icon.
-pub fn high_heel() -> Text<'static> {
+pub fn high_heel<'a>() -> Text<'a> {
     create_icon(0xE8E8, FONT_THIN)
 }
 
 /// Returns the `highlighter` icon.
-pub fn highlighter() -> Text<'static> {
+pub fn highlighter<'a>() -> Text<'a> {
     create_icon(0xEC76, FONT_THIN)
 }
 
 /// Returns the `highlighter circle` icon.
-pub fn highlighter_circle() -> Text<'static> {
+pub fn highlighter_circle<'a>() -> Text<'a> {
     create_icon(0xE632, FONT_THIN)
 }
 
 /// Returns the `hockey` icon.
-pub fn hockey() -> Text<'static> {
+pub fn hockey<'a>() -> Text<'a> {
     create_icon(0xEC86, FONT_THIN)
 }
 
 /// Returns the `hoodie` icon.
-pub fn hoodie() -> Text<'static> {
+pub fn hoodie<'a>() -> Text<'a> {
     create_icon(0xECD0, FONT_THIN)
 }
 
 /// Returns the `horse` icon.
-pub fn horse() -> Text<'static> {
+pub fn horse<'a>() -> Text<'a> {
     create_icon(0xE2B0, FONT_THIN)
 }
 
 /// Returns the `hospital` icon.
-pub fn hospital() -> Text<'static> {
+pub fn hospital<'a>() -> Text<'a> {
     create_icon(0xE844, FONT_THIN)
 }
 
 /// Returns the `hourglass` icon.
-pub fn hourglass() -> Text<'static> {
+pub fn hourglass<'a>() -> Text<'a> {
     create_icon(0xE2B2, FONT_THIN)
 }
 
 /// Returns the `hourglass high` icon.
-pub fn hourglass_high() -> Text<'static> {
+pub fn hourglass_high<'a>() -> Text<'a> {
     create_icon(0xE2B4, FONT_THIN)
 }
 
 /// Returns the `hourglass low` icon.
-pub fn hourglass_low() -> Text<'static> {
+pub fn hourglass_low<'a>() -> Text<'a> {
     create_icon(0xE2B6, FONT_THIN)
 }
 
 /// Returns the `hourglass medium` icon.
-pub fn hourglass_medium() -> Text<'static> {
+pub fn hourglass_medium<'a>() -> Text<'a> {
     create_icon(0xE2B8, FONT_THIN)
 }
 
 /// Returns the `hourglass simple` icon.
-pub fn hourglass_simple() -> Text<'static> {
+pub fn hourglass_simple<'a>() -> Text<'a> {
     create_icon(0xE2BA, FONT_THIN)
 }
 
 /// Returns the `hourglass simple high` icon.
-pub fn hourglass_simple_high() -> Text<'static> {
+pub fn hourglass_simple_high<'a>() -> Text<'a> {
     create_icon(0xE2BC, FONT_THIN)
 }
 
 /// Returns the `hourglass simple low` icon.
-pub fn hourglass_simple_low() -> Text<'static> {
+pub fn hourglass_simple_low<'a>() -> Text<'a> {
     create_icon(0xE2BE, FONT_THIN)
 }
 
 /// Returns the `hourglass simple medium` icon.
-pub fn hourglass_simple_medium() -> Text<'static> {
+pub fn hourglass_simple_medium<'a>() -> Text<'a> {
     create_icon(0xE2C0, FONT_THIN)
 }
 
 /// Returns the `house` icon.
-pub fn house() -> Text<'static> {
+pub fn house<'a>() -> Text<'a> {
     create_icon(0xE2C2, FONT_THIN)
 }
 
 /// Returns the `house line` icon.
-pub fn house_line() -> Text<'static> {
+pub fn house_line<'a>() -> Text<'a> {
     create_icon(0xE2C4, FONT_THIN)
 }
 
 /// Returns the `house simple` icon.
-pub fn house_simple() -> Text<'static> {
+pub fn house_simple<'a>() -> Text<'a> {
     create_icon(0xE2C6, FONT_THIN)
 }
 
 /// Returns the `hurricane` icon.
-pub fn hurricane() -> Text<'static> {
+pub fn hurricane<'a>() -> Text<'a> {
     create_icon(0xE88E, FONT_THIN)
 }
 
 /// Returns the `ice cream` icon.
-pub fn ice_cream() -> Text<'static> {
+pub fn ice_cream<'a>() -> Text<'a> {
     create_icon(0xE804, FONT_THIN)
 }
 
 /// Returns the `identification badge` icon.
-pub fn identification_badge() -> Text<'static> {
+pub fn identification_badge<'a>() -> Text<'a> {
     create_icon(0xE6F6, FONT_THIN)
 }
 
 /// Returns the `identification card` icon.
-pub fn identification_card() -> Text<'static> {
+pub fn identification_card<'a>() -> Text<'a> {
     create_icon(0xE2C8, FONT_THIN)
 }
 
 /// Returns the `image` icon.
-pub fn image() -> Text<'static> {
+pub fn image<'a>() -> Text<'a> {
     create_icon(0xE2CA, FONT_THIN)
 }
 
 /// Returns the `image broken` icon.
-pub fn image_broken() -> Text<'static> {
+pub fn image_broken<'a>() -> Text<'a> {
     create_icon(0xE7A8, FONT_THIN)
 }
 
 /// Returns the `image square` icon.
-pub fn image_square() -> Text<'static> {
+pub fn image_square<'a>() -> Text<'a> {
     create_icon(0xE2CC, FONT_THIN)
 }
 
 /// Returns the `images` icon.
-pub fn images() -> Text<'static> {
+pub fn images<'a>() -> Text<'a> {
     create_icon(0xE836, FONT_THIN)
 }
 
 /// Returns the `images square` icon.
-pub fn images_square() -> Text<'static> {
+pub fn images_square<'a>() -> Text<'a> {
     create_icon(0xE834, FONT_THIN)
 }
 
 /// Returns the `infinity thin lemniscate` icon.
-pub fn infinity_thin_lemniscate() -> Text<'static> {
+pub fn infinity_thin_lemniscate<'a>() -> Text<'a> {
     create_icon(0xE634, FONT_THIN)
 }
 
 /// Returns the `info` icon.
-pub fn info() -> Text<'static> {
+pub fn info<'a>() -> Text<'a> {
     create_icon(0xE2CE, FONT_THIN)
 }
 
 /// Returns the `instagram logo` icon.
-pub fn instagram_logo() -> Text<'static> {
+pub fn instagram_logo<'a>() -> Text<'a> {
     create_icon(0xE2D0, FONT_THIN)
 }
 
 /// Returns the `intersect` icon.
-pub fn intersect() -> Text<'static> {
+pub fn intersect<'a>() -> Text<'a> {
     create_icon(0xE2D2, FONT_THIN)
 }
 
 /// Returns the `intersect square` icon.
-pub fn intersect_square() -> Text<'static> {
+pub fn intersect_square<'a>() -> Text<'a> {
     create_icon(0xE87A, FONT_THIN)
 }
 
 /// Returns the `intersect three` icon.
-pub fn intersect_three() -> Text<'static> {
+pub fn intersect_three<'a>() -> Text<'a> {
     create_icon(0xECC4, FONT_THIN)
 }
 
 /// Returns the `intersection` icon.
-pub fn intersection() -> Text<'static> {
+pub fn intersection<'a>() -> Text<'a> {
     create_icon(0xEDBA, FONT_THIN)
 }
 
 /// Returns the `invoice` icon.
-pub fn invoice() -> Text<'static> {
+pub fn invoice<'a>() -> Text<'a> {
     create_icon(0xEE42, FONT_THIN)
 }
 
 /// Returns the `island` icon.
-pub fn island() -> Text<'static> {
+pub fn island<'a>() -> Text<'a> {
     create_icon(0xEE06, FONT_THIN)
 }
 
 /// Returns the `jar` icon.
-pub fn jar() -> Text<'static> {
+pub fn jar<'a>() -> Text<'a> {
     create_icon(0xE7E0, FONT_THIN)
 }
 
 /// Returns the `jar label` icon.
-pub fn jar_label() -> Text<'static> {
+pub fn jar_label<'a>() -> Text<'a> {
     create_icon(0xE7E1, FONT_THIN)
 }
 
 /// Returns the `jeep` icon.
-pub fn jeep() -> Text<'static> {
+pub fn jeep<'a>() -> Text<'a> {
     create_icon(0xE2D4, FONT_THIN)
 }
 
 /// Returns the `joystick` icon.
-pub fn joystick() -> Text<'static> {
+pub fn joystick<'a>() -> Text<'a> {
     create_icon(0xEA5E, FONT_THIN)
 }
 
 /// Returns the `kanban` icon.
-pub fn kanban() -> Text<'static> {
+pub fn kanban<'a>() -> Text<'a> {
     create_icon(0xEB54, FONT_THIN)
 }
 
 /// Returns the `key` icon.
-pub fn key() -> Text<'static> {
+pub fn key<'a>() -> Text<'a> {
     create_icon(0xE2D6, FONT_THIN)
 }
 
 /// Returns the `key return` icon.
-pub fn key_return() -> Text<'static> {
+pub fn key_return<'a>() -> Text<'a> {
     create_icon(0xE782, FONT_THIN)
 }
 
 /// Returns the `keyboard` icon.
-pub fn keyboard() -> Text<'static> {
+pub fn keyboard<'a>() -> Text<'a> {
     create_icon(0xE2D8, FONT_THIN)
 }
 
 /// Returns the `keyhole` icon.
-pub fn keyhole() -> Text<'static> {
+pub fn keyhole<'a>() -> Text<'a> {
     create_icon(0xEA78, FONT_THIN)
 }
 
 /// Returns the `knife` icon.
-pub fn knife() -> Text<'static> {
+pub fn knife<'a>() -> Text<'a> {
     create_icon(0xE636, FONT_THIN)
 }
 
 /// Returns the `ladder` icon.
-pub fn ladder() -> Text<'static> {
+pub fn ladder<'a>() -> Text<'a> {
     create_icon(0xE9E4, FONT_THIN)
 }
 
 /// Returns the `ladder simple` icon.
-pub fn ladder_simple() -> Text<'static> {
+pub fn ladder_simple<'a>() -> Text<'a> {
     create_icon(0xEC26, FONT_THIN)
 }
 
 /// Returns the `lamp` icon.
-pub fn lamp() -> Text<'static> {
+pub fn lamp<'a>() -> Text<'a> {
     create_icon(0xE638, FONT_THIN)
 }
 
 /// Returns the `lamp pendant` icon.
-pub fn lamp_pendant() -> Text<'static> {
+pub fn lamp_pendant<'a>() -> Text<'a> {
     create_icon(0xEE2E, FONT_THIN)
 }
 
 /// Returns the `laptop` icon.
-pub fn laptop() -> Text<'static> {
+pub fn laptop<'a>() -> Text<'a> {
     create_icon(0xE586, FONT_THIN)
 }
 
 /// Returns the `lasso` icon.
-pub fn lasso() -> Text<'static> {
+pub fn lasso<'a>() -> Text<'a> {
     create_icon(0xEDC6, FONT_THIN)
 }
 
 /// Returns the `lastfm logo` icon.
-pub fn lastfm_logo() -> Text<'static> {
+pub fn lastfm_logo<'a>() -> Text<'a> {
     create_icon(0xE842, FONT_THIN)
 }
 
 /// Returns the `layout` icon.
-pub fn layout() -> Text<'static> {
+pub fn layout<'a>() -> Text<'a> {
     create_icon(0xE6D6, FONT_THIN)
 }
 
 /// Returns the `leaf` icon.
-pub fn leaf() -> Text<'static> {
+pub fn leaf<'a>() -> Text<'a> {
     create_icon(0xE2DA, FONT_THIN)
 }
 
 /// Returns the `lectern` icon.
-pub fn lectern() -> Text<'static> {
+pub fn lectern<'a>() -> Text<'a> {
     create_icon(0xE95A, FONT_THIN)
 }
 
 /// Returns the `lego` icon.
-pub fn lego() -> Text<'static> {
+pub fn lego<'a>() -> Text<'a> {
     create_icon(0xE8C6, FONT_THIN)
 }
 
 /// Returns the `lego smiley` icon.
-pub fn lego_smiley() -> Text<'static> {
+pub fn lego_smiley<'a>() -> Text<'a> {
     create_icon(0xE8C7, FONT_THIN)
 }
 
 /// Returns the `less than` icon.
-pub fn less_than() -> Text<'static> {
+pub fn less_than<'a>() -> Text<'a> {
     create_icon(0xEDAC, FONT_THIN)
 }
 
 /// Returns the `less than or equal` icon.
-pub fn less_than_or_equal() -> Text<'static> {
+pub fn less_than_or_equal<'a>() -> Text<'a> {
     create_icon(0xEDA4, FONT_THIN)
 }
 
 /// Returns the `letter circle h` icon.
-pub fn letter_circle_h() -> Text<'static> {
+pub fn letter_circle_h<'a>() -> Text<'a> {
     create_icon(0xEBF8, FONT_THIN)
 }
 
 /// Returns the `letter circle p` icon.
-pub fn letter_circle_p() -> Text<'static> {
+pub fn letter_circle_p<'a>() -> Text<'a> {
     create_icon(0xEC08, FONT_THIN)
 }
 
 /// Returns the `letter circle v` icon.
-pub fn letter_circle_v() -> Text<'static> {
+pub fn letter_circle_v<'a>() -> Text<'a> {
     create_icon(0xEC14, FONT_THIN)
 }
 
 /// Returns the `lifebuoy` icon.
-pub fn lifebuoy() -> Text<'static> {
+pub fn lifebuoy<'a>() -> Text<'a> {
     create_icon(0xE63A, FONT_THIN)
 }
 
 /// Returns the `lightbulb` icon.
-pub fn lightbulb() -> Text<'static> {
+pub fn lightbulb<'a>() -> Text<'a> {
     create_icon(0xE2DC, FONT_THIN)
 }
 
 /// Returns the `lightbulb filament` icon.
-pub fn lightbulb_filament() -> Text<'static> {
+pub fn lightbulb_filament<'a>() -> Text<'a> {
     create_icon(0xE63C, FONT_THIN)
 }
 
 /// Returns the `lighthouse` icon.
-pub fn lighthouse() -> Text<'static> {
+pub fn lighthouse<'a>() -> Text<'a> {
     create_icon(0xE9F6, FONT_THIN)
 }
 
 /// Returns the `lightning` icon.
-pub fn lightning() -> Text<'static> {
+pub fn lightning<'a>() -> Text<'a> {
     create_icon(0xE2DE, FONT_THIN)
 }
 
 /// Returns the `lightning a` icon.
-pub fn lightning_a() -> Text<'static> {
+pub fn lightning_a<'a>() -> Text<'a> {
     create_icon(0xEA84, FONT_THIN)
 }
 
 /// Returns the `lightning slash` icon.
-pub fn lightning_slash() -> Text<'static> {
+pub fn lightning_slash<'a>() -> Text<'a> {
     create_icon(0xE2E0, FONT_THIN)
 }
 
 /// Returns the `line segment` icon.
-pub fn line_segment() -> Text<'static> {
+pub fn line_segment<'a>() -> Text<'a> {
     create_icon(0xE6D2, FONT_THIN)
 }
 
 /// Returns the `line segments` icon.
-pub fn line_segments() -> Text<'static> {
+pub fn line_segments<'a>() -> Text<'a> {
     create_icon(0xE6D4, FONT_THIN)
 }
 
 /// Returns the `line vertical` icon.
-pub fn line_vertical() -> Text<'static> {
+pub fn line_vertical<'a>() -> Text<'a> {
     create_icon(0xED70, FONT_THIN)
 }
 
 /// Returns the `link` icon.
-pub fn link() -> Text<'static> {
+pub fn link<'a>() -> Text<'a> {
     create_icon(0xE2E2, FONT_THIN)
 }
 
 /// Returns the `link break` icon.
-pub fn link_break() -> Text<'static> {
+pub fn link_break<'a>() -> Text<'a> {
     create_icon(0xE2E4, FONT_THIN)
 }
 
 /// Returns the `link simple` icon.
-pub fn link_simple() -> Text<'static> {
+pub fn link_simple<'a>() -> Text<'a> {
     create_icon(0xE2E6, FONT_THIN)
 }
 
 /// Returns the `link simple break` icon.
-pub fn link_simple_break() -> Text<'static> {
+pub fn link_simple_break<'a>() -> Text<'a> {
     create_icon(0xE2E8, FONT_THIN)
 }
 
 /// Returns the `link simple horizontal` icon.
-pub fn link_simple_horizontal() -> Text<'static> {
+pub fn link_simple_horizontal<'a>() -> Text<'a> {
     create_icon(0xE2EA, FONT_THIN)
 }
 
 /// Returns the `link simple horizontal break` icon.
-pub fn link_simple_horizontal_break() -> Text<'static> {
+pub fn link_simple_horizontal_break<'a>() -> Text<'a> {
     create_icon(0xE2EC, FONT_THIN)
 }
 
 /// Returns the `linkedin logo` icon.
-pub fn linkedin_logo() -> Text<'static> {
+pub fn linkedin_logo<'a>() -> Text<'a> {
     create_icon(0xE2EE, FONT_THIN)
 }
 
 /// Returns the `linktree logo` icon.
-pub fn linktree_logo() -> Text<'static> {
+pub fn linktree_logo<'a>() -> Text<'a> {
     create_icon(0xEDEE, FONT_THIN)
 }
 
 /// Returns the `linux logo` icon.
-pub fn linux_logo() -> Text<'static> {
+pub fn linux_logo<'a>() -> Text<'a> {
     create_icon(0xEB02, FONT_THIN)
 }
 
 /// Returns the `list` icon.
-pub fn list() -> Text<'static> {
+pub fn list<'a>() -> Text<'a> {
     create_icon(0xE2F0, FONT_THIN)
 }
 
 /// Returns the `list bullets` icon.
-pub fn list_bullets() -> Text<'static> {
+pub fn list_bullets<'a>() -> Text<'a> {
     create_icon(0xE2F2, FONT_THIN)
 }
 
 /// Returns the `list checks` icon.
-pub fn list_checks() -> Text<'static> {
+pub fn list_checks<'a>() -> Text<'a> {
     create_icon(0xEADC, FONT_THIN)
 }
 
 /// Returns the `list dashes` icon.
-pub fn list_dashes() -> Text<'static> {
+pub fn list_dashes<'a>() -> Text<'a> {
     create_icon(0xE2F4, FONT_THIN)
 }
 
 /// Returns the `list heart` icon.
-pub fn list_heart() -> Text<'static> {
+pub fn list_heart<'a>() -> Text<'a> {
     create_icon(0xEBDE, FONT_THIN)
 }
 
 /// Returns the `list magnifying glass` icon.
-pub fn list_magnifying_glass() -> Text<'static> {
+pub fn list_magnifying_glass<'a>() -> Text<'a> {
     create_icon(0xEBE0, FONT_THIN)
 }
 
 /// Returns the `list numbers` icon.
-pub fn list_numbers() -> Text<'static> {
+pub fn list_numbers<'a>() -> Text<'a> {
     create_icon(0xE2F6, FONT_THIN)
 }
 
 /// Returns the `list plus` icon.
-pub fn list_plus() -> Text<'static> {
+pub fn list_plus<'a>() -> Text<'a> {
     create_icon(0xE2F8, FONT_THIN)
 }
 
 /// Returns the `list star` icon.
-pub fn list_star() -> Text<'static> {
+pub fn list_star<'a>() -> Text<'a> {
     create_icon(0xEBDC, FONT_THIN)
 }
 
 /// Returns the `lock` icon.
-pub fn lock() -> Text<'static> {
+pub fn lock<'a>() -> Text<'a> {
     create_icon(0xE2FA, FONT_THIN)
 }
 
 /// Returns the `lock key` icon.
-pub fn lock_key() -> Text<'static> {
+pub fn lock_key<'a>() -> Text<'a> {
     create_icon(0xE2FE, FONT_THIN)
 }
 
 /// Returns the `lock key open` icon.
-pub fn lock_key_open() -> Text<'static> {
+pub fn lock_key_open<'a>() -> Text<'a> {
     create_icon(0xE300, FONT_THIN)
 }
 
 /// Returns the `lock laminated` icon.
-pub fn lock_laminated() -> Text<'static> {
+pub fn lock_laminated<'a>() -> Text<'a> {
     create_icon(0xE302, FONT_THIN)
 }
 
 /// Returns the `lock laminated open` icon.
-pub fn lock_laminated_open() -> Text<'static> {
+pub fn lock_laminated_open<'a>() -> Text<'a> {
     create_icon(0xE304, FONT_THIN)
 }
 
 /// Returns the `lock open` icon.
-pub fn lock_open() -> Text<'static> {
+pub fn lock_open<'a>() -> Text<'a> {
     create_icon(0xE306, FONT_THIN)
 }
 
 /// Returns the `lock simple` icon.
-pub fn lock_simple() -> Text<'static> {
+pub fn lock_simple<'a>() -> Text<'a> {
     create_icon(0xE308, FONT_THIN)
 }
 
 /// Returns the `lock simple open` icon.
-pub fn lock_simple_open() -> Text<'static> {
+pub fn lock_simple_open<'a>() -> Text<'a> {
     create_icon(0xE30A, FONT_THIN)
 }
 
 /// Returns the `lockers` icon.
-pub fn lockers() -> Text<'static> {
+pub fn lockers<'a>() -> Text<'a> {
     create_icon(0xECB8, FONT_THIN)
 }
 
 /// Returns the `log` icon.
-pub fn log() -> Text<'static> {
+pub fn log<'a>() -> Text<'a> {
     create_icon(0xED82, FONT_THIN)
 }
 
 /// Returns the `magic wand` icon.
-pub fn magic_wand() -> Text<'static> {
+pub fn magic_wand<'a>() -> Text<'a> {
     create_icon(0xE6B6, FONT_THIN)
 }
 
 /// Returns the `magnet` icon.
-pub fn magnet() -> Text<'static> {
+pub fn magnet<'a>() -> Text<'a> {
     create_icon(0xE680, FONT_THIN)
 }
 
 /// Returns the `magnet straight` icon.
-pub fn magnet_straight() -> Text<'static> {
+pub fn magnet_straight<'a>() -> Text<'a> {
     create_icon(0xE682, FONT_THIN)
 }
 
 /// Returns the `magnifying glass` icon.
-pub fn magnifying_glass() -> Text<'static> {
+pub fn magnifying_glass<'a>() -> Text<'a> {
     create_icon(0xE30C, FONT_THIN)
 }
 
 /// Returns the `magnifying glass minus` icon.
-pub fn magnifying_glass_minus() -> Text<'static> {
+pub fn magnifying_glass_minus<'a>() -> Text<'a> {
     create_icon(0xE30E, FONT_THIN)
 }
 
 /// Returns the `magnifying glass plus` icon.
-pub fn magnifying_glass_plus() -> Text<'static> {
+pub fn magnifying_glass_plus<'a>() -> Text<'a> {
     create_icon(0xE310, FONT_THIN)
 }
 
 /// Returns the `mailbox` icon.
-pub fn mailbox() -> Text<'static> {
+pub fn mailbox<'a>() -> Text<'a> {
     create_icon(0xEC1E, FONT_THIN)
 }
 
 /// Returns the `map pin` icon.
-pub fn map_pin() -> Text<'static> {
+pub fn map_pin<'a>() -> Text<'a> {
     create_icon(0xE316, FONT_THIN)
 }
 
 /// Returns the `map pin area` icon.
-pub fn map_pin_area() -> Text<'static> {
+pub fn map_pin_area<'a>() -> Text<'a> {
     create_icon(0xEE3A, FONT_THIN)
 }
 
 /// Returns the `map pin line` icon.
-pub fn map_pin_line() -> Text<'static> {
+pub fn map_pin_line<'a>() -> Text<'a> {
     create_icon(0xE318, FONT_THIN)
 }
 
 /// Returns the `map pin plus` icon.
-pub fn map_pin_plus() -> Text<'static> {
+pub fn map_pin_plus<'a>() -> Text<'a> {
     create_icon(0xE314, FONT_THIN)
 }
 
 /// Returns the `map pin simple` icon.
-pub fn map_pin_simple() -> Text<'static> {
+pub fn map_pin_simple<'a>() -> Text<'a> {
     create_icon(0xEE3E, FONT_THIN)
 }
 
 /// Returns the `map pin simple area` icon.
-pub fn map_pin_simple_area() -> Text<'static> {
+pub fn map_pin_simple_area<'a>() -> Text<'a> {
     create_icon(0xEE3C, FONT_THIN)
 }
 
 /// Returns the `map pin simple line` icon.
-pub fn map_pin_simple_line() -> Text<'static> {
+pub fn map_pin_simple_line<'a>() -> Text<'a> {
     create_icon(0xEE38, FONT_THIN)
 }
 
 /// Returns the `map trifold` icon.
-pub fn map_trifold() -> Text<'static> {
+pub fn map_trifold<'a>() -> Text<'a> {
     create_icon(0xE31A, FONT_THIN)
 }
 
 /// Returns the `markdown logo` icon.
-pub fn markdown_logo() -> Text<'static> {
+pub fn markdown_logo<'a>() -> Text<'a> {
     create_icon(0xE508, FONT_THIN)
 }
 
 /// Returns the `marker circle` icon.
-pub fn marker_circle() -> Text<'static> {
+pub fn marker_circle<'a>() -> Text<'a> {
     create_icon(0xE640, FONT_THIN)
 }
 
 /// Returns the `martini` icon.
-pub fn martini() -> Text<'static> {
+pub fn martini<'a>() -> Text<'a> {
     create_icon(0xE31C, FONT_THIN)
 }
 
 /// Returns the `mask happy` icon.
-pub fn mask_happy() -> Text<'static> {
+pub fn mask_happy<'a>() -> Text<'a> {
     create_icon(0xE9F4, FONT_THIN)
 }
 
 /// Returns the `mask sad` icon.
-pub fn mask_sad() -> Text<'static> {
+pub fn mask_sad<'a>() -> Text<'a> {
     create_icon(0xEB9E, FONT_THIN)
 }
 
 /// Returns the `mastodon logo` icon.
-pub fn mastodon_logo() -> Text<'static> {
+pub fn mastodon_logo<'a>() -> Text<'a> {
     create_icon(0xED68, FONT_THIN)
 }
 
 /// Returns the `math operations` icon.
-pub fn math_operations() -> Text<'static> {
+pub fn math_operations<'a>() -> Text<'a> {
     create_icon(0xE31E, FONT_THIN)
 }
 
 /// Returns the `matrix logo` icon.
-pub fn matrix_logo() -> Text<'static> {
+pub fn matrix_logo<'a>() -> Text<'a> {
     create_icon(0xED64, FONT_THIN)
 }
 
 /// Returns the `medal` icon.
-pub fn medal() -> Text<'static> {
+pub fn medal<'a>() -> Text<'a> {
     create_icon(0xE320, FONT_THIN)
 }
 
 /// Returns the `medal military` icon.
-pub fn medal_military() -> Text<'static> {
+pub fn medal_military<'a>() -> Text<'a> {
     create_icon(0xECFC, FONT_THIN)
 }
 
 /// Returns the `medium logo` icon.
-pub fn medium_logo() -> Text<'static> {
+pub fn medium_logo<'a>() -> Text<'a> {
     create_icon(0xE322, FONT_THIN)
 }
 
 /// Returns the `megaphone` icon.
-pub fn megaphone() -> Text<'static> {
+pub fn megaphone<'a>() -> Text<'a> {
     create_icon(0xE324, FONT_THIN)
 }
 
 /// Returns the `megaphone simple` icon.
-pub fn megaphone_simple() -> Text<'static> {
+pub fn megaphone_simple<'a>() -> Text<'a> {
     create_icon(0xE642, FONT_THIN)
 }
 
 /// Returns the `member of` icon.
-pub fn member_of() -> Text<'static> {
+pub fn member_of<'a>() -> Text<'a> {
     create_icon(0xEDC2, FONT_THIN)
 }
 
 /// Returns the `memory` icon.
-pub fn memory() -> Text<'static> {
+pub fn memory<'a>() -> Text<'a> {
     create_icon(0xE9C4, FONT_THIN)
 }
 
 /// Returns the `messenger logo` icon.
-pub fn messenger_logo() -> Text<'static> {
+pub fn messenger_logo<'a>() -> Text<'a> {
     create_icon(0xE6D8, FONT_THIN)
 }
 
 /// Returns the `meta logo` icon.
-pub fn meta_logo() -> Text<'static> {
+pub fn meta_logo<'a>() -> Text<'a> {
     create_icon(0xED02, FONT_THIN)
 }
 
 /// Returns the `meteor` icon.
-pub fn meteor() -> Text<'static> {
+pub fn meteor<'a>() -> Text<'a> {
     create_icon(0xE9BA, FONT_THIN)
 }
 
 /// Returns the `metronome` icon.
-pub fn metronome() -> Text<'static> {
+pub fn metronome<'a>() -> Text<'a> {
     create_icon(0xEC8E, FONT_THIN)
 }
 
 /// Returns the `microphone` icon.
-pub fn microphone() -> Text<'static> {
+pub fn microphone<'a>() -> Text<'a> {
     create_icon(0xE326, FONT_THIN)
 }
 
 /// Returns the `microphone slash` icon.
-pub fn microphone_slash() -> Text<'static> {
+pub fn microphone_slash<'a>() -> Text<'a> {
     create_icon(0xE328, FONT_THIN)
 }
 
 /// Returns the `microphone stage` icon.
-pub fn microphone_stage() -> Text<'static> {
+pub fn microphone_stage<'a>() -> Text<'a> {
     create_icon(0xE75C, FONT_THIN)
 }
 
 /// Returns the `microscope` icon.
-pub fn microscope() -> Text<'static> {
+pub fn microscope<'a>() -> Text<'a> {
     create_icon(0xEC7A, FONT_THIN)
 }
 
 /// Returns the `microsoft excel logo` icon.
-pub fn microsoft_excel_logo() -> Text<'static> {
+pub fn microsoft_excel_logo<'a>() -> Text<'a> {
     create_icon(0xEB6C, FONT_THIN)
 }
 
 /// Returns the `microsoft outlook logo` icon.
-pub fn microsoft_outlook_logo() -> Text<'static> {
+pub fn microsoft_outlook_logo<'a>() -> Text<'a> {
     create_icon(0xEB70, FONT_THIN)
 }
 
 /// Returns the `microsoft powerpoint logo` icon.
-pub fn microsoft_powerpoint_logo() -> Text<'static> {
+pub fn microsoft_powerpoint_logo<'a>() -> Text<'a> {
     create_icon(0xEACE, FONT_THIN)
 }
 
 /// Returns the `microsoft teams logo` icon.
-pub fn microsoft_teams_logo() -> Text<'static> {
+pub fn microsoft_teams_logo<'a>() -> Text<'a> {
     create_icon(0xEB66, FONT_THIN)
 }
 
 /// Returns the `microsoft word logo` icon.
-pub fn microsoft_word_logo() -> Text<'static> {
+pub fn microsoft_word_logo<'a>() -> Text<'a> {
     create_icon(0xEB6A, FONT_THIN)
 }
 
 /// Returns the `minus` icon.
-pub fn minus() -> Text<'static> {
+pub fn minus<'a>() -> Text<'a> {
     create_icon(0xE32A, FONT_THIN)
 }
 
 /// Returns the `minus circle` icon.
-pub fn minus_circle() -> Text<'static> {
+pub fn minus_circle<'a>() -> Text<'a> {
     create_icon(0xE32C, FONT_THIN)
 }
 
 /// Returns the `minus square` icon.
-pub fn minus_square() -> Text<'static> {
+pub fn minus_square<'a>() -> Text<'a> {
     create_icon(0xED4C, FONT_THIN)
 }
 
 /// Returns the `money` icon.
-pub fn money() -> Text<'static> {
+pub fn money<'a>() -> Text<'a> {
     create_icon(0xE588, FONT_THIN)
 }
 
 /// Returns the `money wavy` icon.
-pub fn money_wavy() -> Text<'static> {
+pub fn money_wavy<'a>() -> Text<'a> {
     create_icon(0xEE68, FONT_THIN)
 }
 
 /// Returns the `monitor` icon.
-pub fn monitor() -> Text<'static> {
+pub fn monitor<'a>() -> Text<'a> {
     create_icon(0xE32E, FONT_THIN)
 }
 
 /// Returns the `monitor arrow up` icon.
-pub fn monitor_arrow_up() -> Text<'static> {
+pub fn monitor_arrow_up<'a>() -> Text<'a> {
     create_icon(0xE58A, FONT_THIN)
 }
 
 /// Returns the `monitor play` icon.
-pub fn monitor_play() -> Text<'static> {
+pub fn monitor_play<'a>() -> Text<'a> {
     create_icon(0xE58C, FONT_THIN)
 }
 
 /// Returns the `moon` icon.
-pub fn moon() -> Text<'static> {
+pub fn moon<'a>() -> Text<'a> {
     create_icon(0xE330, FONT_THIN)
 }
 
 /// Returns the `moon stars` icon.
-pub fn moon_stars() -> Text<'static> {
+pub fn moon_stars<'a>() -> Text<'a> {
     create_icon(0xE58E, FONT_THIN)
 }
 
 /// Returns the `moped` icon.
-pub fn moped() -> Text<'static> {
+pub fn moped<'a>() -> Text<'a> {
     create_icon(0xE824, FONT_THIN)
 }
 
 /// Returns the `moped front` icon.
-pub fn moped_front() -> Text<'static> {
+pub fn moped_front<'a>() -> Text<'a> {
     create_icon(0xE822, FONT_THIN)
 }
 
 /// Returns the `mosque` icon.
-pub fn mosque() -> Text<'static> {
+pub fn mosque<'a>() -> Text<'a> {
     create_icon(0xECEE, FONT_THIN)
 }
 
 /// Returns the `motorcycle` icon.
-pub fn motorcycle() -> Text<'static> {
+pub fn motorcycle<'a>() -> Text<'a> {
     create_icon(0xE80A, FONT_THIN)
 }
 
 /// Returns the `mountains` icon.
-pub fn mountains() -> Text<'static> {
+pub fn mountains<'a>() -> Text<'a> {
     create_icon(0xE7AE, FONT_THIN)
 }
 
 /// Returns the `mouse` icon.
-pub fn mouse() -> Text<'static> {
+pub fn mouse<'a>() -> Text<'a> {
     create_icon(0xE33A, FONT_THIN)
 }
 
 /// Returns the `mouse left click` icon.
-pub fn mouse_left_click() -> Text<'static> {
+pub fn mouse_left_click<'a>() -> Text<'a> {
     create_icon(0xE334, FONT_THIN)
 }
 
 /// Returns the `mouse middle click` icon.
-pub fn mouse_middle_click() -> Text<'static> {
+pub fn mouse_middle_click<'a>() -> Text<'a> {
     create_icon(0xE338, FONT_THIN)
 }
 
 /// Returns the `mouse right click` icon.
-pub fn mouse_right_click() -> Text<'static> {
+pub fn mouse_right_click<'a>() -> Text<'a> {
     create_icon(0xE336, FONT_THIN)
 }
 
 /// Returns the `mouse scroll` icon.
-pub fn mouse_scroll() -> Text<'static> {
+pub fn mouse_scroll<'a>() -> Text<'a> {
     create_icon(0xE332, FONT_THIN)
 }
 
 /// Returns the `mouse simple` icon.
-pub fn mouse_simple() -> Text<'static> {
+pub fn mouse_simple<'a>() -> Text<'a> {
     create_icon(0xE644, FONT_THIN)
 }
 
 /// Returns the `music note` icon.
-pub fn music_note() -> Text<'static> {
+pub fn music_note<'a>() -> Text<'a> {
     create_icon(0xE33C, FONT_THIN)
 }
 
 /// Returns the `music note simple` icon.
-pub fn music_note_simple() -> Text<'static> {
+pub fn music_note_simple<'a>() -> Text<'a> {
     create_icon(0xE33E, FONT_THIN)
 }
 
 /// Returns the `music notes` icon.
-pub fn music_notes() -> Text<'static> {
+pub fn music_notes<'a>() -> Text<'a> {
     create_icon(0xE340, FONT_THIN)
 }
 
 /// Returns the `music notes minus` icon.
-pub fn music_notes_minus() -> Text<'static> {
+pub fn music_notes_minus<'a>() -> Text<'a> {
     create_icon(0xEE0C, FONT_THIN)
 }
 
 /// Returns the `music notes plus` icon.
-pub fn music_notes_plus() -> Text<'static> {
+pub fn music_notes_plus<'a>() -> Text<'a> {
     create_icon(0xEB7C, FONT_THIN)
 }
 
 /// Returns the `music notes simple` icon.
-pub fn music_notes_simple() -> Text<'static> {
+pub fn music_notes_simple<'a>() -> Text<'a> {
     create_icon(0xE342, FONT_THIN)
 }
 
 /// Returns the `navigation arrow` icon.
-pub fn navigation_arrow() -> Text<'static> {
+pub fn navigation_arrow<'a>() -> Text<'a> {
     create_icon(0xEADE, FONT_THIN)
 }
 
 /// Returns the `needle` icon.
-pub fn needle() -> Text<'static> {
+pub fn needle<'a>() -> Text<'a> {
     create_icon(0xE82E, FONT_THIN)
 }
 
 /// Returns the `network` icon.
-pub fn network() -> Text<'static> {
+pub fn network<'a>() -> Text<'a> {
     create_icon(0xEDDE, FONT_THIN)
 }
 
 /// Returns the `network slash` icon.
-pub fn network_slash() -> Text<'static> {
+pub fn network_slash<'a>() -> Text<'a> {
     create_icon(0xEDDC, FONT_THIN)
 }
 
 /// Returns the `network x` icon.
-pub fn network_x() -> Text<'static> {
+pub fn network_x<'a>() -> Text<'a> {
     create_icon(0xEDDA, FONT_THIN)
 }
 
 /// Returns the `newspaper` icon.
-pub fn newspaper() -> Text<'static> {
+pub fn newspaper<'a>() -> Text<'a> {
     create_icon(0xE344, FONT_THIN)
 }
 
 /// Returns the `newspaper clipping` icon.
-pub fn newspaper_clipping() -> Text<'static> {
+pub fn newspaper_clipping<'a>() -> Text<'a> {
     create_icon(0xE346, FONT_THIN)
 }
 
 /// Returns the `not equals` icon.
-pub fn not_equals() -> Text<'static> {
+pub fn not_equals<'a>() -> Text<'a> {
     create_icon(0xEDA6, FONT_THIN)
 }
 
 /// Returns the `not member of` icon.
-pub fn not_member_of() -> Text<'static> {
+pub fn not_member_of<'a>() -> Text<'a> {
     create_icon(0xEDAE, FONT_THIN)
 }
 
 /// Returns the `not subset of` icon.
-pub fn not_subset_of() -> Text<'static> {
+pub fn not_subset_of<'a>() -> Text<'a> {
     create_icon(0xEDB0, FONT_THIN)
 }
 
 /// Returns the `not superset of` icon.
-pub fn not_superset_of() -> Text<'static> {
+pub fn not_superset_of<'a>() -> Text<'a> {
     create_icon(0xEDB2, FONT_THIN)
 }
 
 /// Returns the `notches` icon.
-pub fn notches() -> Text<'static> {
+pub fn notches<'a>() -> Text<'a> {
     create_icon(0xED3A, FONT_THIN)
 }
 
 /// Returns the `note` icon.
-pub fn note() -> Text<'static> {
+pub fn note<'a>() -> Text<'a> {
     create_icon(0xE348, FONT_THIN)
 }
 
 /// Returns the `note blank` icon.
-pub fn note_blank() -> Text<'static> {
+pub fn note_blank<'a>() -> Text<'a> {
     create_icon(0xE34A, FONT_THIN)
 }
 
 /// Returns the `note pencil` icon.
-pub fn note_pencil() -> Text<'static> {
+pub fn note_pencil<'a>() -> Text<'a> {
     create_icon(0xE34C, FONT_THIN)
 }
 
 /// Returns the `notebook` icon.
-pub fn notebook() -> Text<'static> {
+pub fn notebook<'a>() -> Text<'a> {
     create_icon(0xE34E, FONT_THIN)
 }
 
 /// Returns the `notepad` icon.
-pub fn notepad() -> Text<'static> {
+pub fn notepad<'a>() -> Text<'a> {
     create_icon(0xE63E, FONT_THIN)
 }
 
 /// Returns the `notification` icon.
-pub fn notification() -> Text<'static> {
+pub fn notification<'a>() -> Text<'a> {
     create_icon(0xE6FA, FONT_THIN)
 }
 
 /// Returns the `notion logo` icon.
-pub fn notion_logo() -> Text<'static> {
+pub fn notion_logo<'a>() -> Text<'a> {
     create_icon(0xE9A0, FONT_THIN)
 }
 
 /// Returns the `nuclear plant` icon.
-pub fn nuclear_plant() -> Text<'static> {
+pub fn nuclear_plant<'a>() -> Text<'a> {
     create_icon(0xED7C, FONT_THIN)
 }
 
 /// Returns the `number circle eight` icon.
-pub fn number_circle_eight() -> Text<'static> {
+pub fn number_circle_eight<'a>() -> Text<'a> {
     create_icon(0xE352, FONT_THIN)
 }
 
 /// Returns the `number circle five` icon.
-pub fn number_circle_five() -> Text<'static> {
+pub fn number_circle_five<'a>() -> Text<'a> {
     create_icon(0xE358, FONT_THIN)
 }
 
 /// Returns the `number circle four` icon.
-pub fn number_circle_four() -> Text<'static> {
+pub fn number_circle_four<'a>() -> Text<'a> {
     create_icon(0xE35E, FONT_THIN)
 }
 
 /// Returns the `number circle nine` icon.
-pub fn number_circle_nine() -> Text<'static> {
+pub fn number_circle_nine<'a>() -> Text<'a> {
     create_icon(0xE364, FONT_THIN)
 }
 
 /// Returns the `number circle one` icon.
-pub fn number_circle_one() -> Text<'static> {
+pub fn number_circle_one<'a>() -> Text<'a> {
     create_icon(0xE36A, FONT_THIN)
 }
 
 /// Returns the `number circle seven` icon.
-pub fn number_circle_seven() -> Text<'static> {
+pub fn number_circle_seven<'a>() -> Text<'a> {
     create_icon(0xE370, FONT_THIN)
 }
 
 /// Returns the `number circle six` icon.
-pub fn number_circle_six() -> Text<'static> {
+pub fn number_circle_six<'a>() -> Text<'a> {
     create_icon(0xE376, FONT_THIN)
 }
 
 /// Returns the `number circle three` icon.
-pub fn number_circle_three() -> Text<'static> {
+pub fn number_circle_three<'a>() -> Text<'a> {
     create_icon(0xE37C, FONT_THIN)
 }
 
 /// Returns the `number circle two` icon.
-pub fn number_circle_two() -> Text<'static> {
+pub fn number_circle_two<'a>() -> Text<'a> {
     create_icon(0xE382, FONT_THIN)
 }
 
 /// Returns the `number circle zero` icon.
-pub fn number_circle_zero() -> Text<'static> {
+pub fn number_circle_zero<'a>() -> Text<'a> {
     create_icon(0xE388, FONT_THIN)
 }
 
 /// Returns the `number eight` icon.
-pub fn number_eight() -> Text<'static> {
+pub fn number_eight<'a>() -> Text<'a> {
     create_icon(0xE350, FONT_THIN)
 }
 
 /// Returns the `number five` icon.
-pub fn number_five() -> Text<'static> {
+pub fn number_five<'a>() -> Text<'a> {
     create_icon(0xE356, FONT_THIN)
 }
 
 /// Returns the `number four` icon.
-pub fn number_four() -> Text<'static> {
+pub fn number_four<'a>() -> Text<'a> {
     create_icon(0xE35C, FONT_THIN)
 }
 
 /// Returns the `number nine` icon.
-pub fn number_nine() -> Text<'static> {
+pub fn number_nine<'a>() -> Text<'a> {
     create_icon(0xE362, FONT_THIN)
 }
 
 /// Returns the `number one` icon.
-pub fn number_one() -> Text<'static> {
+pub fn number_one<'a>() -> Text<'a> {
     create_icon(0xE368, FONT_THIN)
 }
 
 /// Returns the `number seven` icon.
-pub fn number_seven() -> Text<'static> {
+pub fn number_seven<'a>() -> Text<'a> {
     create_icon(0xE36E, FONT_THIN)
 }
 
 /// Returns the `number six` icon.
-pub fn number_six() -> Text<'static> {
+pub fn number_six<'a>() -> Text<'a> {
     create_icon(0xE374, FONT_THIN)
 }
 
 /// Returns the `number square eight` icon.
-pub fn number_square_eight() -> Text<'static> {
+pub fn number_square_eight<'a>() -> Text<'a> {
     create_icon(0xE354, FONT_THIN)
 }
 
 /// Returns the `number square five` icon.
-pub fn number_square_five() -> Text<'static> {
+pub fn number_square_five<'a>() -> Text<'a> {
     create_icon(0xE35A, FONT_THIN)
 }
 
 /// Returns the `number square four` icon.
-pub fn number_square_four() -> Text<'static> {
+pub fn number_square_four<'a>() -> Text<'a> {
     create_icon(0xE360, FONT_THIN)
 }
 
 /// Returns the `number square nine` icon.
-pub fn number_square_nine() -> Text<'static> {
+pub fn number_square_nine<'a>() -> Text<'a> {
     create_icon(0xE366, FONT_THIN)
 }
 
 /// Returns the `number square one` icon.
-pub fn number_square_one() -> Text<'static> {
+pub fn number_square_one<'a>() -> Text<'a> {
     create_icon(0xE36C, FONT_THIN)
 }
 
 /// Returns the `number square seven` icon.
-pub fn number_square_seven() -> Text<'static> {
+pub fn number_square_seven<'a>() -> Text<'a> {
     create_icon(0xE372, FONT_THIN)
 }
 
 /// Returns the `number square six` icon.
-pub fn number_square_six() -> Text<'static> {
+pub fn number_square_six<'a>() -> Text<'a> {
     create_icon(0xE378, FONT_THIN)
 }
 
 /// Returns the `number square three` icon.
-pub fn number_square_three() -> Text<'static> {
+pub fn number_square_three<'a>() -> Text<'a> {
     create_icon(0xE37E, FONT_THIN)
 }
 
 /// Returns the `number square two` icon.
-pub fn number_square_two() -> Text<'static> {
+pub fn number_square_two<'a>() -> Text<'a> {
     create_icon(0xE384, FONT_THIN)
 }
 
 /// Returns the `number square zero` icon.
-pub fn number_square_zero() -> Text<'static> {
+pub fn number_square_zero<'a>() -> Text<'a> {
     create_icon(0xE38A, FONT_THIN)
 }
 
 /// Returns the `number three` icon.
-pub fn number_three() -> Text<'static> {
+pub fn number_three<'a>() -> Text<'a> {
     create_icon(0xE37A, FONT_THIN)
 }
 
 /// Returns the `number two` icon.
-pub fn number_two() -> Text<'static> {
+pub fn number_two<'a>() -> Text<'a> {
     create_icon(0xE380, FONT_THIN)
 }
 
 /// Returns the `number zero` icon.
-pub fn number_zero() -> Text<'static> {
+pub fn number_zero<'a>() -> Text<'a> {
     create_icon(0xE386, FONT_THIN)
 }
 
 /// Returns the `numpad` icon.
-pub fn numpad() -> Text<'static> {
+pub fn numpad<'a>() -> Text<'a> {
     create_icon(0xE3C8, FONT_THIN)
 }
 
 /// Returns the `nut` icon.
-pub fn nut() -> Text<'static> {
+pub fn nut<'a>() -> Text<'a> {
     create_icon(0xE38C, FONT_THIN)
 }
 
 /// Returns the `ny times logo` icon.
-pub fn ny_times_logo() -> Text<'static> {
+pub fn ny_times_logo<'a>() -> Text<'a> {
     create_icon(0xE646, FONT_THIN)
 }
 
 /// Returns the `octagon` icon.
-pub fn octagon() -> Text<'static> {
+pub fn octagon<'a>() -> Text<'a> {
     create_icon(0xE38E, FONT_THIN)
 }
 
 /// Returns the `office chair` icon.
-pub fn office_chair() -> Text<'static> {
+pub fn office_chair<'a>() -> Text<'a> {
     create_icon(0xEA46, FONT_THIN)
 }
 
 /// Returns the `onigiri` icon.
-pub fn onigiri() -> Text<'static> {
+pub fn onigiri<'a>() -> Text<'a> {
     create_icon(0xEE2C, FONT_THIN)
 }
 
 /// Returns the `open ai logo` icon.
-pub fn open_ai_logo() -> Text<'static> {
+pub fn open_ai_logo<'a>() -> Text<'a> {
     create_icon(0xE7D2, FONT_THIN)
 }
 
 /// Returns the `option` icon.
-pub fn option() -> Text<'static> {
+pub fn option<'a>() -> Text<'a> {
     create_icon(0xE8A8, FONT_THIN)
 }
 
 /// Returns the `orange` icon.
-pub fn orange() -> Text<'static> {
+pub fn orange<'a>() -> Text<'a> {
     create_icon(0xEE40, FONT_THIN)
 }
 
 /// Returns the `orange slice` icon.
-pub fn orange_slice() -> Text<'static> {
+pub fn orange_slice<'a>() -> Text<'a> {
     create_icon(0xED36, FONT_THIN)
 }
 
 /// Returns the `oven` icon.
-pub fn oven() -> Text<'static> {
+pub fn oven<'a>() -> Text<'a> {
     create_icon(0xED8C, FONT_THIN)
 }
 
 /// Returns the `package` icon.
-pub fn package() -> Text<'static> {
+pub fn package<'a>() -> Text<'a> {
     create_icon(0xE390, FONT_THIN)
 }
 
 /// Returns the `paint brush` icon.
-pub fn paint_brush() -> Text<'static> {
+pub fn paint_brush<'a>() -> Text<'a> {
     create_icon(0xE6F0, FONT_THIN)
 }
 
 /// Returns the `paint brush broad` icon.
-pub fn paint_brush_broad() -> Text<'static> {
+pub fn paint_brush_broad<'a>() -> Text<'a> {
     create_icon(0xE590, FONT_THIN)
 }
 
 /// Returns the `paint brush household` icon.
-pub fn paint_brush_household() -> Text<'static> {
+pub fn paint_brush_household<'a>() -> Text<'a> {
     create_icon(0xE6F2, FONT_THIN)
 }
 
 /// Returns the `paint bucket` icon.
-pub fn paint_bucket() -> Text<'static> {
+pub fn paint_bucket<'a>() -> Text<'a> {
     create_icon(0xE392, FONT_THIN)
 }
 
 /// Returns the `paint roller` icon.
-pub fn paint_roller() -> Text<'static> {
+pub fn paint_roller<'a>() -> Text<'a> {
     create_icon(0xE6F4, FONT_THIN)
 }
 
 /// Returns the `palette` icon.
-pub fn palette() -> Text<'static> {
+pub fn palette<'a>() -> Text<'a> {
     create_icon(0xE6C8, FONT_THIN)
 }
 
 /// Returns the `panorama` icon.
-pub fn panorama() -> Text<'static> {
+pub fn panorama<'a>() -> Text<'a> {
     create_icon(0xEAA2, FONT_THIN)
 }
 
 /// Returns the `pants` icon.
-pub fn pants() -> Text<'static> {
+pub fn pants<'a>() -> Text<'a> {
     create_icon(0xEC88, FONT_THIN)
 }
 
 /// Returns the `paper plane` icon.
-pub fn paper_plane() -> Text<'static> {
+pub fn paper_plane<'a>() -> Text<'a> {
     create_icon(0xE394, FONT_THIN)
 }
 
 /// Returns the `paper plane right` icon.
-pub fn paper_plane_right() -> Text<'static> {
+pub fn paper_plane_right<'a>() -> Text<'a> {
     create_icon(0xE396, FONT_THIN)
 }
 
 /// Returns the `paper plane tilt` icon.
-pub fn paper_plane_tilt() -> Text<'static> {
+pub fn paper_plane_tilt<'a>() -> Text<'a> {
     create_icon(0xE398, FONT_THIN)
 }
 
 /// Returns the `paperclip` icon.
-pub fn paperclip() -> Text<'static> {
+pub fn paperclip<'a>() -> Text<'a> {
     create_icon(0xE39A, FONT_THIN)
 }
 
 /// Returns the `paperclip horizontal` icon.
-pub fn paperclip_horizontal() -> Text<'static> {
+pub fn paperclip_horizontal<'a>() -> Text<'a> {
     create_icon(0xE592, FONT_THIN)
 }
 
 /// Returns the `parachute` icon.
-pub fn parachute() -> Text<'static> {
+pub fn parachute<'a>() -> Text<'a> {
     create_icon(0xEA7C, FONT_THIN)
 }
 
 /// Returns the `paragraph` icon.
-pub fn paragraph() -> Text<'static> {
+pub fn paragraph<'a>() -> Text<'a> {
     create_icon(0xE960, FONT_THIN)
 }
 
 /// Returns the `parallelogram` icon.
-pub fn parallelogram() -> Text<'static> {
+pub fn parallelogram<'a>() -> Text<'a> {
     create_icon(0xECC6, FONT_THIN)
 }
 
 /// Returns the `park` icon.
-pub fn park() -> Text<'static> {
+pub fn park<'a>() -> Text<'a> {
     create_icon(0xECB2, FONT_THIN)
 }
 
 /// Returns the `password` icon.
-pub fn password() -> Text<'static> {
+pub fn password<'a>() -> Text<'a> {
     create_icon(0xE752, FONT_THIN)
 }
 
 /// Returns the `path` icon.
-pub fn path() -> Text<'static> {
+pub fn path<'a>() -> Text<'a> {
     create_icon(0xE39C, FONT_THIN)
 }
 
 /// Returns the `patreon logo` icon.
-pub fn patreon_logo() -> Text<'static> {
+pub fn patreon_logo<'a>() -> Text<'a> {
     create_icon(0xE98A, FONT_THIN)
 }
 
 /// Returns the `pause` icon.
-pub fn pause() -> Text<'static> {
+pub fn pause<'a>() -> Text<'a> {
     create_icon(0xE39E, FONT_THIN)
 }
 
 /// Returns the `pause circle` icon.
-pub fn pause_circle() -> Text<'static> {
+pub fn pause_circle<'a>() -> Text<'a> {
     create_icon(0xE3A0, FONT_THIN)
 }
 
 /// Returns the `paw print` icon.
-pub fn paw_print() -> Text<'static> {
+pub fn paw_print<'a>() -> Text<'a> {
     create_icon(0xE648, FONT_THIN)
 }
 
 /// Returns the `paypal logo` icon.
-pub fn paypal_logo() -> Text<'static> {
+pub fn paypal_logo<'a>() -> Text<'a> {
     create_icon(0xE98C, FONT_THIN)
 }
 
 /// Returns the `peace` icon.
-pub fn peace() -> Text<'static> {
+pub fn peace<'a>() -> Text<'a> {
     create_icon(0xE3A2, FONT_THIN)
 }
 
 /// Returns the `pen` icon.
-pub fn pen() -> Text<'static> {
+pub fn pen<'a>() -> Text<'a> {
     create_icon(0xE3AA, FONT_THIN)
 }
 
 /// Returns the `pen nib` icon.
-pub fn pen_nib() -> Text<'static> {
+pub fn pen_nib<'a>() -> Text<'a> {
     create_icon(0xE3AC, FONT_THIN)
 }
 
 /// Returns the `pen nib straight` icon.
-pub fn pen_nib_straight() -> Text<'static> {
+pub fn pen_nib_straight<'a>() -> Text<'a> {
     create_icon(0xE64A, FONT_THIN)
 }
 
 /// Returns the `pencil` icon.
-pub fn pencil() -> Text<'static> {
+pub fn pencil<'a>() -> Text<'a> {
     create_icon(0xE3AE, FONT_THIN)
 }
 
 /// Returns the `pencil circle` icon.
-pub fn pencil_circle() -> Text<'static> {
+pub fn pencil_circle<'a>() -> Text<'a> {
     create_icon(0xE3B0, FONT_THIN)
 }
 
 /// Returns the `pencil line` icon.
-pub fn pencil_line() -> Text<'static> {
+pub fn pencil_line<'a>() -> Text<'a> {
     create_icon(0xE3B2, FONT_THIN)
 }
 
 /// Returns the `pencil ruler` icon.
-pub fn pencil_ruler() -> Text<'static> {
+pub fn pencil_ruler<'a>() -> Text<'a> {
     create_icon(0xE906, FONT_THIN)
 }
 
 /// Returns the `pencil simple` icon.
-pub fn pencil_simple() -> Text<'static> {
+pub fn pencil_simple<'a>() -> Text<'a> {
     create_icon(0xE3B4, FONT_THIN)
 }
 
 /// Returns the `pencil simple line` icon.
-pub fn pencil_simple_line() -> Text<'static> {
+pub fn pencil_simple_line<'a>() -> Text<'a> {
     create_icon(0xEBC6, FONT_THIN)
 }
 
 /// Returns the `pencil simple slash` icon.
-pub fn pencil_simple_slash() -> Text<'static> {
+pub fn pencil_simple_slash<'a>() -> Text<'a> {
     create_icon(0xECF6, FONT_THIN)
 }
 
 /// Returns the `pencil slash` icon.
-pub fn pencil_slash() -> Text<'static> {
+pub fn pencil_slash<'a>() -> Text<'a> {
     create_icon(0xECF8, FONT_THIN)
 }
 
 /// Returns the `pentagon` icon.
-pub fn pentagon() -> Text<'static> {
+pub fn pentagon<'a>() -> Text<'a> {
     create_icon(0xEC7E, FONT_THIN)
 }
 
 /// Returns the `pentagram` icon.
-pub fn pentagram() -> Text<'static> {
+pub fn pentagram<'a>() -> Text<'a> {
     create_icon(0xEC5C, FONT_THIN)
 }
 
 /// Returns the `pepper` icon.
-pub fn pepper() -> Text<'static> {
+pub fn pepper<'a>() -> Text<'a> {
     create_icon(0xE94A, FONT_THIN)
 }
 
 /// Returns the `percent` icon.
-pub fn percent() -> Text<'static> {
+pub fn percent<'a>() -> Text<'a> {
     create_icon(0xE3B6, FONT_THIN)
 }
 
 /// Returns the `person` icon.
-pub fn person() -> Text<'static> {
+pub fn person<'a>() -> Text<'a> {
     create_icon(0xE3A8, FONT_THIN)
 }
 
 /// Returns the `person arms spread` icon.
-pub fn person_arms_spread() -> Text<'static> {
+pub fn person_arms_spread<'a>() -> Text<'a> {
     create_icon(0xECFE, FONT_THIN)
 }
 
 /// Returns the `person simple` icon.
-pub fn person_simple() -> Text<'static> {
+pub fn person_simple<'a>() -> Text<'a> {
     create_icon(0xE72E, FONT_THIN)
 }
 
 /// Returns the `person simple bike` icon.
-pub fn person_simple_bike() -> Text<'static> {
+pub fn person_simple_bike<'a>() -> Text<'a> {
     create_icon(0xE734, FONT_THIN)
 }
 
 /// Returns the `person simple circle` icon.
-pub fn person_simple_circle() -> Text<'static> {
+pub fn person_simple_circle<'a>() -> Text<'a> {
     create_icon(0xEE58, FONT_THIN)
 }
 
 /// Returns the `person simple hike` icon.
-pub fn person_simple_hike() -> Text<'static> {
+pub fn person_simple_hike<'a>() -> Text<'a> {
     create_icon(0xED54, FONT_THIN)
 }
 
 /// Returns the `person simple run` icon.
-pub fn person_simple_run() -> Text<'static> {
+pub fn person_simple_run<'a>() -> Text<'a> {
     create_icon(0xE730, FONT_THIN)
 }
 
 /// Returns the `person simple ski` icon.
-pub fn person_simple_ski() -> Text<'static> {
+pub fn person_simple_ski<'a>() -> Text<'a> {
     create_icon(0xE71C, FONT_THIN)
 }
 
 /// Returns the `person simple snowboard` icon.
-pub fn person_simple_snowboard() -> Text<'static> {
+pub fn person_simple_snowboard<'a>() -> Text<'a> {
     create_icon(0xE71E, FONT_THIN)
 }
 
 /// Returns the `person simple swim` icon.
-pub fn person_simple_swim() -> Text<'static> {
+pub fn person_simple_swim<'a>() -> Text<'a> {
     create_icon(0xE736, FONT_THIN)
 }
 
 /// Returns the `person simple tai chi` icon.
-pub fn person_simple_tai_chi() -> Text<'static> {
+pub fn person_simple_tai_chi<'a>() -> Text<'a> {
     create_icon(0xED5C, FONT_THIN)
 }
 
 /// Returns the `person simple throw` icon.
-pub fn person_simple_throw() -> Text<'static> {
+pub fn person_simple_throw<'a>() -> Text<'a> {
     create_icon(0xE732, FONT_THIN)
 }
 
 /// Returns the `person simple walk` icon.
-pub fn person_simple_walk() -> Text<'static> {
+pub fn person_simple_walk<'a>() -> Text<'a> {
     create_icon(0xE73A, FONT_THIN)
 }
 
 /// Returns the `perspective` icon.
-pub fn perspective() -> Text<'static> {
+pub fn perspective<'a>() -> Text<'a> {
     create_icon(0xEBE6, FONT_THIN)
 }
 
 /// Returns the `phone` icon.
-pub fn phone() -> Text<'static> {
+pub fn phone<'a>() -> Text<'a> {
     create_icon(0xE3B8, FONT_THIN)
 }
 
 /// Returns the `phone call` icon.
-pub fn phone_call() -> Text<'static> {
+pub fn phone_call<'a>() -> Text<'a> {
     create_icon(0xE3BA, FONT_THIN)
 }
 
 /// Returns the `phone disconnect` icon.
-pub fn phone_disconnect() -> Text<'static> {
+pub fn phone_disconnect<'a>() -> Text<'a> {
     create_icon(0xE3BC, FONT_THIN)
 }
 
 /// Returns the `phone incoming` icon.
-pub fn phone_incoming() -> Text<'static> {
+pub fn phone_incoming<'a>() -> Text<'a> {
     create_icon(0xE3BE, FONT_THIN)
 }
 
 /// Returns the `phone list` icon.
-pub fn phone_list() -> Text<'static> {
+pub fn phone_list<'a>() -> Text<'a> {
     create_icon(0xE3CC, FONT_THIN)
 }
 
 /// Returns the `phone outgoing` icon.
-pub fn phone_outgoing() -> Text<'static> {
+pub fn phone_outgoing<'a>() -> Text<'a> {
     create_icon(0xE3C0, FONT_THIN)
 }
 
 /// Returns the `phone pause` icon.
-pub fn phone_pause() -> Text<'static> {
+pub fn phone_pause<'a>() -> Text<'a> {
     create_icon(0xE3CA, FONT_THIN)
 }
 
 /// Returns the `phone plus` icon.
-pub fn phone_plus() -> Text<'static> {
+pub fn phone_plus<'a>() -> Text<'a> {
     create_icon(0xEC56, FONT_THIN)
 }
 
 /// Returns the `phone slash` icon.
-pub fn phone_slash() -> Text<'static> {
+pub fn phone_slash<'a>() -> Text<'a> {
     create_icon(0xE3C2, FONT_THIN)
 }
 
 /// Returns the `phone transfer` icon.
-pub fn phone_transfer() -> Text<'static> {
+pub fn phone_transfer<'a>() -> Text<'a> {
     create_icon(0xE3C6, FONT_THIN)
 }
 
 /// Returns the `phone x` icon.
-pub fn phone_x() -> Text<'static> {
+pub fn phone_x<'a>() -> Text<'a> {
     create_icon(0xE3C4, FONT_THIN)
 }
 
 /// Returns the `phosphor logo` icon.
-pub fn phosphor_logo() -> Text<'static> {
+pub fn phosphor_logo<'a>() -> Text<'a> {
     create_icon(0xE3CE, FONT_THIN)
 }
 
 /// Returns the `pi` icon.
-pub fn pi() -> Text<'static> {
+pub fn pi<'a>() -> Text<'a> {
     create_icon(0xEC80, FONT_THIN)
 }
 
 /// Returns the `piano keys` icon.
-pub fn piano_keys() -> Text<'static> {
+pub fn piano_keys<'a>() -> Text<'a> {
     create_icon(0xE9C8, FONT_THIN)
 }
 
 /// Returns the `picnic table` icon.
-pub fn picnic_table() -> Text<'static> {
+pub fn picnic_table<'a>() -> Text<'a> {
     create_icon(0xEE26, FONT_THIN)
 }
 
 /// Returns the `picture in picture` icon.
-pub fn picture_in_picture() -> Text<'static> {
+pub fn picture_in_picture<'a>() -> Text<'a> {
     create_icon(0xE64C, FONT_THIN)
 }
 
 /// Returns the `piggy bank` icon.
-pub fn piggy_bank() -> Text<'static> {
+pub fn piggy_bank<'a>() -> Text<'a> {
     create_icon(0xEA04, FONT_THIN)
 }
 
 /// Returns the `pill` icon.
-pub fn pill() -> Text<'static> {
+pub fn pill<'a>() -> Text<'a> {
     create_icon(0xE700, FONT_THIN)
 }
 
 /// Returns the `ping pong` icon.
-pub fn ping_pong() -> Text<'static> {
+pub fn ping_pong<'a>() -> Text<'a> {
     create_icon(0xEA42, FONT_THIN)
 }
 
 /// Returns the `pint glass` icon.
-pub fn pint_glass() -> Text<'static> {
+pub fn pint_glass<'a>() -> Text<'a> {
     create_icon(0xEDD0, FONT_THIN)
 }
 
 /// Returns the `pinterest logo` icon.
-pub fn pinterest_logo() -> Text<'static> {
+pub fn pinterest_logo<'a>() -> Text<'a> {
     create_icon(0xE64E, FONT_THIN)
 }
 
 /// Returns the `pinwheel` icon.
-pub fn pinwheel() -> Text<'static> {
+pub fn pinwheel<'a>() -> Text<'a> {
     create_icon(0xEB9C, FONT_THIN)
 }
 
 /// Returns the `pipe` icon.
-pub fn pipe() -> Text<'static> {
+pub fn pipe<'a>() -> Text<'a> {
     create_icon(0xED86, FONT_THIN)
 }
 
 /// Returns the `pipe wrench` icon.
-pub fn pipe_wrench() -> Text<'static> {
+pub fn pipe_wrench<'a>() -> Text<'a> {
     create_icon(0xED88, FONT_THIN)
 }
 
 /// Returns the `pix logo` icon.
-pub fn pix_logo() -> Text<'static> {
+pub fn pix_logo<'a>() -> Text<'a> {
     create_icon(0xECC2, FONT_THIN)
 }
 
 /// Returns the `pizza` icon.
-pub fn pizza() -> Text<'static> {
+pub fn pizza<'a>() -> Text<'a> {
     create_icon(0xE796, FONT_THIN)
 }
 
 /// Returns the `placeholder` icon.
-pub fn placeholder() -> Text<'static> {
+pub fn placeholder<'a>() -> Text<'a> {
     create_icon(0xE650, FONT_THIN)
 }
 
 /// Returns the `planet` icon.
-pub fn planet() -> Text<'static> {
+pub fn planet<'a>() -> Text<'a> {
     create_icon(0xE652, FONT_THIN)
 }
 
 /// Returns the `plant` icon.
-pub fn plant() -> Text<'static> {
+pub fn plant<'a>() -> Text<'a> {
     create_icon(0xEBAE, FONT_THIN)
 }
 
 /// Returns the `play` icon.
-pub fn play() -> Text<'static> {
+pub fn play<'a>() -> Text<'a> {
     create_icon(0xE3D0, FONT_THIN)
 }
 
 /// Returns the `play circle` icon.
-pub fn play_circle() -> Text<'static> {
+pub fn play_circle<'a>() -> Text<'a> {
     create_icon(0xE3D2, FONT_THIN)
 }
 
 /// Returns the `play pause` icon.
-pub fn play_pause() -> Text<'static> {
+pub fn play_pause<'a>() -> Text<'a> {
     create_icon(0xE8BE, FONT_THIN)
 }
 
 /// Returns the `playlist` icon.
-pub fn playlist() -> Text<'static> {
+pub fn playlist<'a>() -> Text<'a> {
     create_icon(0xE6AA, FONT_THIN)
 }
 
 /// Returns the `plug` icon.
-pub fn plug() -> Text<'static> {
+pub fn plug<'a>() -> Text<'a> {
     create_icon(0xE946, FONT_THIN)
 }
 
 /// Returns the `plug charging` icon.
-pub fn plug_charging() -> Text<'static> {
+pub fn plug_charging<'a>() -> Text<'a> {
     create_icon(0xEB5C, FONT_THIN)
 }
 
 /// Returns the `plugs` icon.
-pub fn plugs() -> Text<'static> {
+pub fn plugs<'a>() -> Text<'a> {
     create_icon(0xEB56, FONT_THIN)
 }
 
 /// Returns the `plugs connected` icon.
-pub fn plugs_connected() -> Text<'static> {
+pub fn plugs_connected<'a>() -> Text<'a> {
     create_icon(0xEB5A, FONT_THIN)
 }
 
 /// Returns the `plus` icon.
-pub fn plus() -> Text<'static> {
+pub fn plus<'a>() -> Text<'a> {
     create_icon(0xE3D4, FONT_THIN)
 }
 
 /// Returns the `plus circle` icon.
-pub fn plus_circle() -> Text<'static> {
+pub fn plus_circle<'a>() -> Text<'a> {
     create_icon(0xE3D6, FONT_THIN)
 }
 
 /// Returns the `plus minus` icon.
-pub fn plus_minus() -> Text<'static> {
+pub fn plus_minus<'a>() -> Text<'a> {
     create_icon(0xE3D8, FONT_THIN)
 }
 
 /// Returns the `plus square` icon.
-pub fn plus_square() -> Text<'static> {
+pub fn plus_square<'a>() -> Text<'a> {
     create_icon(0xED4A, FONT_THIN)
 }
 
 /// Returns the `poker chip` icon.
-pub fn poker_chip() -> Text<'static> {
+pub fn poker_chip<'a>() -> Text<'a> {
     create_icon(0xE594, FONT_THIN)
 }
 
 /// Returns the `police car` icon.
-pub fn police_car() -> Text<'static> {
+pub fn police_car<'a>() -> Text<'a> {
     create_icon(0xEC4A, FONT_THIN)
 }
 
 /// Returns the `polygon` icon.
-pub fn polygon() -> Text<'static> {
+pub fn polygon<'a>() -> Text<'a> {
     create_icon(0xE6D0, FONT_THIN)
 }
 
 /// Returns the `popcorn` icon.
-pub fn popcorn() -> Text<'static> {
+pub fn popcorn<'a>() -> Text<'a> {
     create_icon(0xEB4E, FONT_THIN)
 }
 
 /// Returns the `popsicle` icon.
-pub fn popsicle() -> Text<'static> {
+pub fn popsicle<'a>() -> Text<'a> {
     create_icon(0xEBBE, FONT_THIN)
 }
 
 /// Returns the `potted plant` icon.
-pub fn potted_plant() -> Text<'static> {
+pub fn potted_plant<'a>() -> Text<'a> {
     create_icon(0xEC22, FONT_THIN)
 }
 
 /// Returns the `power` icon.
-pub fn power() -> Text<'static> {
+pub fn power<'a>() -> Text<'a> {
     create_icon(0xE3DA, FONT_THIN)
 }
 
 /// Returns the `prescription` icon.
-pub fn prescription() -> Text<'static> {
+pub fn prescription<'a>() -> Text<'a> {
     create_icon(0xE7A2, FONT_THIN)
 }
 
 /// Returns the `presentation` icon.
-pub fn presentation() -> Text<'static> {
+pub fn presentation<'a>() -> Text<'a> {
     create_icon(0xE654, FONT_THIN)
 }
 
 /// Returns the `presentation chart` icon.
-pub fn presentation_chart() -> Text<'static> {
+pub fn presentation_chart<'a>() -> Text<'a> {
     create_icon(0xE656, FONT_THIN)
 }
 
 /// Returns the `printer` icon.
-pub fn printer() -> Text<'static> {
+pub fn printer<'a>() -> Text<'a> {
     create_icon(0xE3DC, FONT_THIN)
 }
 
 /// Returns the `prohibit` icon.
-pub fn prohibit() -> Text<'static> {
+pub fn prohibit<'a>() -> Text<'a> {
     create_icon(0xE3DE, FONT_THIN)
 }
 
 /// Returns the `prohibit inset` icon.
-pub fn prohibit_inset() -> Text<'static> {
+pub fn prohibit_inset<'a>() -> Text<'a> {
     create_icon(0xE3E0, FONT_THIN)
 }
 
 /// Returns the `projector screen` icon.
-pub fn projector_screen() -> Text<'static> {
+pub fn projector_screen<'a>() -> Text<'a> {
     create_icon(0xE658, FONT_THIN)
 }
 
 /// Returns the `projector screen chart` icon.
-pub fn projector_screen_chart() -> Text<'static> {
+pub fn projector_screen_chart<'a>() -> Text<'a> {
     create_icon(0xE65A, FONT_THIN)
 }
 
 /// Returns the `pulse thin activity` icon.
-pub fn pulse_thin_activity() -> Text<'static> {
+pub fn pulse_thin_activity<'a>() -> Text<'a> {
     create_icon(0xE000, FONT_THIN)
 }
 
 /// Returns the `push pin` icon.
-pub fn push_pin() -> Text<'static> {
+pub fn push_pin<'a>() -> Text<'a> {
     create_icon(0xE3E2, FONT_THIN)
 }
 
 /// Returns the `push pin simple` icon.
-pub fn push_pin_simple() -> Text<'static> {
+pub fn push_pin_simple<'a>() -> Text<'a> {
     create_icon(0xE65C, FONT_THIN)
 }
 
 /// Returns the `push pin simple slash` icon.
-pub fn push_pin_simple_slash() -> Text<'static> {
+pub fn push_pin_simple_slash<'a>() -> Text<'a> {
     create_icon(0xE65E, FONT_THIN)
 }
 
 /// Returns the `push pin slash` icon.
-pub fn push_pin_slash() -> Text<'static> {
+pub fn push_pin_slash<'a>() -> Text<'a> {
     create_icon(0xE3E4, FONT_THIN)
 }
 
 /// Returns the `puzzle piece` icon.
-pub fn puzzle_piece() -> Text<'static> {
+pub fn puzzle_piece<'a>() -> Text<'a> {
     create_icon(0xE596, FONT_THIN)
 }
 
 /// Returns the `qr code` icon.
-pub fn qr_code() -> Text<'static> {
+pub fn qr_code<'a>() -> Text<'a> {
     create_icon(0xE3E6, FONT_THIN)
 }
 
 /// Returns the `question` icon.
-pub fn question() -> Text<'static> {
+pub fn question<'a>() -> Text<'a> {
     create_icon(0xE3E8, FONT_THIN)
 }
 
 /// Returns the `question mark` icon.
-pub fn question_mark() -> Text<'static> {
+pub fn question_mark<'a>() -> Text<'a> {
     create_icon(0xE3E9, FONT_THIN)
 }
 
 /// Returns the `queue` icon.
-pub fn queue() -> Text<'static> {
+pub fn queue<'a>() -> Text<'a> {
     create_icon(0xE6AC, FONT_THIN)
 }
 
 /// Returns the `quotes` icon.
-pub fn quotes() -> Text<'static> {
+pub fn quotes<'a>() -> Text<'a> {
     create_icon(0xE660, FONT_THIN)
 }
 
 /// Returns the `rabbit` icon.
-pub fn rabbit() -> Text<'static> {
+pub fn rabbit<'a>() -> Text<'a> {
     create_icon(0xEAC2, FONT_THIN)
 }
 
 /// Returns the `racquet` icon.
-pub fn racquet() -> Text<'static> {
+pub fn racquet<'a>() -> Text<'a> {
     create_icon(0xEE02, FONT_THIN)
 }
 
 /// Returns the `radical` icon.
-pub fn radical() -> Text<'static> {
+pub fn radical<'a>() -> Text<'a> {
     create_icon(0xE3EA, FONT_THIN)
 }
 
 /// Returns the `radio` icon.
-pub fn radio() -> Text<'static> {
+pub fn radio<'a>() -> Text<'a> {
     create_icon(0xE77E, FONT_THIN)
 }
 
 /// Returns the `radio button` icon.
-pub fn radio_button() -> Text<'static> {
+pub fn radio_button<'a>() -> Text<'a> {
     create_icon(0xEB08, FONT_THIN)
 }
 
 /// Returns the `radioactive` icon.
-pub fn radioactive() -> Text<'static> {
+pub fn radioactive<'a>() -> Text<'a> {
     create_icon(0xE9DC, FONT_THIN)
 }
 
 /// Returns the `rainbow` icon.
-pub fn rainbow() -> Text<'static> {
+pub fn rainbow<'a>() -> Text<'a> {
     create_icon(0xE598, FONT_THIN)
 }
 
 /// Returns the `rainbow cloud` icon.
-pub fn rainbow_cloud() -> Text<'static> {
+pub fn rainbow_cloud<'a>() -> Text<'a> {
     create_icon(0xE59A, FONT_THIN)
 }
 
 /// Returns the `ranking` icon.
-pub fn ranking() -> Text<'static> {
+pub fn ranking<'a>() -> Text<'a> {
     create_icon(0xED62, FONT_THIN)
 }
 
 /// Returns the `read cv logo` icon.
-pub fn read_cv_logo() -> Text<'static> {
+pub fn read_cv_logo<'a>() -> Text<'a> {
     create_icon(0xED0C, FONT_THIN)
 }
 
 /// Returns the `receipt` icon.
-pub fn receipt() -> Text<'static> {
+pub fn receipt<'a>() -> Text<'a> {
     create_icon(0xE3EC, FONT_THIN)
 }
 
 /// Returns the `receipt x` icon.
-pub fn receipt_x() -> Text<'static> {
+pub fn receipt_x<'a>() -> Text<'a> {
     create_icon(0xED40, FONT_THIN)
 }
 
 /// Returns the `record` icon.
-pub fn record() -> Text<'static> {
+pub fn record<'a>() -> Text<'a> {
     create_icon(0xE3EE, FONT_THIN)
 }
 
 /// Returns the `rectangle` icon.
-pub fn rectangle() -> Text<'static> {
+pub fn rectangle<'a>() -> Text<'a> {
     create_icon(0xE3F0, FONT_THIN)
 }
 
 /// Returns the `rectangle dashed` icon.
-pub fn rectangle_dashed() -> Text<'static> {
+pub fn rectangle_dashed<'a>() -> Text<'a> {
     create_icon(0xE3F2, FONT_THIN)
 }
 
 /// Returns the `recycle` icon.
-pub fn recycle() -> Text<'static> {
+pub fn recycle<'a>() -> Text<'a> {
     create_icon(0xE75A, FONT_THIN)
 }
 
 /// Returns the `reddit logo` icon.
-pub fn reddit_logo() -> Text<'static> {
+pub fn reddit_logo<'a>() -> Text<'a> {
     create_icon(0xE59C, FONT_THIN)
 }
 
 /// Returns the `repeat` icon.
-pub fn repeat() -> Text<'static> {
+pub fn repeat<'a>() -> Text<'a> {
     create_icon(0xE3F6, FONT_THIN)
 }
 
 /// Returns the `repeat once` icon.
-pub fn repeat_once() -> Text<'static> {
+pub fn repeat_once<'a>() -> Text<'a> {
     create_icon(0xE3F8, FONT_THIN)
 }
 
 /// Returns the `replit logo` icon.
-pub fn replit_logo() -> Text<'static> {
+pub fn replit_logo<'a>() -> Text<'a> {
     create_icon(0xEB8A, FONT_THIN)
 }
 
 /// Returns the `resize` icon.
-pub fn resize() -> Text<'static> {
+pub fn resize<'a>() -> Text<'a> {
     create_icon(0xED6E, FONT_THIN)
 }
 
 /// Returns the `rewind` icon.
-pub fn rewind() -> Text<'static> {
+pub fn rewind<'a>() -> Text<'a> {
     create_icon(0xE6A8, FONT_THIN)
 }
 
 /// Returns the `rewind circle` icon.
-pub fn rewind_circle() -> Text<'static> {
+pub fn rewind_circle<'a>() -> Text<'a> {
     create_icon(0xE3FA, FONT_THIN)
 }
 
 /// Returns the `road horizon` icon.
-pub fn road_horizon() -> Text<'static> {
+pub fn road_horizon<'a>() -> Text<'a> {
     create_icon(0xE838, FONT_THIN)
 }
 
 /// Returns the `robot` icon.
-pub fn robot() -> Text<'static> {
+pub fn robot<'a>() -> Text<'a> {
     create_icon(0xE762, FONT_THIN)
 }
 
 /// Returns the `rocket` icon.
-pub fn rocket() -> Text<'static> {
+pub fn rocket<'a>() -> Text<'a> {
     create_icon(0xE3FC, FONT_THIN)
 }
 
 /// Returns the `rocket launch` icon.
-pub fn rocket_launch() -> Text<'static> {
+pub fn rocket_launch<'a>() -> Text<'a> {
     create_icon(0xE3FE, FONT_THIN)
 }
 
 /// Returns the `rows` icon.
-pub fn rows() -> Text<'static> {
+pub fn rows<'a>() -> Text<'a> {
     create_icon(0xE5A2, FONT_THIN)
 }
 
 /// Returns the `rows plus bottom` icon.
-pub fn rows_plus_bottom() -> Text<'static> {
+pub fn rows_plus_bottom<'a>() -> Text<'a> {
     create_icon(0xE59E, FONT_THIN)
 }
 
 /// Returns the `rows plus top` icon.
-pub fn rows_plus_top() -> Text<'static> {
+pub fn rows_plus_top<'a>() -> Text<'a> {
     create_icon(0xE5A0, FONT_THIN)
 }
 
 /// Returns the `rss` icon.
-pub fn rss() -> Text<'static> {
+pub fn rss<'a>() -> Text<'a> {
     create_icon(0xE400, FONT_THIN)
 }
 
 /// Returns the `rss simple` icon.
-pub fn rss_simple() -> Text<'static> {
+pub fn rss_simple<'a>() -> Text<'a> {
     create_icon(0xE402, FONT_THIN)
 }
 
 /// Returns the `rug` icon.
-pub fn rug() -> Text<'static> {
+pub fn rug<'a>() -> Text<'a> {
     create_icon(0xEA1A, FONT_THIN)
 }
 
 /// Returns the `ruler` icon.
-pub fn ruler() -> Text<'static> {
+pub fn ruler<'a>() -> Text<'a> {
     create_icon(0xE6B8, FONT_THIN)
 }
 
 /// Returns the `sailboat` icon.
-pub fn sailboat() -> Text<'static> {
+pub fn sailboat<'a>() -> Text<'a> {
     create_icon(0xE78A, FONT_THIN)
 }
 
 /// Returns the `scales` icon.
-pub fn scales() -> Text<'static> {
+pub fn scales<'a>() -> Text<'a> {
     create_icon(0xE750, FONT_THIN)
 }
 
 /// Returns the `scan` icon.
-pub fn scan() -> Text<'static> {
+pub fn scan<'a>() -> Text<'a> {
     create_icon(0xEBB6, FONT_THIN)
 }
 
 /// Returns the `scan smiley` icon.
-pub fn scan_smiley() -> Text<'static> {
+pub fn scan_smiley<'a>() -> Text<'a> {
     create_icon(0xEBB4, FONT_THIN)
 }
 
 /// Returns the `scissors` icon.
-pub fn scissors() -> Text<'static> {
+pub fn scissors<'a>() -> Text<'a> {
     create_icon(0xEAE0, FONT_THIN)
 }
 
 /// Returns the `scooter` icon.
-pub fn scooter() -> Text<'static> {
+pub fn scooter<'a>() -> Text<'a> {
     create_icon(0xE820, FONT_THIN)
 }
 
 /// Returns the `screencast` icon.
-pub fn screencast() -> Text<'static> {
+pub fn screencast<'a>() -> Text<'a> {
     create_icon(0xE404, FONT_THIN)
 }
 
 /// Returns the `screwdriver` icon.
-pub fn screwdriver() -> Text<'static> {
+pub fn screwdriver<'a>() -> Text<'a> {
     create_icon(0xE86E, FONT_THIN)
 }
 
 /// Returns the `scribble` icon.
-pub fn scribble() -> Text<'static> {
+pub fn scribble<'a>() -> Text<'a> {
     create_icon(0xE806, FONT_THIN)
 }
 
 /// Returns the `scribble loop` icon.
-pub fn scribble_loop() -> Text<'static> {
+pub fn scribble_loop<'a>() -> Text<'a> {
     create_icon(0xE662, FONT_THIN)
 }
 
 /// Returns the `scroll` icon.
-pub fn scroll() -> Text<'static> {
+pub fn scroll<'a>() -> Text<'a> {
     create_icon(0xEB7A, FONT_THIN)
 }
 
 /// Returns the `seal thin circle wavy` icon.
-pub fn seal_thin_circle_wavy() -> Text<'static> {
+pub fn seal_thin_circle_wavy<'a>() -> Text<'a> {
     create_icon(0xE604, FONT_THIN)
 }
 
 /// Returns the `seal check thin circle wavy check` icon.
-pub fn seal_check_thin_circle_wavy_check() -> Text<'static> {
+pub fn seal_check_thin_circle_wavy_check<'a>() -> Text<'a> {
     create_icon(0xE606, FONT_THIN)
 }
 
 /// Returns the `seal percent` icon.
-pub fn seal_percent() -> Text<'static> {
+pub fn seal_percent<'a>() -> Text<'a> {
     create_icon(0xE60A, FONT_THIN)
 }
 
 /// Returns the `seal question thin circle wavy question` icon.
-pub fn seal_question_thin_circle_wavy_question() -> Text<'static> {
+pub fn seal_question_thin_circle_wavy_question<'a>() -> Text<'a> {
     create_icon(0xE608, FONT_THIN)
 }
 
 /// Returns the `seal warning thin circle wavy warning` icon.
-pub fn seal_warning_thin_circle_wavy_warning() -> Text<'static> {
+pub fn seal_warning_thin_circle_wavy_warning<'a>() -> Text<'a> {
     create_icon(0xE60C, FONT_THIN)
 }
 
 /// Returns the `seat` icon.
-pub fn seat() -> Text<'static> {
+pub fn seat<'a>() -> Text<'a> {
     create_icon(0xEB8E, FONT_THIN)
 }
 
 /// Returns the `seatbelt` icon.
-pub fn seatbelt() -> Text<'static> {
+pub fn seatbelt<'a>() -> Text<'a> {
     create_icon(0xEDFE, FONT_THIN)
 }
 
 /// Returns the `security camera` icon.
-pub fn security_camera() -> Text<'static> {
+pub fn security_camera<'a>() -> Text<'a> {
     create_icon(0xECA4, FONT_THIN)
 }
 
 /// Returns the `selection` icon.
-pub fn selection() -> Text<'static> {
+pub fn selection<'a>() -> Text<'a> {
     create_icon(0xE69A, FONT_THIN)
 }
 
 /// Returns the `selection all` icon.
-pub fn selection_all() -> Text<'static> {
+pub fn selection_all<'a>() -> Text<'a> {
     create_icon(0xE746, FONT_THIN)
 }
 
 /// Returns the `selection background` icon.
-pub fn selection_background() -> Text<'static> {
+pub fn selection_background<'a>() -> Text<'a> {
     create_icon(0xEAF8, FONT_THIN)
 }
 
 /// Returns the `selection foreground` icon.
-pub fn selection_foreground() -> Text<'static> {
+pub fn selection_foreground<'a>() -> Text<'a> {
     create_icon(0xEAF6, FONT_THIN)
 }
 
 /// Returns the `selection inverse` icon.
-pub fn selection_inverse() -> Text<'static> {
+pub fn selection_inverse<'a>() -> Text<'a> {
     create_icon(0xE744, FONT_THIN)
 }
 
 /// Returns the `selection plus` icon.
-pub fn selection_plus() -> Text<'static> {
+pub fn selection_plus<'a>() -> Text<'a> {
     create_icon(0xE69C, FONT_THIN)
 }
 
 /// Returns the `selection slash` icon.
-pub fn selection_slash() -> Text<'static> {
+pub fn selection_slash<'a>() -> Text<'a> {
     create_icon(0xE69E, FONT_THIN)
 }
 
 /// Returns the `shapes` icon.
-pub fn shapes() -> Text<'static> {
+pub fn shapes<'a>() -> Text<'a> {
     create_icon(0xEC5E, FONT_THIN)
 }
 
 /// Returns the `share` icon.
-pub fn share() -> Text<'static> {
+pub fn share<'a>() -> Text<'a> {
     create_icon(0xE406, FONT_THIN)
 }
 
 /// Returns the `share fat` icon.
-pub fn share_fat() -> Text<'static> {
+pub fn share_fat<'a>() -> Text<'a> {
     create_icon(0xED52, FONT_THIN)
 }
 
 /// Returns the `share network` icon.
-pub fn share_network() -> Text<'static> {
+pub fn share_network<'a>() -> Text<'a> {
     create_icon(0xE408, FONT_THIN)
 }
 
 /// Returns the `shield` icon.
-pub fn shield() -> Text<'static> {
+pub fn shield<'a>() -> Text<'a> {
     create_icon(0xE40A, FONT_THIN)
 }
 
 /// Returns the `shield check` icon.
-pub fn shield_check() -> Text<'static> {
+pub fn shield_check<'a>() -> Text<'a> {
     create_icon(0xE40C, FONT_THIN)
 }
 
 /// Returns the `shield checkered` icon.
-pub fn shield_checkered() -> Text<'static> {
+pub fn shield_checkered<'a>() -> Text<'a> {
     create_icon(0xE708, FONT_THIN)
 }
 
 /// Returns the `shield chevron` icon.
-pub fn shield_chevron() -> Text<'static> {
+pub fn shield_chevron<'a>() -> Text<'a> {
     create_icon(0xE40E, FONT_THIN)
 }
 
 /// Returns the `shield plus` icon.
-pub fn shield_plus() -> Text<'static> {
+pub fn shield_plus<'a>() -> Text<'a> {
     create_icon(0xE706, FONT_THIN)
 }
 
 /// Returns the `shield slash` icon.
-pub fn shield_slash() -> Text<'static> {
+pub fn shield_slash<'a>() -> Text<'a> {
     create_icon(0xE410, FONT_THIN)
 }
 
 /// Returns the `shield star` icon.
-pub fn shield_star() -> Text<'static> {
+pub fn shield_star<'a>() -> Text<'a> {
     create_icon(0xEC34, FONT_THIN)
 }
 
 /// Returns the `shield warning` icon.
-pub fn shield_warning() -> Text<'static> {
+pub fn shield_warning<'a>() -> Text<'a> {
     create_icon(0xE412, FONT_THIN)
 }
 
 /// Returns the `shipping container` icon.
-pub fn shipping_container() -> Text<'static> {
+pub fn shipping_container<'a>() -> Text<'a> {
     create_icon(0xE78C, FONT_THIN)
 }
 
 /// Returns the `shirt folded` icon.
-pub fn shirt_folded() -> Text<'static> {
+pub fn shirt_folded<'a>() -> Text<'a> {
     create_icon(0xEA92, FONT_THIN)
 }
 
 /// Returns the `shooting star` icon.
-pub fn shooting_star() -> Text<'static> {
+pub fn shooting_star<'a>() -> Text<'a> {
     create_icon(0xECFA, FONT_THIN)
 }
 
 /// Returns the `shopping bag` icon.
-pub fn shopping_bag() -> Text<'static> {
+pub fn shopping_bag<'a>() -> Text<'a> {
     create_icon(0xE416, FONT_THIN)
 }
 
 /// Returns the `shopping bag open` icon.
-pub fn shopping_bag_open() -> Text<'static> {
+pub fn shopping_bag_open<'a>() -> Text<'a> {
     create_icon(0xE418, FONT_THIN)
 }
 
 /// Returns the `shopping cart` icon.
-pub fn shopping_cart() -> Text<'static> {
+pub fn shopping_cart<'a>() -> Text<'a> {
     create_icon(0xE41E, FONT_THIN)
 }
 
 /// Returns the `shopping cart simple` icon.
-pub fn shopping_cart_simple() -> Text<'static> {
+pub fn shopping_cart_simple<'a>() -> Text<'a> {
     create_icon(0xE420, FONT_THIN)
 }
 
 /// Returns the `shovel` icon.
-pub fn shovel() -> Text<'static> {
+pub fn shovel<'a>() -> Text<'a> {
     create_icon(0xE9E6, FONT_THIN)
 }
 
 /// Returns the `shower` icon.
-pub fn shower() -> Text<'static> {
+pub fn shower<'a>() -> Text<'a> {
     create_icon(0xE776, FONT_THIN)
 }
 
 /// Returns the `shrimp` icon.
-pub fn shrimp() -> Text<'static> {
+pub fn shrimp<'a>() -> Text<'a> {
     create_icon(0xEAB4, FONT_THIN)
 }
 
 /// Returns the `shuffle` icon.
-pub fn shuffle() -> Text<'static> {
+pub fn shuffle<'a>() -> Text<'a> {
     create_icon(0xE422, FONT_THIN)
 }
 
 /// Returns the `shuffle angular` icon.
-pub fn shuffle_angular() -> Text<'static> {
+pub fn shuffle_angular<'a>() -> Text<'a> {
     create_icon(0xE424, FONT_THIN)
 }
 
 /// Returns the `shuffle simple` icon.
-pub fn shuffle_simple() -> Text<'static> {
+pub fn shuffle_simple<'a>() -> Text<'a> {
     create_icon(0xE426, FONT_THIN)
 }
 
 /// Returns the `sidebar` icon.
-pub fn sidebar() -> Text<'static> {
+pub fn sidebar<'a>() -> Text<'a> {
     create_icon(0xEAB6, FONT_THIN)
 }
 
 /// Returns the `sidebar simple` icon.
-pub fn sidebar_simple() -> Text<'static> {
+pub fn sidebar_simple<'a>() -> Text<'a> {
     create_icon(0xEC24, FONT_THIN)
 }
 
 /// Returns the `sigma` icon.
-pub fn sigma() -> Text<'static> {
+pub fn sigma<'a>() -> Text<'a> {
     create_icon(0xEAB8, FONT_THIN)
 }
 
 /// Returns the `sign in` icon.
-pub fn sign_in() -> Text<'static> {
+pub fn sign_in<'a>() -> Text<'a> {
     create_icon(0xE428, FONT_THIN)
 }
 
 /// Returns the `sign out` icon.
-pub fn sign_out() -> Text<'static> {
+pub fn sign_out<'a>() -> Text<'a> {
     create_icon(0xE42A, FONT_THIN)
 }
 
 /// Returns the `signature` icon.
-pub fn signature() -> Text<'static> {
+pub fn signature<'a>() -> Text<'a> {
     create_icon(0xEBAC, FONT_THIN)
 }
 
 /// Returns the `signpost` icon.
-pub fn signpost() -> Text<'static> {
+pub fn signpost<'a>() -> Text<'a> {
     create_icon(0xE89C, FONT_THIN)
 }
 
 /// Returns the `sim card` icon.
-pub fn sim_card() -> Text<'static> {
+pub fn sim_card<'a>() -> Text<'a> {
     create_icon(0xE664, FONT_THIN)
 }
 
 /// Returns the `siren` icon.
-pub fn siren() -> Text<'static> {
+pub fn siren<'a>() -> Text<'a> {
     create_icon(0xE9B8, FONT_THIN)
 }
 
 /// Returns the `sketch logo` icon.
-pub fn sketch_logo() -> Text<'static> {
+pub fn sketch_logo<'a>() -> Text<'a> {
     create_icon(0xE42C, FONT_THIN)
 }
 
 /// Returns the `skip back` icon.
-pub fn skip_back() -> Text<'static> {
+pub fn skip_back<'a>() -> Text<'a> {
     create_icon(0xE5A4, FONT_THIN)
 }
 
 /// Returns the `skip back circle` icon.
-pub fn skip_back_circle() -> Text<'static> {
+pub fn skip_back_circle<'a>() -> Text<'a> {
     create_icon(0xE42E, FONT_THIN)
 }
 
 /// Returns the `skip forward` icon.
-pub fn skip_forward() -> Text<'static> {
+pub fn skip_forward<'a>() -> Text<'a> {
     create_icon(0xE5A6, FONT_THIN)
 }
 
 /// Returns the `skip forward circle` icon.
-pub fn skip_forward_circle() -> Text<'static> {
+pub fn skip_forward_circle<'a>() -> Text<'a> {
     create_icon(0xE430, FONT_THIN)
 }
 
 /// Returns the `skull` icon.
-pub fn skull() -> Text<'static> {
+pub fn skull<'a>() -> Text<'a> {
     create_icon(0xE916, FONT_THIN)
 }
 
 /// Returns the `skype logo` icon.
-pub fn skype_logo() -> Text<'static> {
+pub fn skype_logo<'a>() -> Text<'a> {
     create_icon(0xE8DC, FONT_THIN)
 }
 
 /// Returns the `slack logo` icon.
-pub fn slack_logo() -> Text<'static> {
+pub fn slack_logo<'a>() -> Text<'a> {
     create_icon(0xE5A8, FONT_THIN)
 }
 
 /// Returns the `sliders` icon.
-pub fn sliders() -> Text<'static> {
+pub fn sliders<'a>() -> Text<'a> {
     create_icon(0xE432, FONT_THIN)
 }
 
 /// Returns the `sliders horizontal` icon.
-pub fn sliders_horizontal() -> Text<'static> {
+pub fn sliders_horizontal<'a>() -> Text<'a> {
     create_icon(0xE434, FONT_THIN)
 }
 
 /// Returns the `slideshow` icon.
-pub fn slideshow() -> Text<'static> {
+pub fn slideshow<'a>() -> Text<'a> {
     create_icon(0xED32, FONT_THIN)
 }
 
 /// Returns the `smiley` icon.
-pub fn smiley() -> Text<'static> {
+pub fn smiley<'a>() -> Text<'a> {
     create_icon(0xE436, FONT_THIN)
 }
 
 /// Returns the `smiley angry` icon.
-pub fn smiley_angry() -> Text<'static> {
+pub fn smiley_angry<'a>() -> Text<'a> {
     create_icon(0xEC62, FONT_THIN)
 }
 
 /// Returns the `smiley blank` icon.
-pub fn smiley_blank() -> Text<'static> {
+pub fn smiley_blank<'a>() -> Text<'a> {
     create_icon(0xE438, FONT_THIN)
 }
 
 /// Returns the `smiley meh` icon.
-pub fn smiley_meh() -> Text<'static> {
+pub fn smiley_meh<'a>() -> Text<'a> {
     create_icon(0xE43A, FONT_THIN)
 }
 
 /// Returns the `smiley melting` icon.
-pub fn smiley_melting() -> Text<'static> {
+pub fn smiley_melting<'a>() -> Text<'a> {
     create_icon(0xEE56, FONT_THIN)
 }
 
 /// Returns the `smiley nervous` icon.
-pub fn smiley_nervous() -> Text<'static> {
+pub fn smiley_nervous<'a>() -> Text<'a> {
     create_icon(0xE43C, FONT_THIN)
 }
 
 /// Returns the `smiley sad` icon.
-pub fn smiley_sad() -> Text<'static> {
+pub fn smiley_sad<'a>() -> Text<'a> {
     create_icon(0xE43E, FONT_THIN)
 }
 
 /// Returns the `smiley sticker` icon.
-pub fn smiley_sticker() -> Text<'static> {
+pub fn smiley_sticker<'a>() -> Text<'a> {
     create_icon(0xE440, FONT_THIN)
 }
 
 /// Returns the `smiley wink` icon.
-pub fn smiley_wink() -> Text<'static> {
+pub fn smiley_wink<'a>() -> Text<'a> {
     create_icon(0xE666, FONT_THIN)
 }
 
 /// Returns the `smiley x eyes` icon.
-pub fn smiley_x_eyes() -> Text<'static> {
+pub fn smiley_x_eyes<'a>() -> Text<'a> {
     create_icon(0xE442, FONT_THIN)
 }
 
 /// Returns the `snapchat logo` icon.
-pub fn snapchat_logo() -> Text<'static> {
+pub fn snapchat_logo<'a>() -> Text<'a> {
     create_icon(0xE668, FONT_THIN)
 }
 
 /// Returns the `sneaker` icon.
-pub fn sneaker() -> Text<'static> {
+pub fn sneaker<'a>() -> Text<'a> {
     create_icon(0xE80C, FONT_THIN)
 }
 
 /// Returns the `sneaker move` icon.
-pub fn sneaker_move() -> Text<'static> {
+pub fn sneaker_move<'a>() -> Text<'a> {
     create_icon(0xED60, FONT_THIN)
 }
 
 /// Returns the `snowflake` icon.
-pub fn snowflake() -> Text<'static> {
+pub fn snowflake<'a>() -> Text<'a> {
     create_icon(0xE5AA, FONT_THIN)
 }
 
 /// Returns the `soccer ball` icon.
-pub fn soccer_ball() -> Text<'static> {
+pub fn soccer_ball<'a>() -> Text<'a> {
     create_icon(0xE716, FONT_THIN)
 }
 
 /// Returns the `sock` icon.
-pub fn sock() -> Text<'static> {
+pub fn sock<'a>() -> Text<'a> {
     create_icon(0xECCE, FONT_THIN)
 }
 
 /// Returns the `solar panel` icon.
-pub fn solar_panel() -> Text<'static> {
+pub fn solar_panel<'a>() -> Text<'a> {
     create_icon(0xED7A, FONT_THIN)
 }
 
 /// Returns the `solar roof` icon.
-pub fn solar_roof() -> Text<'static> {
+pub fn solar_roof<'a>() -> Text<'a> {
     create_icon(0xED7B, FONT_THIN)
 }
 
 /// Returns the `sort ascending` icon.
-pub fn sort_ascending() -> Text<'static> {
+pub fn sort_ascending<'a>() -> Text<'a> {
     create_icon(0xE444, FONT_THIN)
 }
 
 /// Returns the `sort descending` icon.
-pub fn sort_descending() -> Text<'static> {
+pub fn sort_descending<'a>() -> Text<'a> {
     create_icon(0xE446, FONT_THIN)
 }
 
 /// Returns the `soundcloud logo` icon.
-pub fn soundcloud_logo() -> Text<'static> {
+pub fn soundcloud_logo<'a>() -> Text<'a> {
     create_icon(0xE8DE, FONT_THIN)
 }
 
 /// Returns the `spade` icon.
-pub fn spade() -> Text<'static> {
+pub fn spade<'a>() -> Text<'a> {
     create_icon(0xE448, FONT_THIN)
 }
 
 /// Returns the `sparkle` icon.
-pub fn sparkle() -> Text<'static> {
+pub fn sparkle<'a>() -> Text<'a> {
     create_icon(0xE6A2, FONT_THIN)
 }
 
 /// Returns the `speaker hifi` icon.
-pub fn speaker_hifi() -> Text<'static> {
+pub fn speaker_hifi<'a>() -> Text<'a> {
     create_icon(0xEA08, FONT_THIN)
 }
 
 /// Returns the `speaker high` icon.
-pub fn speaker_high() -> Text<'static> {
+pub fn speaker_high<'a>() -> Text<'a> {
     create_icon(0xE44A, FONT_THIN)
 }
 
 /// Returns the `speaker low` icon.
-pub fn speaker_low() -> Text<'static> {
+pub fn speaker_low<'a>() -> Text<'a> {
     create_icon(0xE44C, FONT_THIN)
 }
 
 /// Returns the `speaker none` icon.
-pub fn speaker_none() -> Text<'static> {
+pub fn speaker_none<'a>() -> Text<'a> {
     create_icon(0xE44E, FONT_THIN)
 }
 
 /// Returns the `speaker simple high` icon.
-pub fn speaker_simple_high() -> Text<'static> {
+pub fn speaker_simple_high<'a>() -> Text<'a> {
     create_icon(0xE450, FONT_THIN)
 }
 
 /// Returns the `speaker simple low` icon.
-pub fn speaker_simple_low() -> Text<'static> {
+pub fn speaker_simple_low<'a>() -> Text<'a> {
     create_icon(0xE452, FONT_THIN)
 }
 
 /// Returns the `speaker simple none` icon.
-pub fn speaker_simple_none() -> Text<'static> {
+pub fn speaker_simple_none<'a>() -> Text<'a> {
     create_icon(0xE454, FONT_THIN)
 }
 
 /// Returns the `speaker simple slash` icon.
-pub fn speaker_simple_slash() -> Text<'static> {
+pub fn speaker_simple_slash<'a>() -> Text<'a> {
     create_icon(0xE456, FONT_THIN)
 }
 
 /// Returns the `speaker simple x` icon.
-pub fn speaker_simple_x() -> Text<'static> {
+pub fn speaker_simple_x<'a>() -> Text<'a> {
     create_icon(0xE458, FONT_THIN)
 }
 
 /// Returns the `speaker slash` icon.
-pub fn speaker_slash() -> Text<'static> {
+pub fn speaker_slash<'a>() -> Text<'a> {
     create_icon(0xE45A, FONT_THIN)
 }
 
 /// Returns the `speaker x` icon.
-pub fn speaker_x() -> Text<'static> {
+pub fn speaker_x<'a>() -> Text<'a> {
     create_icon(0xE45C, FONT_THIN)
 }
 
 /// Returns the `speedometer` icon.
-pub fn speedometer() -> Text<'static> {
+pub fn speedometer<'a>() -> Text<'a> {
     create_icon(0xEE74, FONT_THIN)
 }
 
 /// Returns the `sphere` icon.
-pub fn sphere() -> Text<'static> {
+pub fn sphere<'a>() -> Text<'a> {
     create_icon(0xEE66, FONT_THIN)
 }
 
 /// Returns the `spinner` icon.
-pub fn spinner() -> Text<'static> {
+pub fn spinner<'a>() -> Text<'a> {
     create_icon(0xE66A, FONT_THIN)
 }
 
 /// Returns the `spinner ball` icon.
-pub fn spinner_ball() -> Text<'static> {
+pub fn spinner_ball<'a>() -> Text<'a> {
     create_icon(0xEE28, FONT_THIN)
 }
 
 /// Returns the `spinner gap` icon.
-pub fn spinner_gap() -> Text<'static> {
+pub fn spinner_gap<'a>() -> Text<'a> {
     create_icon(0xE66C, FONT_THIN)
 }
 
 /// Returns the `spiral` icon.
-pub fn spiral() -> Text<'static> {
+pub fn spiral<'a>() -> Text<'a> {
     create_icon(0xE9FA, FONT_THIN)
 }
 
 /// Returns the `split horizontal` icon.
-pub fn split_horizontal() -> Text<'static> {
+pub fn split_horizontal<'a>() -> Text<'a> {
     create_icon(0xE872, FONT_THIN)
 }
 
 /// Returns the `split vertical` icon.
-pub fn split_vertical() -> Text<'static> {
+pub fn split_vertical<'a>() -> Text<'a> {
     create_icon(0xE876, FONT_THIN)
 }
 
 /// Returns the `spotify logo` icon.
-pub fn spotify_logo() -> Text<'static> {
+pub fn spotify_logo<'a>() -> Text<'a> {
     create_icon(0xE66E, FONT_THIN)
 }
 
 /// Returns the `spray bottle` icon.
-pub fn spray_bottle() -> Text<'static> {
+pub fn spray_bottle<'a>() -> Text<'a> {
     create_icon(0xE7E4, FONT_THIN)
 }
 
 /// Returns the `square` icon.
-pub fn square() -> Text<'static> {
+pub fn square<'a>() -> Text<'a> {
     create_icon(0xE45E, FONT_THIN)
 }
 
 /// Returns the `square half` icon.
-pub fn square_half() -> Text<'static> {
+pub fn square_half<'a>() -> Text<'a> {
     create_icon(0xE462, FONT_THIN)
 }
 
 /// Returns the `square half bottom` icon.
-pub fn square_half_bottom() -> Text<'static> {
+pub fn square_half_bottom<'a>() -> Text<'a> {
     create_icon(0xEB16, FONT_THIN)
 }
 
 /// Returns the `square logo` icon.
-pub fn square_logo() -> Text<'static> {
+pub fn square_logo<'a>() -> Text<'a> {
     create_icon(0xE690, FONT_THIN)
 }
 
 /// Returns the `square split horizontal` icon.
-pub fn square_split_horizontal() -> Text<'static> {
+pub fn square_split_horizontal<'a>() -> Text<'a> {
     create_icon(0xE870, FONT_THIN)
 }
 
 /// Returns the `square split vertical` icon.
-pub fn square_split_vertical() -> Text<'static> {
+pub fn square_split_vertical<'a>() -> Text<'a> {
     create_icon(0xE874, FONT_THIN)
 }
 
 /// Returns the `squares four` icon.
-pub fn squares_four() -> Text<'static> {
+pub fn squares_four<'a>() -> Text<'a> {
     create_icon(0xE464, FONT_THIN)
 }
 
 /// Returns the `stack` icon.
-pub fn stack() -> Text<'static> {
+pub fn stack<'a>() -> Text<'a> {
     create_icon(0xE466, FONT_THIN)
 }
 
 /// Returns the `stack minus` icon.
-pub fn stack_minus() -> Text<'static> {
+pub fn stack_minus<'a>() -> Text<'a> {
     create_icon(0xEDF4, FONT_THIN)
 }
 
 /// Returns the `stack overflow logo` icon.
-pub fn stack_overflow_logo() -> Text<'static> {
+pub fn stack_overflow_logo<'a>() -> Text<'a> {
     create_icon(0xEB78, FONT_THIN)
 }
 
 /// Returns the `stack plus` icon.
-pub fn stack_plus() -> Text<'static> {
+pub fn stack_plus<'a>() -> Text<'a> {
     create_icon(0xEDF6, FONT_THIN)
 }
 
 /// Returns the `stack simple` icon.
-pub fn stack_simple() -> Text<'static> {
+pub fn stack_simple<'a>() -> Text<'a> {
     create_icon(0xE468, FONT_THIN)
 }
 
 /// Returns the `stairs` icon.
-pub fn stairs() -> Text<'static> {
+pub fn stairs<'a>() -> Text<'a> {
     create_icon(0xE8EC, FONT_THIN)
 }
 
 /// Returns the `stamp` icon.
-pub fn stamp() -> Text<'static> {
+pub fn stamp<'a>() -> Text<'a> {
     create_icon(0xEA48, FONT_THIN)
 }
 
 /// Returns the `standard definition` icon.
-pub fn standard_definition() -> Text<'static> {
+pub fn standard_definition<'a>() -> Text<'a> {
     create_icon(0xEA90, FONT_THIN)
 }
 
 /// Returns the `star` icon.
-pub fn star() -> Text<'static> {
+pub fn star<'a>() -> Text<'a> {
     create_icon(0xE46A, FONT_THIN)
 }
 
 /// Returns the `star and crescent` icon.
-pub fn star_and_crescent() -> Text<'static> {
+pub fn star_and_crescent<'a>() -> Text<'a> {
     create_icon(0xECF4, FONT_THIN)
 }
 
 /// Returns the `star four` icon.
-pub fn star_four() -> Text<'static> {
+pub fn star_four<'a>() -> Text<'a> {
     create_icon(0xE6A4, FONT_THIN)
 }
 
 /// Returns the `star half` icon.
-pub fn star_half() -> Text<'static> {
+pub fn star_half<'a>() -> Text<'a> {
     create_icon(0xE70A, FONT_THIN)
 }
 
 /// Returns the `star of david` icon.
-pub fn star_of_david() -> Text<'static> {
+pub fn star_of_david<'a>() -> Text<'a> {
     create_icon(0xE89E, FONT_THIN)
 }
 
 /// Returns the `steam logo` icon.
-pub fn steam_logo() -> Text<'static> {
+pub fn steam_logo<'a>() -> Text<'a> {
     create_icon(0xEAD4, FONT_THIN)
 }
 
 /// Returns the `steering wheel` icon.
-pub fn steering_wheel() -> Text<'static> {
+pub fn steering_wheel<'a>() -> Text<'a> {
     create_icon(0xE9AC, FONT_THIN)
 }
 
 /// Returns the `steps` icon.
-pub fn steps() -> Text<'static> {
+pub fn steps<'a>() -> Text<'a> {
     create_icon(0xECBE, FONT_THIN)
 }
 
 /// Returns the `stethoscope` icon.
-pub fn stethoscope() -> Text<'static> {
+pub fn stethoscope<'a>() -> Text<'a> {
     create_icon(0xE7EA, FONT_THIN)
 }
 
 /// Returns the `sticker` icon.
-pub fn sticker() -> Text<'static> {
+pub fn sticker<'a>() -> Text<'a> {
     create_icon(0xE5AC, FONT_THIN)
 }
 
 /// Returns the `stool` icon.
-pub fn stool() -> Text<'static> {
+pub fn stool<'a>() -> Text<'a> {
     create_icon(0xEA44, FONT_THIN)
 }
 
 /// Returns the `stop` icon.
-pub fn stop() -> Text<'static> {
+pub fn stop<'a>() -> Text<'a> {
     create_icon(0xE46C, FONT_THIN)
 }
 
 /// Returns the `stop circle` icon.
-pub fn stop_circle() -> Text<'static> {
+pub fn stop_circle<'a>() -> Text<'a> {
     create_icon(0xE46E, FONT_THIN)
 }
 
 /// Returns the `storefront` icon.
-pub fn storefront() -> Text<'static> {
+pub fn storefront<'a>() -> Text<'a> {
     create_icon(0xE470, FONT_THIN)
 }
 
 /// Returns the `strategy` icon.
-pub fn strategy() -> Text<'static> {
+pub fn strategy<'a>() -> Text<'a> {
     create_icon(0xEA3A, FONT_THIN)
 }
 
 /// Returns the `stripe logo` icon.
-pub fn stripe_logo() -> Text<'static> {
+pub fn stripe_logo<'a>() -> Text<'a> {
     create_icon(0xE698, FONT_THIN)
 }
 
 /// Returns the `student` icon.
-pub fn student() -> Text<'static> {
+pub fn student<'a>() -> Text<'a> {
     create_icon(0xE73E, FONT_THIN)
 }
 
 /// Returns the `subset of` icon.
-pub fn subset_of() -> Text<'static> {
+pub fn subset_of<'a>() -> Text<'a> {
     create_icon(0xEDC0, FONT_THIN)
 }
 
 /// Returns the `subset proper of` icon.
-pub fn subset_proper_of() -> Text<'static> {
+pub fn subset_proper_of<'a>() -> Text<'a> {
     create_icon(0xEDB6, FONT_THIN)
 }
 
 /// Returns the `subtitles` icon.
-pub fn subtitles() -> Text<'static> {
+pub fn subtitles<'a>() -> Text<'a> {
     create_icon(0xE1A8, FONT_THIN)
 }
 
 /// Returns the `subtitles slash` icon.
-pub fn subtitles_slash() -> Text<'static> {
+pub fn subtitles_slash<'a>() -> Text<'a> {
     create_icon(0xE1A6, FONT_THIN)
 }
 
 /// Returns the `subtract` icon.
-pub fn subtract() -> Text<'static> {
+pub fn subtract<'a>() -> Text<'a> {
     create_icon(0xEBD6, FONT_THIN)
 }
 
 /// Returns the `subtract square` icon.
-pub fn subtract_square() -> Text<'static> {
+pub fn subtract_square<'a>() -> Text<'a> {
     create_icon(0xEBD4, FONT_THIN)
 }
 
 /// Returns the `subway` icon.
-pub fn subway() -> Text<'static> {
+pub fn subway<'a>() -> Text<'a> {
     create_icon(0xE498, FONT_THIN)
 }
 
 /// Returns the `suitcase` icon.
-pub fn suitcase() -> Text<'static> {
+pub fn suitcase<'a>() -> Text<'a> {
     create_icon(0xE5AE, FONT_THIN)
 }
 
 /// Returns the `suitcase rolling` icon.
-pub fn suitcase_rolling() -> Text<'static> {
+pub fn suitcase_rolling<'a>() -> Text<'a> {
     create_icon(0xE9B0, FONT_THIN)
 }
 
 /// Returns the `suitcase simple` icon.
-pub fn suitcase_simple() -> Text<'static> {
+pub fn suitcase_simple<'a>() -> Text<'a> {
     create_icon(0xE5B0, FONT_THIN)
 }
 
 /// Returns the `sun` icon.
-pub fn sun() -> Text<'static> {
+pub fn sun<'a>() -> Text<'a> {
     create_icon(0xE472, FONT_THIN)
 }
 
 /// Returns the `sun dim` icon.
-pub fn sun_dim() -> Text<'static> {
+pub fn sun_dim<'a>() -> Text<'a> {
     create_icon(0xE474, FONT_THIN)
 }
 
 /// Returns the `sun horizon` icon.
-pub fn sun_horizon() -> Text<'static> {
+pub fn sun_horizon<'a>() -> Text<'a> {
     create_icon(0xE5B6, FONT_THIN)
 }
 
 /// Returns the `sunglasses` icon.
-pub fn sunglasses() -> Text<'static> {
+pub fn sunglasses<'a>() -> Text<'a> {
     create_icon(0xE816, FONT_THIN)
 }
 
 /// Returns the `superset of` icon.
-pub fn superset_of() -> Text<'static> {
+pub fn superset_of<'a>() -> Text<'a> {
     create_icon(0xEDB8, FONT_THIN)
 }
 
 /// Returns the `superset proper of` icon.
-pub fn superset_proper_of() -> Text<'static> {
+pub fn superset_proper_of<'a>() -> Text<'a> {
     create_icon(0xEDB4, FONT_THIN)
 }
 
 /// Returns the `swap` icon.
-pub fn swap() -> Text<'static> {
+pub fn swap<'a>() -> Text<'a> {
     create_icon(0xE83C, FONT_THIN)
 }
 
 /// Returns the `swatches` icon.
-pub fn swatches() -> Text<'static> {
+pub fn swatches<'a>() -> Text<'a> {
     create_icon(0xE5B8, FONT_THIN)
 }
 
 /// Returns the `swimming pool` icon.
-pub fn swimming_pool() -> Text<'static> {
+pub fn swimming_pool<'a>() -> Text<'a> {
     create_icon(0xECB6, FONT_THIN)
 }
 
 /// Returns the `sword` icon.
-pub fn sword() -> Text<'static> {
+pub fn sword<'a>() -> Text<'a> {
     create_icon(0xE5BA, FONT_THIN)
 }
 
 /// Returns the `synagogue` icon.
-pub fn synagogue() -> Text<'static> {
+pub fn synagogue<'a>() -> Text<'a> {
     create_icon(0xECEC, FONT_THIN)
 }
 
 /// Returns the `syringe` icon.
-pub fn syringe() -> Text<'static> {
+pub fn syringe<'a>() -> Text<'a> {
     create_icon(0xE968, FONT_THIN)
 }
 
 /// Returns the `t shirt` icon.
-pub fn t_shirt() -> Text<'static> {
+pub fn t_shirt<'a>() -> Text<'a> {
     create_icon(0xE670, FONT_THIN)
 }
 
 /// Returns the `table` icon.
-pub fn table() -> Text<'static> {
+pub fn table<'a>() -> Text<'a> {
     create_icon(0xE476, FONT_THIN)
 }
 
 /// Returns the `tabs` icon.
-pub fn tabs() -> Text<'static> {
+pub fn tabs<'a>() -> Text<'a> {
     create_icon(0xE778, FONT_THIN)
 }
 
 /// Returns the `tag` icon.
-pub fn tag() -> Text<'static> {
+pub fn tag<'a>() -> Text<'a> {
     create_icon(0xE478, FONT_THIN)
 }
 
 /// Returns the `tag chevron` icon.
-pub fn tag_chevron() -> Text<'static> {
+pub fn tag_chevron<'a>() -> Text<'a> {
     create_icon(0xE672, FONT_THIN)
 }
 
 /// Returns the `tag simple` icon.
-pub fn tag_simple() -> Text<'static> {
+pub fn tag_simple<'a>() -> Text<'a> {
     create_icon(0xE47A, FONT_THIN)
 }
 
 /// Returns the `target` icon.
-pub fn target() -> Text<'static> {
+pub fn target<'a>() -> Text<'a> {
     create_icon(0xE47C, FONT_THIN)
 }
 
 /// Returns the `taxi` icon.
-pub fn taxi() -> Text<'static> {
+pub fn taxi<'a>() -> Text<'a> {
     create_icon(0xE902, FONT_THIN)
 }
 
 /// Returns the `tea bag` icon.
-pub fn tea_bag() -> Text<'static> {
+pub fn tea_bag<'a>() -> Text<'a> {
     create_icon(0xE8E6, FONT_THIN)
 }
 
 /// Returns the `telegram logo` icon.
-pub fn telegram_logo() -> Text<'static> {
+pub fn telegram_logo<'a>() -> Text<'a> {
     create_icon(0xE5BC, FONT_THIN)
 }
 
 /// Returns the `television` icon.
-pub fn television() -> Text<'static> {
+pub fn television<'a>() -> Text<'a> {
     create_icon(0xE754, FONT_THIN)
 }
 
 /// Returns the `television simple` icon.
-pub fn television_simple() -> Text<'static> {
+pub fn television_simple<'a>() -> Text<'a> {
     create_icon(0xEAE6, FONT_THIN)
 }
 
 /// Returns the `tennis ball` icon.
-pub fn tennis_ball() -> Text<'static> {
+pub fn tennis_ball<'a>() -> Text<'a> {
     create_icon(0xE720, FONT_THIN)
 }
 
 /// Returns the `tent` icon.
-pub fn tent() -> Text<'static> {
+pub fn tent<'a>() -> Text<'a> {
     create_icon(0xE8BA, FONT_THIN)
 }
 
 /// Returns the `terminal` icon.
-pub fn terminal() -> Text<'static> {
+pub fn terminal<'a>() -> Text<'a> {
     create_icon(0xE47E, FONT_THIN)
 }
 
 /// Returns the `terminal window` icon.
-pub fn terminal_window() -> Text<'static> {
+pub fn terminal_window<'a>() -> Text<'a> {
     create_icon(0xEAE8, FONT_THIN)
 }
 
 /// Returns the `test tube` icon.
-pub fn test_tube() -> Text<'static> {
+pub fn test_tube<'a>() -> Text<'a> {
     create_icon(0xE7A0, FONT_THIN)
 }
 
 /// Returns the `text a underline` icon.
-pub fn text_a_underline() -> Text<'static> {
+pub fn text_a_underline<'a>() -> Text<'a> {
     create_icon(0xED34, FONT_THIN)
 }
 
 /// Returns the `text aa` icon.
-pub fn text_aa() -> Text<'static> {
+pub fn text_aa<'a>() -> Text<'a> {
     create_icon(0xE6EE, FONT_THIN)
 }
 
 /// Returns the `text align center` icon.
-pub fn text_align_center() -> Text<'static> {
+pub fn text_align_center<'a>() -> Text<'a> {
     create_icon(0xE480, FONT_THIN)
 }
 
 /// Returns the `text align justify` icon.
-pub fn text_align_justify() -> Text<'static> {
+pub fn text_align_justify<'a>() -> Text<'a> {
     create_icon(0xE482, FONT_THIN)
 }
 
 /// Returns the `text align left` icon.
-pub fn text_align_left() -> Text<'static> {
+pub fn text_align_left<'a>() -> Text<'a> {
     create_icon(0xE484, FONT_THIN)
 }
 
 /// Returns the `text align right` icon.
-pub fn text_align_right() -> Text<'static> {
+pub fn text_align_right<'a>() -> Text<'a> {
     create_icon(0xE486, FONT_THIN)
 }
 
 /// Returns the `text b thin text bolder` icon.
-pub fn text_b_thin_text_bolder() -> Text<'static> {
+pub fn text_b_thin_text_bolder<'a>() -> Text<'a> {
     create_icon(0xE5BE, FONT_THIN)
 }
 
 /// Returns the `text columns` icon.
-pub fn text_columns() -> Text<'static> {
+pub fn text_columns<'a>() -> Text<'a> {
     create_icon(0xEC96, FONT_THIN)
 }
 
 /// Returns the `text h` icon.
-pub fn text_h() -> Text<'static> {
+pub fn text_h<'a>() -> Text<'a> {
     create_icon(0xE6BA, FONT_THIN)
 }
 
 /// Returns the `text h five` icon.
-pub fn text_h_five() -> Text<'static> {
+pub fn text_h_five<'a>() -> Text<'a> {
     create_icon(0xE6C4, FONT_THIN)
 }
 
 /// Returns the `text h four` icon.
-pub fn text_h_four() -> Text<'static> {
+pub fn text_h_four<'a>() -> Text<'a> {
     create_icon(0xE6C2, FONT_THIN)
 }
 
 /// Returns the `text h one` icon.
-pub fn text_h_one() -> Text<'static> {
+pub fn text_h_one<'a>() -> Text<'a> {
     create_icon(0xE6BC, FONT_THIN)
 }
 
 /// Returns the `text h six` icon.
-pub fn text_h_six() -> Text<'static> {
+pub fn text_h_six<'a>() -> Text<'a> {
     create_icon(0xE6C6, FONT_THIN)
 }
 
 /// Returns the `text h three` icon.
-pub fn text_h_three() -> Text<'static> {
+pub fn text_h_three<'a>() -> Text<'a> {
     create_icon(0xE6C0, FONT_THIN)
 }
 
 /// Returns the `text h two` icon.
-pub fn text_h_two() -> Text<'static> {
+pub fn text_h_two<'a>() -> Text<'a> {
     create_icon(0xE6BE, FONT_THIN)
 }
 
 /// Returns the `text indent` icon.
-pub fn text_indent() -> Text<'static> {
+pub fn text_indent<'a>() -> Text<'a> {
     create_icon(0xEA1E, FONT_THIN)
 }
 
 /// Returns the `text italic` icon.
-pub fn text_italic() -> Text<'static> {
+pub fn text_italic<'a>() -> Text<'a> {
     create_icon(0xE5C0, FONT_THIN)
 }
 
 /// Returns the `text outdent` icon.
-pub fn text_outdent() -> Text<'static> {
+pub fn text_outdent<'a>() -> Text<'a> {
     create_icon(0xEA1C, FONT_THIN)
 }
 
 /// Returns the `text strikethrough` icon.
-pub fn text_strikethrough() -> Text<'static> {
+pub fn text_strikethrough<'a>() -> Text<'a> {
     create_icon(0xE5C2, FONT_THIN)
 }
 
 /// Returns the `text subscript` icon.
-pub fn text_subscript() -> Text<'static> {
+pub fn text_subscript<'a>() -> Text<'a> {
     create_icon(0xEC98, FONT_THIN)
 }
 
 /// Returns the `text superscript` icon.
-pub fn text_superscript() -> Text<'static> {
+pub fn text_superscript<'a>() -> Text<'a> {
     create_icon(0xEC9A, FONT_THIN)
 }
 
 /// Returns the `text t` icon.
-pub fn text_t() -> Text<'static> {
+pub fn text_t<'a>() -> Text<'a> {
     create_icon(0xE48A, FONT_THIN)
 }
 
 /// Returns the `text t slash` icon.
-pub fn text_t_slash() -> Text<'static> {
+pub fn text_t_slash<'a>() -> Text<'a> {
     create_icon(0xE488, FONT_THIN)
 }
 
 /// Returns the `text underline` icon.
-pub fn text_underline() -> Text<'static> {
+pub fn text_underline<'a>() -> Text<'a> {
     create_icon(0xE5C4, FONT_THIN)
 }
 
 /// Returns the `textbox` icon.
-pub fn textbox() -> Text<'static> {
+pub fn textbox<'a>() -> Text<'a> {
     create_icon(0xEB0A, FONT_THIN)
 }
 
 /// Returns the `thermometer` icon.
-pub fn thermometer() -> Text<'static> {
+pub fn thermometer<'a>() -> Text<'a> {
     create_icon(0xE5C6, FONT_THIN)
 }
 
 /// Returns the `thermometer cold` icon.
-pub fn thermometer_cold() -> Text<'static> {
+pub fn thermometer_cold<'a>() -> Text<'a> {
     create_icon(0xE5C8, FONT_THIN)
 }
 
 /// Returns the `thermometer hot` icon.
-pub fn thermometer_hot() -> Text<'static> {
+pub fn thermometer_hot<'a>() -> Text<'a> {
     create_icon(0xE5CA, FONT_THIN)
 }
 
 /// Returns the `thermometer simple` icon.
-pub fn thermometer_simple() -> Text<'static> {
+pub fn thermometer_simple<'a>() -> Text<'a> {
     create_icon(0xE5CC, FONT_THIN)
 }
 
 /// Returns the `threads logo` icon.
-pub fn threads_logo() -> Text<'static> {
+pub fn threads_logo<'a>() -> Text<'a> {
     create_icon(0xED9E, FONT_THIN)
 }
 
 /// Returns the `three d` icon.
-pub fn three_d() -> Text<'static> {
+pub fn three_d<'a>() -> Text<'a> {
     create_icon(0xEA5A, FONT_THIN)
 }
 
 /// Returns the `thumbs down` icon.
-pub fn thumbs_down() -> Text<'static> {
+pub fn thumbs_down<'a>() -> Text<'a> {
     create_icon(0xE48C, FONT_THIN)
 }
 
 /// Returns the `thumbs up` icon.
-pub fn thumbs_up() -> Text<'static> {
+pub fn thumbs_up<'a>() -> Text<'a> {
     create_icon(0xE48E, FONT_THIN)
 }
 
 /// Returns the `ticket` icon.
-pub fn ticket() -> Text<'static> {
+pub fn ticket<'a>() -> Text<'a> {
     create_icon(0xE490, FONT_THIN)
 }
 
 /// Returns the `tidal logo` icon.
-pub fn tidal_logo() -> Text<'static> {
+pub fn tidal_logo<'a>() -> Text<'a> {
     create_icon(0xED1C, FONT_THIN)
 }
 
 /// Returns the `tiktok logo` icon.
-pub fn tiktok_logo() -> Text<'static> {
+pub fn tiktok_logo<'a>() -> Text<'a> {
     create_icon(0xEAF2, FONT_THIN)
 }
 
 /// Returns the `tilde` icon.
-pub fn tilde() -> Text<'static> {
+pub fn tilde<'a>() -> Text<'a> {
     create_icon(0xEDA8, FONT_THIN)
 }
 
 /// Returns the `timer` icon.
-pub fn timer() -> Text<'static> {
+pub fn timer<'a>() -> Text<'a> {
     create_icon(0xE492, FONT_THIN)
 }
 
 /// Returns the `tip jar` icon.
-pub fn tip_jar() -> Text<'static> {
+pub fn tip_jar<'a>() -> Text<'a> {
     create_icon(0xE7E2, FONT_THIN)
 }
 
 /// Returns the `tipi` icon.
-pub fn tipi() -> Text<'static> {
+pub fn tipi<'a>() -> Text<'a> {
     create_icon(0xED30, FONT_THIN)
 }
 
 /// Returns the `tire` icon.
-pub fn tire() -> Text<'static> {
+pub fn tire<'a>() -> Text<'a> {
     create_icon(0xEDD2, FONT_THIN)
 }
 
 /// Returns the `toggle left` icon.
-pub fn toggle_left() -> Text<'static> {
+pub fn toggle_left<'a>() -> Text<'a> {
     create_icon(0xE674, FONT_THIN)
 }
 
 /// Returns the `toggle right` icon.
-pub fn toggle_right() -> Text<'static> {
+pub fn toggle_right<'a>() -> Text<'a> {
     create_icon(0xE676, FONT_THIN)
 }
 
 /// Returns the `toilet` icon.
-pub fn toilet() -> Text<'static> {
+pub fn toilet<'a>() -> Text<'a> {
     create_icon(0xE79A, FONT_THIN)
 }
 
 /// Returns the `toilet paper` icon.
-pub fn toilet_paper() -> Text<'static> {
+pub fn toilet_paper<'a>() -> Text<'a> {
     create_icon(0xE79C, FONT_THIN)
 }
 
 /// Returns the `toolbox` icon.
-pub fn toolbox() -> Text<'static> {
+pub fn toolbox<'a>() -> Text<'a> {
     create_icon(0xECA0, FONT_THIN)
 }
 
 /// Returns the `tooth` icon.
-pub fn tooth() -> Text<'static> {
+pub fn tooth<'a>() -> Text<'a> {
     create_icon(0xE9CC, FONT_THIN)
 }
 
 /// Returns the `tornado` icon.
-pub fn tornado() -> Text<'static> {
+pub fn tornado<'a>() -> Text<'a> {
     create_icon(0xE88C, FONT_THIN)
 }
 
 /// Returns the `tote` icon.
-pub fn tote() -> Text<'static> {
+pub fn tote<'a>() -> Text<'a> {
     create_icon(0xE494, FONT_THIN)
 }
 
 /// Returns the `tote simple` icon.
-pub fn tote_simple() -> Text<'static> {
+pub fn tote_simple<'a>() -> Text<'a> {
     create_icon(0xE678, FONT_THIN)
 }
 
 /// Returns the `towel` icon.
-pub fn towel() -> Text<'static> {
+pub fn towel<'a>() -> Text<'a> {
     create_icon(0xEDE6, FONT_THIN)
 }
 
 /// Returns the `tractor` icon.
-pub fn tractor() -> Text<'static> {
+pub fn tractor<'a>() -> Text<'a> {
     create_icon(0xEC6E, FONT_THIN)
 }
 
 /// Returns the `trademark` icon.
-pub fn trademark() -> Text<'static> {
+pub fn trademark<'a>() -> Text<'a> {
     create_icon(0xE9F0, FONT_THIN)
 }
 
 /// Returns the `trademark registered` icon.
-pub fn trademark_registered() -> Text<'static> {
+pub fn trademark_registered<'a>() -> Text<'a> {
     create_icon(0xE3F4, FONT_THIN)
 }
 
 /// Returns the `traffic cone` icon.
-pub fn traffic_cone() -> Text<'static> {
+pub fn traffic_cone<'a>() -> Text<'a> {
     create_icon(0xE9A8, FONT_THIN)
 }
 
 /// Returns the `traffic sign` icon.
-pub fn traffic_sign() -> Text<'static> {
+pub fn traffic_sign<'a>() -> Text<'a> {
     create_icon(0xE67A, FONT_THIN)
 }
 
 /// Returns the `traffic signal` icon.
-pub fn traffic_signal() -> Text<'static> {
+pub fn traffic_signal<'a>() -> Text<'a> {
     create_icon(0xE9AA, FONT_THIN)
 }
 
 /// Returns the `train` icon.
-pub fn train() -> Text<'static> {
+pub fn train<'a>() -> Text<'a> {
     create_icon(0xE496, FONT_THIN)
 }
 
 /// Returns the `train regional` icon.
-pub fn train_regional() -> Text<'static> {
+pub fn train_regional<'a>() -> Text<'a> {
     create_icon(0xE49E, FONT_THIN)
 }
 
 /// Returns the `train simple` icon.
-pub fn train_simple() -> Text<'static> {
+pub fn train_simple<'a>() -> Text<'a> {
     create_icon(0xE4A0, FONT_THIN)
 }
 
 /// Returns the `tram` icon.
-pub fn tram() -> Text<'static> {
+pub fn tram<'a>() -> Text<'a> {
     create_icon(0xE9EC, FONT_THIN)
 }
 
 /// Returns the `translate` icon.
-pub fn translate() -> Text<'static> {
+pub fn translate<'a>() -> Text<'a> {
     create_icon(0xE4A2, FONT_THIN)
 }
 
 /// Returns the `trash` icon.
-pub fn trash() -> Text<'static> {
+pub fn trash<'a>() -> Text<'a> {
     create_icon(0xE4A6, FONT_THIN)
 }
 
 /// Returns the `trash simple` icon.
-pub fn trash_simple() -> Text<'static> {
+pub fn trash_simple<'a>() -> Text<'a> {
     create_icon(0xE4A8, FONT_THIN)
 }
 
 /// Returns the `tray` icon.
-pub fn tray() -> Text<'static> {
+pub fn tray<'a>() -> Text<'a> {
     create_icon(0xE4AA, FONT_THIN)
 }
 
 /// Returns the `tray arrow down thin archive tray` icon.
-pub fn tray_arrow_down_thin_archive_tray() -> Text<'static> {
+pub fn tray_arrow_down_thin_archive_tray<'a>() -> Text<'a> {
     create_icon(0xE010, FONT_THIN)
 }
 
 /// Returns the `tray arrow up` icon.
-pub fn tray_arrow_up() -> Text<'static> {
+pub fn tray_arrow_up<'a>() -> Text<'a> {
     create_icon(0xEE52, FONT_THIN)
 }
 
 /// Returns the `treasure chest` icon.
-pub fn treasure_chest() -> Text<'static> {
+pub fn treasure_chest<'a>() -> Text<'a> {
     create_icon(0xEDE2, FONT_THIN)
 }
 
 /// Returns the `tree` icon.
-pub fn tree() -> Text<'static> {
+pub fn tree<'a>() -> Text<'a> {
     create_icon(0xE6DA, FONT_THIN)
 }
 
 /// Returns the `tree evergreen` icon.
-pub fn tree_evergreen() -> Text<'static> {
+pub fn tree_evergreen<'a>() -> Text<'a> {
     create_icon(0xE6DC, FONT_THIN)
 }
 
 /// Returns the `tree palm` icon.
-pub fn tree_palm() -> Text<'static> {
+pub fn tree_palm<'a>() -> Text<'a> {
     create_icon(0xE91A, FONT_THIN)
 }
 
 /// Returns the `tree structure` icon.
-pub fn tree_structure() -> Text<'static> {
+pub fn tree_structure<'a>() -> Text<'a> {
     create_icon(0xE67C, FONT_THIN)
 }
 
 /// Returns the `tree view` icon.
-pub fn tree_view() -> Text<'static> {
+pub fn tree_view<'a>() -> Text<'a> {
     create_icon(0xEE48, FONT_THIN)
 }
 
 /// Returns the `trend down` icon.
-pub fn trend_down() -> Text<'static> {
+pub fn trend_down<'a>() -> Text<'a> {
     create_icon(0xE4AC, FONT_THIN)
 }
 
 /// Returns the `trend up` icon.
-pub fn trend_up() -> Text<'static> {
+pub fn trend_up<'a>() -> Text<'a> {
     create_icon(0xE4AE, FONT_THIN)
 }
 
 /// Returns the `triangle` icon.
-pub fn triangle() -> Text<'static> {
+pub fn triangle<'a>() -> Text<'a> {
     create_icon(0xE4B0, FONT_THIN)
 }
 
 /// Returns the `triangle dashed` icon.
-pub fn triangle_dashed() -> Text<'static> {
+pub fn triangle_dashed<'a>() -> Text<'a> {
     create_icon(0xE4B2, FONT_THIN)
 }
 
 /// Returns the `trolley` icon.
-pub fn trolley() -> Text<'static> {
+pub fn trolley<'a>() -> Text<'a> {
     create_icon(0xE5B2, FONT_THIN)
 }
 
 /// Returns the `trolley suitcase` icon.
-pub fn trolley_suitcase() -> Text<'static> {
+pub fn trolley_suitcase<'a>() -> Text<'a> {
     create_icon(0xE5B4, FONT_THIN)
 }
 
 /// Returns the `trophy` icon.
-pub fn trophy() -> Text<'static> {
+pub fn trophy<'a>() -> Text<'a> {
     create_icon(0xE67E, FONT_THIN)
 }
 
 /// Returns the `truck` icon.
-pub fn truck() -> Text<'static> {
+pub fn truck<'a>() -> Text<'a> {
     create_icon(0xE4B4, FONT_THIN)
 }
 
 /// Returns the `truck trailer` icon.
-pub fn truck_trailer() -> Text<'static> {
+pub fn truck_trailer<'a>() -> Text<'a> {
     create_icon(0xE4B6, FONT_THIN)
 }
 
 /// Returns the `tumblr logo` icon.
-pub fn tumblr_logo() -> Text<'static> {
+pub fn tumblr_logo<'a>() -> Text<'a> {
     create_icon(0xE8D4, FONT_THIN)
 }
 
 /// Returns the `twitch logo` icon.
-pub fn twitch_logo() -> Text<'static> {
+pub fn twitch_logo<'a>() -> Text<'a> {
     create_icon(0xE5CE, FONT_THIN)
 }
 
 /// Returns the `twitter logo` icon.
-pub fn twitter_logo() -> Text<'static> {
+pub fn twitter_logo<'a>() -> Text<'a> {
     create_icon(0xE4BA, FONT_THIN)
 }
 
 /// Returns the `umbrella` icon.
-pub fn umbrella() -> Text<'static> {
+pub fn umbrella<'a>() -> Text<'a> {
     create_icon(0xE684, FONT_THIN)
 }
 
 /// Returns the `umbrella simple` icon.
-pub fn umbrella_simple() -> Text<'static> {
+pub fn umbrella_simple<'a>() -> Text<'a> {
     create_icon(0xE686, FONT_THIN)
 }
 
 /// Returns the `union` icon.
-pub fn union() -> Text<'static> {
+pub fn union<'a>() -> Text<'a> {
     create_icon(0xEDBE, FONT_THIN)
 }
 
 /// Returns the `unite` icon.
-pub fn unite() -> Text<'static> {
+pub fn unite<'a>() -> Text<'a> {
     create_icon(0xE87E, FONT_THIN)
 }
 
 /// Returns the `unite square` icon.
-pub fn unite_square() -> Text<'static> {
+pub fn unite_square<'a>() -> Text<'a> {
     create_icon(0xE878, FONT_THIN)
 }
 
 /// Returns the `upload` icon.
-pub fn upload() -> Text<'static> {
+pub fn upload<'a>() -> Text<'a> {
     create_icon(0xE4BE, FONT_THIN)
 }
 
 /// Returns the `upload simple` icon.
-pub fn upload_simple() -> Text<'static> {
+pub fn upload_simple<'a>() -> Text<'a> {
     create_icon(0xE4C0, FONT_THIN)
 }
 
 /// Returns the `usb` icon.
-pub fn usb() -> Text<'static> {
+pub fn usb<'a>() -> Text<'a> {
     create_icon(0xE956, FONT_THIN)
 }
 
 /// Returns the `user` icon.
-pub fn user() -> Text<'static> {
+pub fn user<'a>() -> Text<'a> {
     create_icon(0xE4C2, FONT_THIN)
 }
 
 /// Returns the `user check` icon.
-pub fn user_check() -> Text<'static> {
+pub fn user_check<'a>() -> Text<'a> {
     create_icon(0xEAFA, FONT_THIN)
 }
 
 /// Returns the `user circle` icon.
-pub fn user_circle() -> Text<'static> {
+pub fn user_circle<'a>() -> Text<'a> {
     create_icon(0xE4C4, FONT_THIN)
 }
 
 /// Returns the `user circle check` icon.
-pub fn user_circle_check() -> Text<'static> {
+pub fn user_circle_check<'a>() -> Text<'a> {
     create_icon(0xEC38, FONT_THIN)
 }
 
 /// Returns the `user circle dashed` icon.
-pub fn user_circle_dashed() -> Text<'static> {
+pub fn user_circle_dashed<'a>() -> Text<'a> {
     create_icon(0xEC36, FONT_THIN)
 }
 
 /// Returns the `user circle gear` icon.
-pub fn user_circle_gear() -> Text<'static> {
+pub fn user_circle_gear<'a>() -> Text<'a> {
     create_icon(0xE4C6, FONT_THIN)
 }
 
 /// Returns the `user circle minus` icon.
-pub fn user_circle_minus() -> Text<'static> {
+pub fn user_circle_minus<'a>() -> Text<'a> {
     create_icon(0xE4C8, FONT_THIN)
 }
 
 /// Returns the `user circle plus` icon.
-pub fn user_circle_plus() -> Text<'static> {
+pub fn user_circle_plus<'a>() -> Text<'a> {
     create_icon(0xE4CA, FONT_THIN)
 }
 
 /// Returns the `user focus` icon.
-pub fn user_focus() -> Text<'static> {
+pub fn user_focus<'a>() -> Text<'a> {
     create_icon(0xE6FC, FONT_THIN)
 }
 
 /// Returns the `user gear` icon.
-pub fn user_gear() -> Text<'static> {
+pub fn user_gear<'a>() -> Text<'a> {
     create_icon(0xE4CC, FONT_THIN)
 }
 
 /// Returns the `user list` icon.
-pub fn user_list() -> Text<'static> {
+pub fn user_list<'a>() -> Text<'a> {
     create_icon(0xE73C, FONT_THIN)
 }
 
 /// Returns the `user minus` icon.
-pub fn user_minus() -> Text<'static> {
+pub fn user_minus<'a>() -> Text<'a> {
     create_icon(0xE4CE, FONT_THIN)
 }
 
 /// Returns the `user plus` icon.
-pub fn user_plus() -> Text<'static> {
+pub fn user_plus<'a>() -> Text<'a> {
     create_icon(0xE4D0, FONT_THIN)
 }
 
 /// Returns the `user rectangle` icon.
-pub fn user_rectangle() -> Text<'static> {
+pub fn user_rectangle<'a>() -> Text<'a> {
     create_icon(0xE4D2, FONT_THIN)
 }
 
 /// Returns the `user sound` icon.
-pub fn user_sound() -> Text<'static> {
+pub fn user_sound<'a>() -> Text<'a> {
     create_icon(0xECA8, FONT_THIN)
 }
 
 /// Returns the `user square` icon.
-pub fn user_square() -> Text<'static> {
+pub fn user_square<'a>() -> Text<'a> {
     create_icon(0xE4D4, FONT_THIN)
 }
 
 /// Returns the `user switch` icon.
-pub fn user_switch() -> Text<'static> {
+pub fn user_switch<'a>() -> Text<'a> {
     create_icon(0xE756, FONT_THIN)
 }
 
 /// Returns the `users` icon.
-pub fn users() -> Text<'static> {
+pub fn users<'a>() -> Text<'a> {
     create_icon(0xE4D6, FONT_THIN)
 }
 
 /// Returns the `users four` icon.
-pub fn users_four() -> Text<'static> {
+pub fn users_four<'a>() -> Text<'a> {
     create_icon(0xE68C, FONT_THIN)
 }
 
 /// Returns the `users three` icon.
-pub fn users_three() -> Text<'static> {
+pub fn users_three<'a>() -> Text<'a> {
     create_icon(0xE68E, FONT_THIN)
 }
 
 /// Returns the `van` icon.
-pub fn van() -> Text<'static> {
+pub fn van<'a>() -> Text<'a> {
     create_icon(0xE826, FONT_THIN)
 }
 
 /// Returns the `vault` icon.
-pub fn vault() -> Text<'static> {
+pub fn vault<'a>() -> Text<'a> {
     create_icon(0xE76E, FONT_THIN)
 }
 
 /// Returns the `vector three` icon.
-pub fn vector_three() -> Text<'static> {
+pub fn vector_three<'a>() -> Text<'a> {
     create_icon(0xEE62, FONT_THIN)
 }
 
 /// Returns the `vector two` icon.
-pub fn vector_two() -> Text<'static> {
+pub fn vector_two<'a>() -> Text<'a> {
     create_icon(0xEE64, FONT_THIN)
 }
 
 /// Returns the `vibrate` icon.
-pub fn vibrate() -> Text<'static> {
+pub fn vibrate<'a>() -> Text<'a> {
     create_icon(0xE4D8, FONT_THIN)
 }
 
 /// Returns the `video` icon.
-pub fn video() -> Text<'static> {
+pub fn video<'a>() -> Text<'a> {
     create_icon(0xE740, FONT_THIN)
 }
 
 /// Returns the `video camera` icon.
-pub fn video_camera() -> Text<'static> {
+pub fn video_camera<'a>() -> Text<'a> {
     create_icon(0xE4DA, FONT_THIN)
 }
 
 /// Returns the `video camera slash` icon.
-pub fn video_camera_slash() -> Text<'static> {
+pub fn video_camera_slash<'a>() -> Text<'a> {
     create_icon(0xE4DC, FONT_THIN)
 }
 
 /// Returns the `video conference` icon.
-pub fn video_conference() -> Text<'static> {
+pub fn video_conference<'a>() -> Text<'a> {
     create_icon(0xEDCE, FONT_THIN)
 }
 
 /// Returns the `vignette` icon.
-pub fn vignette() -> Text<'static> {
+pub fn vignette<'a>() -> Text<'a> {
     create_icon(0xEBA2, FONT_THIN)
 }
 
 /// Returns the `vinyl record` icon.
-pub fn vinyl_record() -> Text<'static> {
+pub fn vinyl_record<'a>() -> Text<'a> {
     create_icon(0xECAC, FONT_THIN)
 }
 
 /// Returns the `virtual reality` icon.
-pub fn virtual_reality() -> Text<'static> {
+pub fn virtual_reality<'a>() -> Text<'a> {
     create_icon(0xE7B8, FONT_THIN)
 }
 
 /// Returns the `virus` icon.
-pub fn virus() -> Text<'static> {
+pub fn virus<'a>() -> Text<'a> {
     create_icon(0xE7D6, FONT_THIN)
 }
 
 /// Returns the `visor` icon.
-pub fn visor() -> Text<'static> {
+pub fn visor<'a>() -> Text<'a> {
     create_icon(0xEE2A, FONT_THIN)
 }
 
 /// Returns the `voicemail` icon.
-pub fn voicemail() -> Text<'static> {
+pub fn voicemail<'a>() -> Text<'a> {
     create_icon(0xE4DE, FONT_THIN)
 }
 
 /// Returns the `volleyball` icon.
-pub fn volleyball() -> Text<'static> {
+pub fn volleyball<'a>() -> Text<'a> {
     create_icon(0xE726, FONT_THIN)
 }
 
 /// Returns the `wall` icon.
-pub fn wall() -> Text<'static> {
+pub fn wall<'a>() -> Text<'a> {
     create_icon(0xE688, FONT_THIN)
 }
 
 /// Returns the `wallet` icon.
-pub fn wallet() -> Text<'static> {
+pub fn wallet<'a>() -> Text<'a> {
     create_icon(0xE68A, FONT_THIN)
 }
 
 /// Returns the `warehouse` icon.
-pub fn warehouse() -> Text<'static> {
+pub fn warehouse<'a>() -> Text<'a> {
     create_icon(0xECD4, FONT_THIN)
 }
 
 /// Returns the `warning` icon.
-pub fn warning() -> Text<'static> {
+pub fn warning<'a>() -> Text<'a> {
     create_icon(0xE4E0, FONT_THIN)
 }
 
 /// Returns the `warning circle` icon.
-pub fn warning_circle() -> Text<'static> {
+pub fn warning_circle<'a>() -> Text<'a> {
     create_icon(0xE4E2, FONT_THIN)
 }
 
 /// Returns the `warning diamond` icon.
-pub fn warning_diamond() -> Text<'static> {
+pub fn warning_diamond<'a>() -> Text<'a> {
     create_icon(0xE7FC, FONT_THIN)
 }
 
 /// Returns the `warning octagon` icon.
-pub fn warning_octagon() -> Text<'static> {
+pub fn warning_octagon<'a>() -> Text<'a> {
     create_icon(0xE4E4, FONT_THIN)
 }
 
 /// Returns the `washing machine` icon.
-pub fn washing_machine() -> Text<'static> {
+pub fn washing_machine<'a>() -> Text<'a> {
     create_icon(0xEDE8, FONT_THIN)
 }
 
 /// Returns the `watch` icon.
-pub fn watch() -> Text<'static> {
+pub fn watch<'a>() -> Text<'a> {
     create_icon(0xE4E6, FONT_THIN)
 }
 
 /// Returns the `wave sawtooth` icon.
-pub fn wave_sawtooth() -> Text<'static> {
+pub fn wave_sawtooth<'a>() -> Text<'a> {
     create_icon(0xEA9C, FONT_THIN)
 }
 
 /// Returns the `wave sine` icon.
-pub fn wave_sine() -> Text<'static> {
+pub fn wave_sine<'a>() -> Text<'a> {
     create_icon(0xEA9A, FONT_THIN)
 }
 
 /// Returns the `wave square` icon.
-pub fn wave_square() -> Text<'static> {
+pub fn wave_square<'a>() -> Text<'a> {
     create_icon(0xEA9E, FONT_THIN)
 }
 
 /// Returns the `wave triangle` icon.
-pub fn wave_triangle() -> Text<'static> {
+pub fn wave_triangle<'a>() -> Text<'a> {
     create_icon(0xEAA0, FONT_THIN)
 }
 
 /// Returns the `waveform` icon.
-pub fn waveform() -> Text<'static> {
+pub fn waveform<'a>() -> Text<'a> {
     create_icon(0xE802, FONT_THIN)
 }
 
 /// Returns the `waveform slash` icon.
-pub fn waveform_slash() -> Text<'static> {
+pub fn waveform_slash<'a>() -> Text<'a> {
     create_icon(0xE800, FONT_THIN)
 }
 
 /// Returns the `waves` icon.
-pub fn waves() -> Text<'static> {
+pub fn waves<'a>() -> Text<'a> {
     create_icon(0xE6DE, FONT_THIN)
 }
 
 /// Returns the `webcam` icon.
-pub fn webcam() -> Text<'static> {
+pub fn webcam<'a>() -> Text<'a> {
     create_icon(0xE9B2, FONT_THIN)
 }
 
 /// Returns the `webcam slash` icon.
-pub fn webcam_slash() -> Text<'static> {
+pub fn webcam_slash<'a>() -> Text<'a> {
     create_icon(0xECDC, FONT_THIN)
 }
 
 /// Returns the `webhooks logo` icon.
-pub fn webhooks_logo() -> Text<'static> {
+pub fn webhooks_logo<'a>() -> Text<'a> {
     create_icon(0xECAE, FONT_THIN)
 }
 
 /// Returns the `wechat logo` icon.
-pub fn wechat_logo() -> Text<'static> {
+pub fn wechat_logo<'a>() -> Text<'a> {
     create_icon(0xE8D2, FONT_THIN)
 }
 
 /// Returns the `whatsapp logo` icon.
-pub fn whatsapp_logo() -> Text<'static> {
+pub fn whatsapp_logo<'a>() -> Text<'a> {
     create_icon(0xE5D0, FONT_THIN)
 }
 
 /// Returns the `wheelchair` icon.
-pub fn wheelchair() -> Text<'static> {
+pub fn wheelchair<'a>() -> Text<'a> {
     create_icon(0xE4E8, FONT_THIN)
 }
 
 /// Returns the `wheelchair motion` icon.
-pub fn wheelchair_motion() -> Text<'static> {
+pub fn wheelchair_motion<'a>() -> Text<'a> {
     create_icon(0xE89A, FONT_THIN)
 }
 
 /// Returns the `wifi high` icon.
-pub fn wifi_high() -> Text<'static> {
+pub fn wifi_high<'a>() -> Text<'a> {
     create_icon(0xE4EA, FONT_THIN)
 }
 
 /// Returns the `wifi low` icon.
-pub fn wifi_low() -> Text<'static> {
+pub fn wifi_low<'a>() -> Text<'a> {
     create_icon(0xE4EC, FONT_THIN)
 }
 
 /// Returns the `wifi medium` icon.
-pub fn wifi_medium() -> Text<'static> {
+pub fn wifi_medium<'a>() -> Text<'a> {
     create_icon(0xE4EE, FONT_THIN)
 }
 
 /// Returns the `wifi none` icon.
-pub fn wifi_none() -> Text<'static> {
+pub fn wifi_none<'a>() -> Text<'a> {
     create_icon(0xE4F0, FONT_THIN)
 }
 
 /// Returns the `wifi slash` icon.
-pub fn wifi_slash() -> Text<'static> {
+pub fn wifi_slash<'a>() -> Text<'a> {
     create_icon(0xE4F2, FONT_THIN)
 }
 
 /// Returns the `wifi x` icon.
-pub fn wifi_x() -> Text<'static> {
+pub fn wifi_x<'a>() -> Text<'a> {
     create_icon(0xE4F4, FONT_THIN)
 }
 
 /// Returns the `wind` icon.
-pub fn wind() -> Text<'static> {
+pub fn wind<'a>() -> Text<'a> {
     create_icon(0xE5D2, FONT_THIN)
 }
 
 /// Returns the `windmill` icon.
-pub fn windmill() -> Text<'static> {
+pub fn windmill<'a>() -> Text<'a> {
     create_icon(0xE9F8, FONT_THIN)
 }
 
 /// Returns the `windows logo` icon.
-pub fn windows_logo() -> Text<'static> {
+pub fn windows_logo<'a>() -> Text<'a> {
     create_icon(0xE692, FONT_THIN)
 }
 
 /// Returns the `wine` icon.
-pub fn wine() -> Text<'static> {
+pub fn wine<'a>() -> Text<'a> {
     create_icon(0xE6B2, FONT_THIN)
 }
 
 /// Returns the `wrench` icon.
-pub fn wrench() -> Text<'static> {
+pub fn wrench<'a>() -> Text<'a> {
     create_icon(0xE5D4, FONT_THIN)
 }
 
 /// Returns the `x` icon.
-pub fn x() -> Text<'static> {
+pub fn x<'a>() -> Text<'a> {
     create_icon(0xE4F6, FONT_THIN)
 }
 
 /// Returns the `x circle` icon.
-pub fn x_circle() -> Text<'static> {
+pub fn x_circle<'a>() -> Text<'a> {
     create_icon(0xE4F8, FONT_THIN)
 }
 
 /// Returns the `x logo` icon.
-pub fn x_logo() -> Text<'static> {
+pub fn x_logo<'a>() -> Text<'a> {
     create_icon(0xE4BC, FONT_THIN)
 }
 
 /// Returns the `x square` icon.
-pub fn x_square() -> Text<'static> {
+pub fn x_square<'a>() -> Text<'a> {
     create_icon(0xE4FA, FONT_THIN)
 }
 
 /// Returns the `yarn` icon.
-pub fn yarn() -> Text<'static> {
+pub fn yarn<'a>() -> Text<'a> {
     create_icon(0xED9A, FONT_THIN)
 }
 
 /// Returns the `yin yang` icon.
-pub fn yin_yang() -> Text<'static> {
+pub fn yin_yang<'a>() -> Text<'a> {
     create_icon(0xE92A, FONT_THIN)
 }
 
 /// Returns the `youtube logo` icon.
-pub fn youtube_logo() -> Text<'static> {
+pub fn youtube_logo<'a>() -> Text<'a> {
     create_icon(0xE4FC, FONT_THIN)
 }

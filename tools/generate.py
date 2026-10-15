@@ -163,7 +163,7 @@ def generate_module(weight: str, icons: list[tuple[str, int]]) -> str:
         lines.extend(
             [
                 f"/// Returns the `{description}` icon.",
-                f"pub fn {name}() -> Text<'static> {{",
+                f"pub fn {name}<'a>() -> Text<'a> {{",
                 f"    create_icon(0x{codepoint:X}, {font_constant})",
                 "}",
                 "",
