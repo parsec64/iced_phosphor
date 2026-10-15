@@ -2,7 +2,7 @@
 //! Phosphor icons using the thin font.
 
 use iced::widget::Text;
-use crate::icon::{create_icon};
+use crate::icon::create_icon;
 use crate::icon::FONT_THIN;
 
 /// Returns the `acorn` icon.

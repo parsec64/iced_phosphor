@@ -27,7 +27,7 @@ iced_phosphor = "0.1.0"
 use iced::widget::{column, text};
 use iced::{Alignment, Element, Theme, color};
 
-use iced_phosphor::{fill, regular}; // Import font family
+use iced_phosphor::{fill, regular}; // Import variants
 
 fn main() -> iced::Result {
     iced::application(|| (), update, view)
@@ -60,4 +60,4 @@ fn view(_: &()) -> Element<'_, ()> {
 This crate uses [Phosphor Icons](https://phosphoricons.com/).
 
 Phosphor Icons are distributed under the MIT License.
-See [LICENSE](./LICENSE.md) for the license text.
+See [LICENSE](./LICENSE) for the license text.

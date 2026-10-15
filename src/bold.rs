@@ -2,7 +2,7 @@
 //! Phosphor icons using the bold font.
 
 use iced::widget::Text;
-use crate::icon::{create_icon};
+use crate::icon::create_icon;
 use crate::icon::FONT_BOLD;
 
 /// Returns the `acorn` icon.

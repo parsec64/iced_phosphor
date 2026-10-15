@@ -152,7 +152,7 @@ def generate_module(weight: str, icons: list[tuple[str, int]]) -> str:
         f"//! Phosphor icons using the {weight} font.",
         "",
         "use iced::widget::Text;",
-        "use crate::icon::{create_icon};",
+        "use crate::icon::create_icon;",
         f"use crate::icon::{font_constant};",
         "",
     ]

@@ -2,7 +2,7 @@
 //! Phosphor icons using the fill font.
 
 use iced::widget::Text;
-use crate::icon::{create_icon};
+use crate::icon::create_icon;
 use crate::icon::FONT_FILL;
 
 /// Returns the `acorn` icon.

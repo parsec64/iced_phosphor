@@ -2,7 +2,7 @@
 //! Phosphor icons using the duotone font.
 
 use iced::widget::Text;
-use crate::icon::{create_icon};
+use crate::icon::create_icon;
 use crate::icon::FONT_DUOTONE;
 
 /// Returns the `acorn` icon.
