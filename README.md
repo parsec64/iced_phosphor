@@ -8,7 +8,7 @@ This crate bundles the Phosphor font files and provides icon functions that retu
 
 - Six icon weights: Thin, Light, Regular, Bold, Fill, and Duotone.
 - Generated Rust functions for the icons included in the Phosphor selection files.
-- Icon functions return `iced::widget::Text<'static>` widgets.
+- Icon functions return `iced::widget::Text` widgets.
 
 ![Showcase](./screenshots/showcase.png)
 
